@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 .App {
   text-align: center;
 }
@@ -43,3 +45,138 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+* {
+  font-family: 'Poppins';
+}
+
+
+.marketPlaceChil1{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1042px;
+  align-items: center; margin: 7px;
+  margin: 0 auto;
+}
+
+.marketPlaceChil2{
+  display: flex;
+  justify-content: center;
+ max-width: 1800px;
+ flex-wrap: wrap;
+ align-content: flex-start;
+ align-items: baseline;
+}
+.marketPlaceChil3{
+  flex-direction: column;
+  position: relative;
+  margin: 7px;
+}
+
+.favoriteRestoPar{
+  display: flex;
+  justify-content: center;
+ flex-wrap: wrap;
+}
+.favoriteRestochil1{
+display: flex;
+  flex-wrap: nowrap;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+.whatOnTheMenuPar{
+  display: flex;
+  justify-content: center;
+ flex-wrap: wrap;
+}
+
+.whatOnTheMenuChil1{
+position: relative;
+  /* margin: 7px; */
+  top: 10px;
+}
+
+.whatOnTheMenuChil2{
+display: flex;
+ flex-wrap: wrap;
+ align-content: flex-start;
+ align-items: baseline;
+ justify-content: center;
+ position: relative;
+}
+
+.whatOnTheMenuChil3{
+flex-direction: column;
+  position: relative;
+  margin: 7px;
+}
+
+.whyOrdersWithSafiRunPar{
+  display: flex;
+  justify-content: center;
+ max-width: 1800px;
+ flex-wrap: wrap;
+ align-content: flex-start;
+ align-items: baseline;
+}
+
+.whyOrdersWithSafiRunChil1{
+flex-direction: column;
+  position: relative;
+  margin: 7px;
+  width: 342px
+}
+
+.ConnectWithUsPar{
+  display: flex;
+align-items: center;
+justify-content: center;
+justify-content:space-evenly;
+flex-direction: row;
+margin-left: 500px;
+margin-right: 500px;
+}
+
+.readyToOrder{
+position: relative;
+  margin: 7px;
+  top: 10px;
+}
+
+.footerChil1{
+  display: flex;
+  justify-content: center;
+ flex-wrap: wrap;
+ margin-left: -150px;
+}
+
+.footerChil2{
+  display: flex;
+  justify-content: center;
+ color: white;
+ margin-top: 50px;
+ flex-direction: row;
+  position: relative;
+  margin-left: -100px;
+}
+.footerChil3{
+  display: flex;
+  justify-content: center;
+ flex-wrap: wrap;
+}
+
+.footerChil4{
+  display: flex;
+align-items: center;
+justify-content: center;
+justify-content:space-evenly;
+flex-direction: row;
+margin-left: -150px;
+margin-right: 800px;
+justify-content: space-between;
+}
+
+
