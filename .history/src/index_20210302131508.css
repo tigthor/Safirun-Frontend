@@ -149,7 +149,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .SiteSearchPanel {
-    background-color: '#b8b7ad'
+    background-color:'#b8b7ad'
 }
 
 .kustomer div div.kustomer-app-icon div {
@@ -6605,12 +6605,12 @@ input.FormField__input-error {
     }
     1% {
         opacity: 0.01;
-        transform: translateY(-116px);
+        transform: translateY(-116px)    ;
         -webkit-transform: translateY(-116px);
         -moz-transform: translateY(-116px);
         -ms-transform: translateY(-116px);
         -o-transform: translateY(-116px);
-    }
+}
     100% {
         opacity: 1;
         transform: translateY(-60px)
