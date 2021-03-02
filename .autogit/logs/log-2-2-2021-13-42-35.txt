@@ -1,0 +1,31 @@
+-------------------- Auto-Git Log --------------------
+		Tue Mar 02 2021 13:42:35 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/index.css
+
+
+Created files:
+* .autogit/autogit.json
+* .history/src/Home_20210302130250.jsx
+* .history/src/Home_20210302130252.jsx
+* .history/src/Home_20210302130302.jsx
+* .history/src/Home_20210302130449.jsx
+* .history/src/index_20210302130907.css
+* .history/src/index_20210302130916.css
+* .history/src/index_20210302131003.css
+* .history/src/index_20210302131034.css
+* .history/src/index_20210302131134.css
+* .history/src/index_20210302131135.css
+* .history/src/index_20210302131145.css
+* .history/src/index_20210302131315.css
+* .history/src/index_20210302131508.css
+* .history/src/index_20210302131552.css
+* src/Home.jsx
+
+
+Deleted files:
+
+
+Renamed files:
