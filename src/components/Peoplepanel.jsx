@@ -9,6 +9,7 @@ import {
   Col,
   Typography,
 } from 'antd';
+import twitter from '../assets/pics/twitter.png';
 import { motion } from 'framer-motion';
 import food from '../assets/pictures/Food.png';
 import mark from '../assets/pics/Mrmark.png';
@@ -34,7 +35,6 @@ const Peoplepanel = () => {
               <Row gutter={[206, 106]} className="Tweets">
                 <Col span={60} className="tweet_box">
                   <Card>
-                    <i class="icon-twitter-bird"></i>
                     <img src={mark} alt="" />
                     <Typography>
                       <motion.div
@@ -47,6 +47,7 @@ const Peoplepanel = () => {
                           delay: 7,
                         }}
                       >
+                        <img src={twitter} class="icon-twitter-bird"></img>
                         <p className="Tweet_text">
                           The amount of joy I get from reaching the number of
                           points required to get $20 off @safirun is probably

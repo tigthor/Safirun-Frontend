@@ -311,16 +311,16 @@ body {
 }
 
 .Tweet_text:before {
-  content:"\e942"
+  content:"\e942";
 }
 
-.fi fi-twitter {
+.icon-twitter-bird {
   position: absolute;
     font-size: 1rem;
     padding: 8px 6px 4px;
     border-radius: 14px;
-    top: -14px;
-    left: -14px;
+    top: -114px;
+    left: -17px;
     color: #fff;
     background: #1da1f2;
     width: 28px;
