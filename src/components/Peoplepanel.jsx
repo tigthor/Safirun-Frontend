@@ -9,7 +9,7 @@ import {
   Col,
   Typography,
 } from 'antd';
-import twitter from '../assets/pics/twitter.png';
+import twitter from '../assets/pics/twitter_ico.png';
 import { motion } from 'framer-motion';
 import food from '../assets/pictures/Food.png';
 import mark from '../assets/pics/Mrmark.png';
@@ -36,7 +36,95 @@ const Peoplepanel = () => {
                 <Col span={60} className="tweet_box">
                   <Card>
                     <img src={mark} alt="" />
-                    <Typography>
+                    <Typography
+                      style={{
+                        position: 'relative',
+                      }}
+                    >
+                      <motion.div
+                        initial="hidden"
+                        animate="visible"
+                        variants={variants}
+                        transition={{
+                          repeat: Infinity,
+                          duration: 18,
+                          delay: 10,
+                        }}
+                      >
+                        <p className="Tweet_text">
+                          The amount of joy I get from reaching the number of
+                          points required to get $20 off @safirun is probably
+                          not normal. Alex
+                        </p>
+                        <img src={twitter} class="icon-twitter-bird"></img>
+                      </motion.div>
+                    </Typography>
+                  </Card>
+                </Col>
+                <Col span={60} className="tweet_box">
+                  <Card>
+                    <img src={mason} alt="" />
+                    <Typography
+                      style={{
+                        position: 'relative',
+                      }}
+                    >
+                      <motion.div
+                        initial="hidden"
+                        animate="visible"
+                        variants={variants}
+                        transition={{
+                          repeat: Infinity,
+                          duration: 15,
+                          delay: 7,
+                        }}
+                      >
+                        <p className="Tweet_text">
+                          Just convinced myself that it's "too late" to do
+                          dishes so safirun it is. David
+                        </p>
+                        <img src={twitter} class="icon-twitter-bird"></img>
+                      </motion.div>
+                    </Typography>
+                  </Card>
+                </Col>
+                <Col span={60} className="tweet_box">
+                  <Card>
+                    <img src={ma} alt="" />
+                    <Typography
+                      style={{
+                        position: 'relative',
+                      }}
+                    >
+                      <motion.div
+                        initial="hidden"
+                        animate="visible"
+                        variants={variants}
+                        transition={{
+                          repeat: Infinity,
+                          duration: 14,
+                          delay: 5,
+                        }}
+                      >
+                        <p className="Tweet_text">
+                          Just convinced myself that it's "too late" to do
+                          dishes so safirun it is. David
+                        </p>
+                        <img src={twitter} class="icon-twitter-bird"></img>
+                      </motion.div>
+                    </Typography>
+                  </Card>
+                </Col>
+              </Row>
+              <Row gutter={[206, 106]} className="Tweets">
+                <Col span={60} className="tweet_box">
+                  <Card>
+                    <img src={mark} alt="" />
+                    <Typography
+                      style={{
+                        position: 'relative',
+                      }}
+                    >
                       <motion.div
                         initial="hidden"
                         animate="visible"
@@ -47,12 +135,12 @@ const Peoplepanel = () => {
                           delay: 7,
                         }}
                       >
-                        <img src={twitter} class="icon-twitter-bird"></img>
                         <p className="Tweet_text">
                           The amount of joy I get from reaching the number of
                           points required to get $20 off @safirun is probably
                           not normal. Alex
                         </p>
+                        <img src={twitter} class="icon-twitter-bird"></img>
                       </motion.div>
                     </Typography>
                   </Card>
@@ -60,7 +148,11 @@ const Peoplepanel = () => {
                 <Col span={60} className="tweet_box">
                   <Card>
                     <img src={mason} alt="" />
-                    <Typography>
+                    <Typography
+                      style={{
+                        position: 'relative',
+                      }}
+                    >
                       <motion.div
                         initial="hidden"
                         animate="visible"
@@ -68,13 +160,14 @@ const Peoplepanel = () => {
                         transition={{
                           repeat: Infinity,
                           duration: 12,
-                          delay: 7,
+                          delay: 3,
                         }}
                       >
                         <p className="Tweet_text">
                           Just convinced myself that it's "too late" to do
                           dishes so safirun it is. David
                         </p>
+                        <img src={twitter} class="icon-twitter-bird"></img>
                       </motion.div>
                     </Typography>
                   </Card>
@@ -82,21 +175,26 @@ const Peoplepanel = () => {
                 <Col span={60} className="tweet_box">
                   <Card>
                     <img src={ma} alt="" />
-                    <Typography>
+                    <Typography
+                      style={{
+                        position: 'relative',
+                      }}
+                    >
                       <motion.div
                         initial="hidden"
                         animate="visible"
                         variants={variants}
                         transition={{
                           repeat: Infinity,
-                          duration: 14,
-                          delay: 9,
+                          duration: 9,
+                          delay: 1,
                         }}
                       >
                         <p className="Tweet_text">
                           Just convinced myself that it's "too late" to do
                           dishes so safirun it is. David
                         </p>
+                        <img src={twitter} class="icon-twitter-bird"></img>
                       </motion.div>
                     </Typography>
                   </Card>

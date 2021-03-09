@@ -17,10 +17,19 @@ export const footer = [
   {
     title: '联系我们',
     children: [
-      { title: '蚂蚁金服体验科技专栏', link: 'https://zhuanlan.zhihu.com/xtech' },
-      { title: '蚂蚁金服体验科技官微', link: 'https://weibo.com/p/1005056420205486' },
+      {
+        title: '蚂蚁金服体验科技专栏',
+        link: 'https://zhuanlan.zhihu.com/xtech',
+      },
+      {
+        title: '蚂蚁金服体验科技官微',
+        link: 'https://weibo.com/p/1005056420205486',
+      },
       { title: 'AntV 官微', link: 'https://weibo.com/antv2017' },
-      { title: 'Ant Design 专栏', link: 'https://zhuanlan.zhihu.com/antdesign' },
+      {
+        title: 'Ant Design 专栏',
+        link: 'https://zhuanlan.zhihu.com/antdesign',
+      },
     ],
   },
   {
@@ -28,10 +37,22 @@ export const footer = [
     icon: 'https://gw.alipayobjects.com/zos/rmsportal/wdarlDDcdCaVoCprCRwB.svg',
     children: [
       { title: 'Ant Design', desc: '蚂蚁 UI 体系', link: 'https://ant.design' },
-      { title: 'AntV', desc: '蚂蚁数据可视化方案', link: 'https://antv.alipay.com' },
+      {
+        title: 'AntV',
+        desc: '蚂蚁数据可视化方案',
+        link: 'https://antv.alipay.com',
+      },
       // { title: 'AntG', desc: '蚂蚁互动图形技术', link: 'http://antg.alipay.net' },
-      { title: 'Egg', desc: '企业级 Node Web 开发框架', link: 'https://eggjs.org' },
-      { title: '云凤蝶', desc: '移动建站平台', link: 'https://fengdie.alipay-eco.com/intro' },
+      {
+        title: 'Egg',
+        desc: '企业级 Node Web 开发框架',
+        link: 'https://eggjs.org',
+      },
+      {
+        title: '云凤蝶',
+        desc: '移动建站平台',
+        link: 'https://fengdie.alipay-eco.com/intro',
+      },
     ],
   },
 ];

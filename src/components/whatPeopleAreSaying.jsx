@@ -9,75 +9,75 @@ import packages from '../assets/pictures/Florist5.png';
 import fire from '../assets/pictures/Florist7.png';
 
 const Peoplesay = () => {
-    return (
-      <Row>
-        <Card>
-          <img src={food} alt="" />
-          <motion.div
-            // animate={{
-            //   scale: [1, 2, 2, 1, 1],
-            //   rotate: [0, 0, 270, 270, 0],
-            //   borderRadius: ['20%', '20%', '50%', '50%', '20%'],
-            // }}
-            // transition={{ repeat: Infinity, duration: 2 }}
-          >
-            <Typography>I like Safirun</Typography>
-          </motion.div>
-        </Card>
-        <Card>
-          <img src={beer} alt="" />
-          <motion.div
-            // animate={{
-            //   scale: [1, 2, 2, 1, 1],
-            //   rotate: [0, 0, 270, 270, 0],
-            //   borderRadius: ['20%', '20%', '50%', '50%', '20%'],
-            // }}
-            // transition={{ repeat: Infinity, duration: 2 }}
-          >
-            <Typography>I like Safirun</Typography>
-          </motion.div>
-        </Card>
-        <Card>
-          <img src={food} alt="" />
-          <motion.div
-            // animate={{
-            //   scale: [1, 2, 2, 1, 1],
-            //   rotate: [0, 0, 270, 270, 0],
-            //   borderRadius: ['20%', '20%', '50%', '50%', '20%'],
-            // }}
-            // transition={{ repeat: Infinity, duration: 2 }}
-          >
-            <Typography>I like Safirun</Typography>
-          </motion.div>
-        </Card>
-        <Card>
-          <img src="'assets/pictures/customers.jpg" alt="" />
-          <motion.div
-            // animate={{
-            //   scale: [1, 2, 2, 1, 1],
-            //   rotate: [0, 0, 270, 270, 0],
-            //   borderRadius: ['20%', '20%', '50%', '50%', '20%'],
-            // }}
-            // transition={{ repeat: Infinity, duration: 2 }}
-          >
-            <Typography>I like Safirun</Typography>
-          </motion.div>
-        </Card>
-        <Card>
-          <img src="'assets/pictures/Florist7.png" alt="" />
-          <motion.div
-            // animate={{
-            //   scale: [1, 2, 2, 1, 1],
-            //   rotate: [0, 0, 270, 270, 0],
-            //   borderRadius: ['20%', '20%', '50%', '50%', '20%'],
-            // }}
-            // transition={{ repeat: Infinity, duration: 2 }}
-          >
-            <Typography>I like Safirun</Typography>
-          </motion.div>
-        </Card>
-      </Row>
-    );
-}
- 
+  return (
+    <Row>
+      <Card>
+        <img src={food} alt="" />
+        <motion.div
+        // animate={{
+        //   scale: [1, 2, 2, 1, 1],
+        //   rotate: [0, 0, 270, 270, 0],
+        //   borderRadius: ['20%', '20%', '50%', '50%', '20%'],
+        // }}
+        // transition={{ repeat: Infinity, duration: 2 }}
+        >
+          <Typography>I like Safirun</Typography>
+        </motion.div>
+      </Card>
+      <Card>
+        <img src={beer} alt="" />
+        <motion.div
+        // animate={{
+        //   scale: [1, 2, 2, 1, 1],
+        //   rotate: [0, 0, 270, 270, 0],
+        //   borderRadius: ['20%', '20%', '50%', '50%', '20%'],
+        // }}
+        // transition={{ repeat: Infinity, duration: 2 }}
+        >
+          <Typography>I like Safirun</Typography>
+        </motion.div>
+      </Card>
+      <Card>
+        <img src={food} alt="" />
+        <motion.div
+        // animate={{
+        //   scale: [1, 2, 2, 1, 1],
+        //   rotate: [0, 0, 270, 270, 0],
+        //   borderRadius: ['20%', '20%', '50%', '50%', '20%'],
+        // }}
+        // transition={{ repeat: Infinity, duration: 2 }}
+        >
+          <Typography>I like Safirun</Typography>
+        </motion.div>
+      </Card>
+      <Card>
+        <img src="'assets/pictures/customers.jpg" alt="" />
+        <motion.div
+        // animate={{
+        //   scale: [1, 2, 2, 1, 1],
+        //   rotate: [0, 0, 270, 270, 0],
+        //   borderRadius: ['20%', '20%', '50%', '50%', '20%'],
+        // }}
+        // transition={{ repeat: Infinity, duration: 2 }}
+        >
+          <Typography>I like Safirun</Typography>
+        </motion.div>
+      </Card>
+      <Card>
+        <img src="'assets/pictures/Florist7.png" alt="" />
+        <motion.div
+        // animate={{
+        //   scale: [1, 2, 2, 1, 1],
+        //   rotate: [0, 0, 270, 270, 0],
+        //   borderRadius: ['20%', '20%', '50%', '50%', '20%'],
+        // }}
+        // transition={{ repeat: Infinity, duration: 2 }}
+        >
+          <Typography>I like Safirun</Typography>
+        </motion.div>
+      </Card>
+    </Row>
+  );
+};
+
 export default Peoplesay;

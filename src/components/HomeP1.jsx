@@ -5,11 +5,13 @@ import { RightSquareFilled } from '@ant-design/icons';
 import Arrow from '../assets/pictures/right-arrow-solid-square-button.png';
 import location from '../assets/pictures/location.png';
 
+
 const HomePage2 = () => {
   const [hover, setHover] = useState(false);
 
   return (
     <div className="Homepage2">
+      
       <div className="SiteSearchPanel__SearchBlock__Inner">
         <div className="SiteSearchPanel__SearchBlock__OpacityContainer">
           <Space size="middle" direction="vertical">
@@ -98,7 +100,7 @@ const HomePage2 = () => {
                         position: 'absolute',
                         width: '58.42px',
                         left: '-2.5px',
-                        bottom: '-3.5px'
+                        bottom: '-3.5px',
                       }}
                       src={Arrow}
                     />

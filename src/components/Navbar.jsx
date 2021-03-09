@@ -5,8 +5,7 @@ import { motion } from 'framer-motion';
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img
-        src={logo}
+      <i
         style={{
           width: '174px',
           height: '69px',

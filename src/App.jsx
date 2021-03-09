@@ -7,6 +7,7 @@ import HomePage2 from './components/HomeP1';
 import Footer from './components/Footer';
 import Peoplesay from './components/whatPeopleAreSaying';
 import Peoplepanel from './components/Peoplepanel';
+import Logo from './components/logo';
 
 function App() {
   // Create the count state.
@@ -16,7 +17,14 @@ function App() {
     <div className="App">
       <div className="Homepart">
         <header>
+        <div style={{
+          display: 'flex',
+          position: 'relative'
+        }}>
+        <Logo />
           <Navbar />
+        </div>
+          
         </header>
         <div className="SiteSearchPanel">
           <HomePage2 />

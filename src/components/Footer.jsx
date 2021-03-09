@@ -2,11 +2,11 @@ import React from 'react';
 import { Row, Col } from 'antd';
 
 const Footer = () => {
-  return ( 
+  return (
     <Row>
-    <div>Testing</div>
+      <div>Testing</div>
     </Row>
-   );
-}
- 
+  );
+};
+
 export default Footer;
