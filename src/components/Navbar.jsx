@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/pictures/Beer.png';
 import { motion } from 'framer-motion';
-import { Dropdown, Menu, Button } from 'antd';
+import { Card } from 'antd';
 
 const Navbar = () => {
   return (
@@ -15,18 +15,12 @@ const Navbar = () => {
         }}
       />
       <div className="links">
-        <Dropdown
-          
-          overlay={
-            <div>Hello</div>
-            <div>Hello</div>
-            <div>Hello</div>
-          }
-          overlayClassName='how_it_works' 
-          placement='bottomRight'
-        >
-          <a href='/'>How it works</a>
-        </Dropdown>
+        <Card className='nav_How_it_works'>
+        <p>
+        How it works
+        </p>
+        <div></div>
+        </Card>
         <a href="/create">
           <bold> Sign in </bold>
         </a>

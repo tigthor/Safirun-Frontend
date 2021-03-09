@@ -381,6 +381,9 @@ h6.light,
   }
 }
 
-.how_it_works {
-  display: flex
+.nav_How_it_works {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  padding-left: -400px;
 }
