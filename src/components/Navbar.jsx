@@ -15,11 +15,16 @@ const Navbar = () => {
         }}
       />
       <div className="links">
-        <Card className='nav_How_it_works'>
-        <p>
-        How it works
-        </p>
-        <div></div>
+        <Card className="nav_How_it_works">
+          <p>How it works</p>
+          <div>
+            <Row>
+              <Card></Card>
+              <Card></Card>
+              <Card></Card>
+              <Card></Card>
+            </Row>
+          </div>
         </Card>
         <a href="/create">
           <bold> Sign in </bold>
