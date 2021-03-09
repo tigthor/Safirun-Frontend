@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/pictures/Beer.png';
 import { motion } from 'framer-motion';
+import { Dropdown, Menu, Button } from 'antd';
 
 const Navbar = () => {
   return (
@@ -14,7 +15,21 @@ const Navbar = () => {
         }}
       />
       <div className="links">
-        <a href="/">How it works</a>
+        <Dropdown
+          
+          overlay={
+            <Menu className="ant-menu">
+              <Menu.Item key="display" className="ant-menu-item">
+                Toogle display
+              </Menu.Item>
+              <Menu.Item key="mode" className="ant-menu-item">
+                Toogle mode
+              </Menu.Item>
+            </Menu>
+          }
+        >
+          <a href='/'>How it works</a>
+        </Dropdown>
         <a href="/create">
           <bold> Sign in </bold>
         </a>

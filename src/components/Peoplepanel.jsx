@@ -15,6 +15,8 @@ import food from '../assets/pictures/Food.png';
 import mark from '../assets/pics/Mrmark.png';
 import mason from '../assets/pics/Mrmason.png';
 import ma from '../assets/pics/Mrna.png';
+import hans from '../assets/pics/hans-eiskonen.jpg';
+import jane from '../assets/pics/Missjane.png'
 
 const Peoplepanel = () => {
   const variants = {
@@ -119,7 +121,7 @@ const Peoplepanel = () => {
               <Row gutter={[206, 106]} className="Tweets">
                 <Col span={60} className="tweet_box">
                   <Card>
-                    <img src={mark} alt="" />
+                    <img src={jane} alt="" />
                     <Typography
                       style={{
                         position: 'relative',
@@ -147,7 +149,7 @@ const Peoplepanel = () => {
                 </Col>
                 <Col span={60} className="tweet_box">
                   <Card>
-                    <img src={mason} alt="" />
+                    <img src={jane} alt="" />
                     <Typography
                       style={{
                         position: 'relative',

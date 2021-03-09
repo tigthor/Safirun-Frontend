@@ -4,8 +4,13 @@ import { Button, Divider, Card, Input, Space, Row } from 'antd';
 import { RightSquareFilled } from '@ant-design/icons';
 import Arrow from '../assets/pictures/right-arrow-solid-square-button.png';
 import location from '../assets/pictures/location.png';
-import beer from '../assets/pictures/Beer.png'
-
+import icon1 from '../assets/pictures/Beer.png'
+import icon2 from '../assets/pictures/Food.png'
+import icon3 from '../assets/pictures/Bags.png'
+import icon4 from '../assets/pictures/Florist4.png'
+import icon5 from '../assets/pictures/Florist5.png'
+import icon6 from '../assets/pictures/Florist6.png'
+import icon7 from '../assets/pictures/Florist7.png'
 
 const HomePage2 = () => {
   const [hover, setHover] = useState(false);
@@ -22,16 +27,6 @@ const HomePage2 = () => {
             </Row>
             <Row>
               <div className="SiteSearchPanel__Icons">
-                <img
-                  src={beer}
-                  style={{
-                    position: 'absolute',
-                    left: '600px',
-                    top: '9.5px',
-                    height: '30px',
-                    width: '38.42px',
-                  }}
-                />
                 <motion.div
                   animate={{
                     scale: [1, 2, 2, 1, 1],
@@ -40,44 +35,40 @@ const HomePage2 = () => {
                   }}
                   transition={{ repeat: Infinity, duration: 2 }}
                 ></motion.div>
-                <div
+                <img
+                  src={icon1}
                   className="SiteSearchPanel__Icons__Icon icon-food "
                   role="button"
-                >
-                  <img
-                    src={beer}
-                    style={{
-                      position: 'absolute',
-                      left: '00px',
-                      top: '9.5px',
-                      height: '30px',
-                      width: '38.42px',
-                    }}
-                  />
-                </div>
+                />
 
-                <div
-                  className="SiteSearchPanel__Icons__Icon icon-alcohol "
-                  role="button"
-                ></div>
-                <i
-                  className="SiteSearchPanel__Icons__Icon icon-groceries "
+                <img
+                  src={icon2}
+                  className="SiteSearchPanel__Icons__Icon icon-food "
                   role="button"
                 />
-                <i
-                  className="SiteSearchPanel__Icons__Icon icon-laundry "
+                <img
+                  src={icon3}
+                  className="SiteSearchPanel__Icons__Icon icon-food "
                   role="button"
                 />
-                <i
-                  className="SiteSearchPanel__Icons__Icon icon-laundry "
+                <img
+                  src={icon4}
+                  className="SiteSearchPanel__Icons__Icon icon-food "
                   role="button"
                 />
-                <i
-                  className="SiteSearchPanel__Icons__Icon icon-laundry "
+                <img
+                  src={icon5}
+                  className="SiteSearchPanel__Icons__Icon icon-food "
                   role="button"
                 />
-                <i
-                  className="SiteSearchPanel__Icons__Icon icon-laundry "
+                <img
+                  src={icon6}
+                  className="SiteSearchPanel__Icons__Icon icon-food "
+                  role="button"
+                />
+                <img
+                  src={icon7}
+                  className="SiteSearchPanel__Icons__Icon icon-food "
                   role="button"
                 />
               </div>
