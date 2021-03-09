@@ -9,7 +9,8 @@
 }
 
 .SiteSearchPanel__SearchBlock__Inner {
-  padding-right: 430px;
+  padding-right: 30px;
+  padding-top: -180px;
 }
 
 .SiteSearchPanel__SearchBlock__Inner__Logo {
@@ -99,6 +100,7 @@ body {
   display: flex;
   align-items: center;
   margin: 0 auto;
+  padding-left: 490px;
 }
 
 .SearchBox {
@@ -118,14 +120,11 @@ body {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  padding-left: -400px;
 }
 
 .navbar a:hover {
   color: #f1356d;
-}
-.Logo {
-  padding-left: 92px;
-  padding-bottom: 11px;
 }
 
 .Homepart {

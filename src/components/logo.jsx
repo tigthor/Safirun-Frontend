@@ -8,7 +8,8 @@ const Logo = () => {
         style={{
           width: '174px',
           height: '69px',
-          paddingBottom: '409px',
+          paddingTop: '10px',
+          paddingLeft: '50px'
         }}
       />
     );

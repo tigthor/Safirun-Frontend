@@ -19,7 +19,8 @@ function App() {
         <header>
         <div style={{
           display: 'flex',
-          position: 'relative'
+          position: 'relative',
+          justifyContent: 'space-between'
         }}>
         <Logo />
           <Navbar />

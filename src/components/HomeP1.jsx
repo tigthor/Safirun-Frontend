@@ -4,6 +4,7 @@ import { Button, Divider, Card, Input, Space, Row } from 'antd';
 import { RightSquareFilled } from '@ant-design/icons';
 import Arrow from '../assets/pictures/right-arrow-solid-square-button.png';
 import location from '../assets/pictures/location.png';
+import beer from '../assets/pictures/Beer.png'
 
 
 const HomePage2 = () => {
@@ -11,7 +12,6 @@ const HomePage2 = () => {
 
   return (
     <div className="Homepage2">
-      
       <div className="SiteSearchPanel__SearchBlock__Inner">
         <div className="SiteSearchPanel__SearchBlock__OpacityContainer">
           <Space size="middle" direction="vertical">
@@ -22,6 +22,16 @@ const HomePage2 = () => {
             </Row>
             <Row>
               <div className="SiteSearchPanel__Icons">
+                <img
+                  src={beer}
+                  style={{
+                    position: 'absolute',
+                    left: '600px',
+                    top: '9.5px',
+                    height: '30px',
+                    width: '38.42px',
+                  }}
+                />
                 <motion.div
                   animate={{
                     scale: [1, 2, 2, 1, 1],
@@ -33,7 +43,18 @@ const HomePage2 = () => {
                 <div
                   className="SiteSearchPanel__Icons__Icon icon-food "
                   role="button"
-                ></div>
+                >
+                  <img
+                    src={beer}
+                    style={{
+                      position: 'absolute',
+                      left: '00px',
+                      top: '9.5px',
+                      height: '30px',
+                      width: '38.42px',
+                    }}
+                  />
+                </div>
 
                 <div
                   className="SiteSearchPanel__Icons__Icon icon-alcohol "

@@ -9,8 +9,8 @@ const Navbar = () => {
         style={{
           width: '174px',
           height: '69px',
-          paddingLeft: '92px',
-          paddingBottom: '29px',
+          // paddingLeft: '92px',
+          // paddingBottom: '29px',
         }}
       />
       <div className="links">
