@@ -18,15 +18,12 @@ const Navbar = () => {
         <Dropdown
           
           overlay={
-            <Menu className="ant-menu">
-              <Menu.Item key="display" className="ant-menu-item">
-                Toogle display
-              </Menu.Item>
-              <Menu.Item key="mode" className="ant-menu-item">
-                Toogle mode
-              </Menu.Item>
-            </Menu>
+            <div>Hello</div>
+            <div>Hello</div>
+            <div>Hello</div>
           }
+          overlayClassName='how_it_works' 
+          placement='bottomRight'
         >
           <a href='/'>How it works</a>
         </Dropdown>
