@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Tue Mar 09 2021 13:11:02 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/Navbar.jsx
+
+
+Created files:
+* .autogit/logs/log-9-2-2021-12-39-6.txt
+
+
+Deleted files:
+
+
+Renamed files:

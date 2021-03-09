@@ -381,9 +381,26 @@ h6.light,
   }
 }
 
-.nav_How_it_works {
+.text_how_it_works {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
-  padding-left: -400px;
+  /* padding-left: -400px; */;
+  position: absolute
+}
+
+.div_how_it_works {
+  /* bottom: -120px; */
+  top: 200px;
+  height: 95px;
+  /* left: 200px; */
+
+  width: 500px;
+  background-color: #ffff;
+  position: absolute
+}
+
+.nav_How_it_works {
+  display: flex;
+  
 }
