@@ -385,22 +385,26 @@ h6.light,
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
-  /* padding-left: -400px; */;
-  position: absolute
+  position: absolute;
+    right: 325px;
 }
 
 .div_how_it_works {
-  /* bottom: -120px; */
-  top: 200px;
-  height: 95px;
-  /* left: 200px; */
-
-  width: 500px;
+  /*bottom: -120px;
+  */top: 65px;
+  height: 255px;
+  left: 350px;
+  width: 900px;
   background-color: #ffff;
-  position: absolute
+  position: absolute;
+  border-radius:25px;
+  -webkit-border-radius:25px;
+  -moz-border-radius:25px;
+  -ms-border-radius:25px;
+  -o-border-radius:25px;
 }
 
 .nav_How_it_works {
   display: flex;
-  
+
 }
