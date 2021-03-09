@@ -389,12 +389,35 @@ h6.light,
     right: 325px;
 }
 
+.row_how_it_works {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-items: stretch;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+}
+
+.how_it_works_card {
+  padding-top: 10px;
+}
+
+.how_it_work_p {
+  height: 200px;
+  width:150px;
+}
+
 .div_how_it_works {
   /*bottom: -120px;
   */top: 65px;
-  height: 255px;
+  height: 220px;
   left: 350px;
-  width: 900px;
+  width: 800px;
+  opacity: 0;
   background-color: #ffff;
   position: absolute;
   border-radius:25px;
@@ -404,7 +427,10 @@ h6.light,
   -o-border-radius:25px;
 }
 
+.nav_How_it_works div:hover {
+  opacity: 1;
+}
+
 .nav_How_it_works {
   display: flex;
-
 }
