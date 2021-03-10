@@ -412,8 +412,7 @@ h6.light,
 }
 
 .div_how_it_works {
-  /*bottom: -120px;
-  */top: 65px;
+top: 65px;
   height: 220px;
   left: 350px;
   width: 800px;

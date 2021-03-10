@@ -25,7 +25,6 @@ function App() {
         <Logo />
           <Navbar />
         </div>
-          
         </header>
         <div className="SiteSearchPanel">
           <HomePage2 />
