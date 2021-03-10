@@ -1,0 +1,23 @@
+-------------------- Auto-Git Log --------------------
+		Wed Mar 10 2021 08:34:41 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.css
+* src/App.jsx
+
+
+Created files:
+* .autogit/logs/log-10-2-2021-1-41-45.txt
+* src/components/FavResto.jsx
+* src/components/Whatsonmenu.jsx
+* src/components/Whysafirun.jsx
+* src/components/connectWithus.jsx
+* src/components/locationWeServe.jsx
+* src/components/marketplace.jsx
+
+
+Deleted files:
+
+
+Renamed files:
