@@ -1,4 +1,39 @@
+import React from 'react';
+
 const Onmenu = () => {
+  const Values = [
+    {
+      url: '../../assets/INDIAN.jpg',
+      text: 'INDIAN',
+      backgroudColor: '#CCCCCC',
+    },
+    {
+      url: '../../assets/BREAKFAST.jpg',
+      text: 'BREAKFAST',
+      backgroudColor: '#CCCCCC',
+    },
+    {
+      url: '../../assets/ITALIAN.jpg',
+      text: 'ITALIAN',
+      backgroudColor: '#CCCCCC',
+    },
+    {
+      url: '../../assets/ALCOHOL.jpg',
+      text: 'ALCOHOL',
+      backgroudColor: '#CCCCCC',
+    },
+
+    {
+      url: '../../assets/MEXICAN.png',
+      text: 'MEXICAN',
+      backgroudColor: '#CCCCCC',
+    },
+    {
+      url: '../../assets/BACKERY.jpg',
+      text: 'BACKERY',
+      backgroudColor: '#CCCCCC',
+    },
+  ];
     return (
       <div>
         <h1>what's on the menu</h1>
@@ -8,7 +43,7 @@ const Onmenu = () => {
             style={{ width: '299px', height: '463px' }}
           >
             <img
-              src="../assets/burger.png"
+              src="../../reduxassets/burger.png"
               style={{
                 width: '299px',
                 height: '400px',

@@ -1,3 +1,4 @@
+import React from 'react';
 const Favresto = () => {
     return (
       <div className="favoriteRestoPar">

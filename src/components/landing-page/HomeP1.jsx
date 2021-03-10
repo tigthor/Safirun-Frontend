@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Button, Divider, Card, Input, Space, Row } from 'antd';
 import { RightSquareFilled } from '@ant-design/icons';
-import Arrow from '../assets/pictures/right-arrow-solid-square-button.png';
-import location from '../assets/pictures/location.png';
-import icon1 from '../assets/pictures/Beer.png'
-import icon2 from '../assets/pictures/Food.png'
-import icon3 from '../assets/pictures/Bags.png'
-import icon4 from '../assets/pictures/Florist4.png'
-import icon5 from '../assets/pictures/Florist5.png'
-import icon6 from '../assets/pictures/Florist6.png'
-import icon7 from '../assets/pictures/Florist7.png'
+import Arrow from '../../assets/pictures/right-arrow-solid-square-button.png';
+import location from '../../assets/pictures/location.png';
+import icon1 from '../../assets/pictures/Beer.png'
+import icon2 from '../../assets/pictures/Food.png'
+import icon3 from '../../assets/pictures/Bags.png'
+import icon4 from '../../assets/pictures/Florist4.png'
+import icon5 from '../../assets/pictures/Florist5.png'
+import icon6 from '../../assets/pictures/Florist6.png'
+import icon7 from '../../assets/pictures/Florist7.png';
 
 const HomePage2 = () => {
   const [hover, setHover] = useState(false);

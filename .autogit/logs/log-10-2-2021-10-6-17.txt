@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Wed Mar 10 2021 10:06:17 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.jsx
+* src/components/Footer.jsx
+
+
+Created files:
+* .autogit/logs/log-10-2-2021-9-34-47.txt
+* src/components/Readyorder.jsx
+* src/components/landing-page.jsx
+
+
+Deleted files:
+* src/components/Rea
+
+
+Renamed files:
+* [object Object]

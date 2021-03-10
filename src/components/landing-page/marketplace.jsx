@@ -1,4 +1,40 @@
+import React from 'react';
+import { MdArrowForward } from 'react-icons/md';
+
 const marketplace = () => {
+
+  const Data = [
+    {
+      url: '../../assets/food1.png',
+      text: 'FOOD',
+      backgroudColor: '#C2773C',
+    },
+    {
+      url: '../../assets/drinks2.png',
+      text: 'DRINKS',
+      backgroudColor: '#813F5A',
+    },
+    {
+      url: '../../assets/GROCERIES2.png',
+      text: 'GROCERIES',
+      backgroudColor: '#589D16',
+    },
+    {
+      url: '../../assets/PHARMACY-ESSENTIALS2.png',
+      text: 'PHARMACY & ESSENTIALS',
+      backgroudColor: '#3F85B8',
+    },
+    {
+      url: '../../assets/FLORIST2.png',
+      text: 'FLORIST',
+      backgroudColor: '#AB2B1A',
+    },
+    {
+      url: '../../assets/UTILITIES2.png',
+      text: 'UTILITIES',
+      backgroudColor: '#004CE7',
+    },
+  ];
     return (
       <div>
         <div className="marketPlaceChil1">

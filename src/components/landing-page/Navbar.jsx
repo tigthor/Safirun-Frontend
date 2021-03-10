@@ -1,10 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Card, Row, Col } from 'antd'
-import how_it_works1 from '../assets/how_it_works1.png';
-import how_it_works2 from '../assets/how_it_works2.png';
-import how_it_works3 from '../assets/how_it_works3.png';
-import how_it_works4 from '../assets/how_it_works4.png';
+import how_it_works1 from '../../assets/how_it_works1.png';
+import how_it_works2 from '../../assets/how_it_works2.png';
+import how_it_works3 from '../../assets/how_it_works3.png';
+import how_it_works4 from '../../assets/how_it_works4.png';
 
 const Navbar = () => {
   return (

@@ -9,14 +9,14 @@ import {
   Col,
   Typography,
 } from 'antd';
-import twitter from '../assets/pics/twitter_ico.png';
+import twitter from '../../assets/pics/twitter_ico.png';
 import { motion } from 'framer-motion';
-import food from '../assets/pictures/Food.png';
-import mark from '../assets/pics/Mrmark.png';
-import mason from '../assets/pics/Mrmason.png';
-import ma from '../assets/pics/Mrna.png';
-import hans from '../assets/pics/hans-eiskonen.jpg';
-import jane from '../assets/pics/Missjane.png'
+import food from '../../assets/pictures/Food.png';
+import mark from '../../assets/pics/Mrmark.png';
+import mason from '../../assets/pics/Mrmason.png';
+import ma from '../../assets/pics/Mrna.png';
+import hans from '../../assets/pics/hans-eiskonen.jpg';
+import jane from '../../assets/pics/Missjane.png';
 
 const Peoplepanel = () => {
   const variants = {
