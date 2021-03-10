@@ -22,7 +22,6 @@ const Homepage = () => {
         <Onmenu />
         <Whysafi />
         <Peoplesay />
-        <Connect />
         {/*<Locserved />
         <Readyorder />
        <Footer /> */}

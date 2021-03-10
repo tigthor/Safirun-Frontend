@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Wed Mar 10 2021 23:31:00 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.css
+* src/components/Landingpage.jsx
+* src/components/landing-page/Peoplepanel.jsx
+* src/components/landing-page/Whatsonmenu.jsx
+* src/components/landing-page/Whysafirun.jsx
+* src/components/landing-page/marketplace.jsx
+* src/components/landing-page/reusable/connectWithus.jsx
+
+
+Created files:
+* .autogit/logs/log-10-2-2021-15-54-35.txt
+
+
+Deleted files:
+
+
+Renamed files:

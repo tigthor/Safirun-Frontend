@@ -33,7 +33,6 @@ const Peoplepanel = () => {
         <div className="WhatPeopleSayPanel__Box">
           <Space size="middle" direction="vertical">
             <h2 className="light">What people say about us</h2>
-            <div className="HomepageDivider" />
             <div className="Main_Tweet_Box">
               <Row gutter={[206, 106]} className="Tweets">
                 <Col span={60} className="tweet_box">
@@ -159,7 +158,7 @@ const Peoplepanel = () => {
                 <Col
                   span={60}
                   style={{
-                    maxWidth: '220px',
+                    maxWidth: '270px',
                     height: '210px',
                     backgroundColor: '#ffff',
                   }}

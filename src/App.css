@@ -256,9 +256,14 @@ body {
 }
 .WhatPeopleSayPanel__Box {
   background: #cccc;
-  box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 38px 0 rgba(0, 0, 0, 0.05);
   padding: 60px 0;
   position: relative;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 .dcom__container__large {
@@ -295,6 +300,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-flow: column;
+  border-radius: 10px;
 }
 
 .tweet_box {
