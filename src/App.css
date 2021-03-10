@@ -450,16 +450,16 @@ h6.light,
 .marketPlaceChil2 {
   display: flex;
   justify-content: center;
-    max-width: 1440px;
+  max-width: 1440px;
   flex-wrap: wrap;
-    border-radius: 3px;
+  border-radius: 3px;
   align-content: flex-start;
   align-items: baseline;
 }
 .marketPlaceChil3 {
   flex-direction: column;
   position: relative;
-    border-radius: 3px;
+  border-radius: 3px;
   margin: 7px;
 }
 
@@ -532,7 +532,6 @@ h6.light,
   position: relative;
   margin: 7px;
   top: 10px;
-
 }
 
 .footerChil1 {
@@ -568,7 +567,6 @@ h6.light,
   justify-content: space-between;
 }
 
-
 .App {
   background-color: #ffff;
   max-width: 1440px;
@@ -579,4 +577,31 @@ h6.light,
   -moz-border-radius: 300px;
   -ms-border-radius: 300px;
   -o-border-radius: 300px;
+}
+
+.ViewMore_arrow {
+  color: black;
+  height: 27px;
+  width: 27px;
+  margin-left: 80px;
+  margin-top: -12px;
+  position: absolute;
+  left: 1px;
+  top: 8px;
+  background-color: #cccccc;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+
+.ViewMore_arrow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
 }
