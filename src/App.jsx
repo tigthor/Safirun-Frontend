@@ -17,14 +17,16 @@ function App() {
     <div className="App">
       <div className="Homepart">
         <header>
-        <div style={{
-          display: 'flex',
-          position: 'relative',
-          justifyContent: 'space-between'
-        }}>
-        <Logo />
-          <Navbar />
-        </div>
+          <div
+            style={{
+              display: 'flex',
+              position: 'relative',
+              justifyContent: 'space-between',
+            }}
+          >
+            <Logo />
+            <Navbar />
+          </div>
         </header>
         <div className="SiteSearchPanel">
           <HomePage2 />
