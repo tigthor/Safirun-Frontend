@@ -43,7 +43,7 @@ const Onmenu = () => {
             style={{ width: '299px', height: '463px' }}
           >
             <img
-              src="../../reduxassets/burger.png"
+              src="../../assets/burger.png"
               style={{
                 width: '299px',
                 height: '400px',

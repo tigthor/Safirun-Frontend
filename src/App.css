@@ -525,6 +525,7 @@ h6.light,
   position: relative;
   margin: 7px;
   top: 10px;
+
 }
 
 .footerChil1 {
@@ -560,6 +561,11 @@ h6.light,
   justify-content: space-between;
 }
 
-.marketplace {
-  background-color:#fff;
+
+.App {
+  background-color: #ffff;
+  max-width: 1440px;
+  text-align: center;
+  text-decoration-style: wavy;
+  -moz-text-decoration-style: wavy;
 }

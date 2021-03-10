@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdArrowForward } from 'react-icons/md';
 
-const marketplace = () => {
+const Marketplace = () => {
 
   const Data = [
     {
@@ -38,7 +38,7 @@ const marketplace = () => {
     return (
       <div>
         <div className="marketPlaceChil1">
-          <h1 className="marketPlace">SAFIRUN market place </h1>
+          <h1 className="light">SAFIRUN market place </h1>
           <div style={{ display: 'flex', position: 'relative' }}>
             <p
               className="viewMore"
@@ -129,4 +129,4 @@ const marketplace = () => {
     );
 }
 
-export default marketplace;
+export default Marketplace;

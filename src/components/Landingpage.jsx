@@ -3,7 +3,7 @@ import Firstscreen from './Firstscreen';
 import Connect from './landing-page/reusable/connectWithus';
 import Footer from './landing-page/reusable/Footer';
 import Locserved from './landing-page/locationWeServe';
-import marketplace from './landing-page/marketplace';
+import Marketplace from './landing-page/Marketplace';
 import Readyorder from './landing-page/Readyorder';
 import Peoplesay from './landing-page/Peoplepanel';
 import Onmenu from './landing-page/Whatsonmenu';
@@ -15,17 +15,17 @@ import { Space } from 'antd'
 const Homepage = () => {
   return (
     <div>
-      <Space direction="vertical" size="middle">
+      <Space direction="vertical" size="large">
         <Firstscreen />
-        <marketplace  className='marketplace'/>
+        <Marketplace className="marketplace" />
         <Favresto />
-        <Onmenu />
+        {/*<Onmenu />
         <Whysafi />
         <Peoplesay />
         <Connect />
         <Locserved />
         <Readyorder />
-        <Footer />
+       <Footer /> */}
       </Space>
     </div>
   );
