@@ -13,8 +13,6 @@
   padding-top: -180px;
 }
 
-
-
 .SiteSearchPanel__SearchBlock__Inner__Logo {
   margin: 0 auto 10px;
   padding-bottom: 5px;
@@ -52,7 +50,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
- background: #11af00;
+  background: #11af00;
   margin-right: 17px;
   flex: 0 0 52px;
   box-sizing: border-box;
@@ -274,7 +272,7 @@ body {
   justify-content: center;
   flex-direction: column;
   justify-content: space-between;
-  top:150px;
+  top: 150px;
 }
 
 .Tweets {
@@ -313,38 +311,38 @@ body {
   margin: 1em 0 3em;
   border-radius: 30px;
   /*color: #fff;
-  */background: #ffff;
+  */
+  background: #ffff;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
 }
 
-
 .icon-twitter-bird {
   position: absolute;
-    font-size: 1rem;
-    padding: 8px 6px 4px;
-    border-radius: 14px;
-    top: -300px;
-    left: -110px;
-    width: 48px;
-    height: 48px;
-    box-sizing: border-box;
+  font-size: 1rem;
+  padding: 8px 6px 4px;
+  border-radius: 14px;
+  top: -300px;
+  left: -110px;
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
 }
 
 .Tweet_text:after {
-  content:"";
-  position:absolute;
-  bottom:-140px; /* value = - border-top-width - border-bottom-width */
-  left:80px; /* controls horizontal position */
-  border-width:40px 0 0 40px; /* vary these values to change the angle of the vertex */
-  border-style:solid;
-  border-color:#ffff transparent;
+  content: '';
+  position: absolute;
+  bottom: -140px; /* value = - border-top-width - border-bottom-width */
+  left: 80px; /* controls horizontal position */
+  border-width: 40px 0 0 40px; /* vary these values to change the angle of the vertex */
+  border-style: solid;
+  border-color: #ffff transparent;
   /* reduce the damage in FF3.0 */
-  display:block;
-  width:0;
-  height:100px;
+  display: block;
+  width: 0;
+  height: 100px;
 }
 
 h1.light,
@@ -386,7 +384,7 @@ h6.light,
   text-decoration: none;
   padding: 6px;
   position: absolute;
-    right: 325px;
+  right: 325px;
 }
 
 .row_how_it_works {
@@ -408,22 +406,22 @@ h6.light,
 
 .how_it_work_p {
   height: 200px;
-  width:150px;
+  width: 150px;
 }
 
 .div_how_it_works {
-top: 65px;
+  top: 65px;
   height: 220px;
   left: 350px;
   width: 800px;
   opacity: 0;
   background-color: #ffff;
   position: absolute;
-  border-radius:25px;
-  -webkit-border-radius:25px;
-  -moz-border-radius:25px;
-  -ms-border-radius:25px;
-  -o-border-radius:25px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 
 .nav_How_it_works div:hover {
@@ -434,128 +432,134 @@ top: 65px;
   display: flex;
 }
 
-.marketPlaceChil1{
+.marketPlaceChil1 {
   display: flex;
   justify-content: space-between;
   max-width: 1042px;
-  align-items: center; margin: 7px;
+  align-items: center;
+  margin: 7px;
   margin: 0 auto;
+  background-color: #ffff
 }
 
-.marketPlaceChil2{
+.marketPlaceChil2 {
   display: flex;
   justify-content: center;
- max-width: 1800px;
- flex-wrap: wrap;
- align-content: flex-start;
- align-items: baseline;
+    max-width: 1440px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: baseline;
 }
-.marketPlaceChil3{
+.marketPlaceChil3 {
   flex-direction: column;
   position: relative;
   margin: 7px;
 }
 
-.favoriteRestoPar{
+.favoriteRestoPar {
   display: flex;
   justify-content: center;
- flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-.favoriteRestochil1{
-display: flex;
+.favoriteRestochil1 {
+  display: flex;
   flex-wrap: nowrap;
   margin-right: 150px;
   margin-top: 50px;
 }
 
-.whatOnTheMenuPar{
+.whatOnTheMenuPar {
   display: flex;
   justify-content: center;
- flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.whatOnTheMenuChil1{
-position: relative;
+.whatOnTheMenuChil1 {
+  position: relative;
   /* margin: 7px; */
   top: 10px;
 }
 
-.whatOnTheMenuChil2{
-display: flex;
- flex-wrap: wrap;
- align-content: flex-start;
- align-items: baseline;
- justify-content: center;
- position: relative;
+.whatOnTheMenuChil2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: baseline;
+  justify-content: center;
+  position: relative;
 }
 
-.whatOnTheMenuChil3{
-flex-direction: column;
+.whatOnTheMenuChil3 {
+  flex-direction: column;
   position: relative;
   margin: 7px;
 }
 
-.whyOrdersWithSafiRunPar{
+.whyOrdersWithSafiRunPar {
   display: flex;
   justify-content: center;
- max-width: 1800px;
- flex-wrap: wrap;
- align-content: flex-start;
- align-items: baseline;
+  max-width: 1800px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: baseline;
 }
 
-.whyOrdersWithSafiRunChil1{
-flex-direction: column;
+.whyOrdersWithSafiRunChil1 {
+  flex-direction: column;
   position: relative;
   margin: 7px;
-  width: 342px
+  width: 342px;
 }
 
-.ConnectWithUsPar{
+.ConnectWithUsPar {
   display: flex;
-align-items: center;
-justify-content: center;
-justify-content:space-evenly;
-flex-direction: row;
-margin-left: 500px;
-margin-right: 500px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-left: 500px;
+  margin-right: 500px;
 }
 
-.readyToOrder{
-position: relative;
+.readyToOrder {
+  position: relative;
   margin: 7px;
   top: 10px;
 }
 
-.footerChil1{
+.footerChil1 {
   display: flex;
   justify-content: center;
- flex-wrap: wrap;
- margin-left: -150px;
+  flex-wrap: wrap;
+  margin-left: -150px;
 }
 
-.footerChil2{
+.footerChil2 {
   display: flex;
   justify-content: center;
- color: white;
- margin-top: 50px;
- flex-direction: row;
+  color: white;
+  margin-top: 50px;
+  flex-direction: row;
   position: relative;
   margin-left: -100px;
 }
-.footerChil3{
+.footerChil3 {
   display: flex;
   justify-content: center;
- flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-.footerChil4{
+.footerChil4 {
   display: flex;
-align-items: center;
-justify-content: center;
-justify-content:space-evenly;
-flex-direction: row;
-margin-left: -150px;
-margin-right: 800px;
-justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-left: -150px;
+  margin-right: 800px;
+  justify-content: space-between;
+}
+
+.marketplace {
+  background-color:#fff;
 }

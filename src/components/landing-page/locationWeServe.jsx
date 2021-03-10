@@ -1,4 +1,5 @@
 import React from 'react';
+
 const Locserved = () => {
     return (
       <div>
@@ -7,5 +8,5 @@ const Locserved = () => {
       </div>
     );
 }
- 
+
 export default Locserved;

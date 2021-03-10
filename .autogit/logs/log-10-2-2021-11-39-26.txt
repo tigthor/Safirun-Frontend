@@ -1,0 +1,35 @@
+-------------------- Auto-Git Log --------------------
+		Wed Mar 10 2021 11:39:26 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.css
+* src/App.jsx
+* src/components/Firstscreen.jsx
+
+
+Created files:
+* .autogit/logs/log-10-2-2021-10-6-17.txt
+* src/assets/map.png
+* src/components/Landingpage.jsx
+* src/components/landing-page/reusable/connectWithus.jsx
+
+
+Deleted files:
+* src/components/connectWithus.jsx
+* src/components/landing-page.jsx
+* src/components/whatPeopleAreSaying.jsx
+
+
+Renamed files:
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]

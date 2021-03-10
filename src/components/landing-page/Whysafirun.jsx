@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdArrowForward } from 'react-icons/md';
 
 const Whysafi = () => {
     return (

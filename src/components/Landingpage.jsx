@@ -9,21 +9,24 @@ import Peoplesay from './landing-page/Peoplepanel';
 import Onmenu from './landing-page/Whatsonmenu';
 import Favresto from './landing-page/FavResto';
 import Whysafi from './landing-page/Whysafirun';
+import { Space } from 'antd'
 
 
 const Homepage = () => {
   return (
     <div>
-      <Firstscreen />
-      <marketplace />
-      <Favresto />
-      <Onmenu />
-      <Whysafi />
-      <Peoplesay />
-      <Connect />
-      <Locserved />
-      <Readyorder />
-      <Footer />
+      <Space direction="vertical" size="middle">
+        <Firstscreen />
+        <marketplace  className='marketplace'/>
+        <Favresto />
+        <Onmenu />
+        <Whysafi />
+        <Peoplesay />
+        <Connect />
+        <Locserved />
+        <Readyorder />
+        <Footer />
+      </Space>
     </div>
   );
 };
