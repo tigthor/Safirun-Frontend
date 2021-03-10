@@ -5,7 +5,9 @@ import Logo from './landing-page/reusable/logo';
 
 const Firstscreen = () => {
   return (
-    <div>
+    <div style={{
+      backgroundColor: '#ffff'
+    }}>
       <div className="Homepart">
         <header>
           <div

@@ -35,8 +35,11 @@ const Onmenu = () => {
     },
   ];
     return (
-      <div>
-        <h1>what's on the menu</h1>
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column'
+      }}>
+        <h1 className="light">What's on the menu</h1>
         <div className="whatOnTheMenuPar" style={{ height: '463px' }}>
           <div
             className="whatOnTheMenuChil1"

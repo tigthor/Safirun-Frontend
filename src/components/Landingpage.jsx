@@ -19,8 +19,8 @@ const Homepage = () => {
         <Firstscreen />
         <Marketplace className="marketplace" />
         <Favresto />
-        {/*<Onmenu />
-        <Whysafi />
+        <Onmenu />
+        {/*<Whysafi />
         <Peoplesay />
         <Connect />
         <Locserved />

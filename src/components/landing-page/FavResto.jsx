@@ -23,7 +23,9 @@ const Favresto = () => {
             </p>
             <h4 style={{ textAlign: 'left' }}>DISCOVER. ORDER. TRACK IN APP</h4>
           </Space>
-          <img src="../assets/PlaystoreBadges-011.jpg"></img>
+          <img src="../assets/PlaystoreBadges-011.jpg" style={{
+            marginTop: '30px'
+          }}></img>
           <img src="../assets/PlaystoreBadges-021.jpg"></img>
         </div>
         <div className="favoriteRestochil1">
