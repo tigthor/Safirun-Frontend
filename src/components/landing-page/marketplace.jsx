@@ -95,6 +95,7 @@ const Marketplace = () => {
               borderRadius: '3px',
               left: '539px',
               top: '1002px',
+              
             }}
           />
           <p

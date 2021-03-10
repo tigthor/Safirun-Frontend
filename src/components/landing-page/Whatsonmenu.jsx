@@ -53,6 +53,7 @@ const Onmenu = () => {
               style={{
                 width: '299px',
                 height: '430px',
+                borderRadius: '3px',
               }}
             />
             <p
@@ -62,9 +63,13 @@ const Onmenu = () => {
                 color: '#000000',
                 position: 'absolute',
                 justifyContent: 'center',
-                bottom: '0px',
+                textAlign: 'center',
+                verticalAlign: 'middle',
+                borderRadius: '3px',
+                bottom: '5px',
                 left: '-0px',
                 height: '57px',
+                lineHeight: '57px',
               }}
             >
               BUGGERS
@@ -83,24 +88,23 @@ const Onmenu = () => {
                     height: '220px',
                     left: '539px',
                     top: '1002px',
+                    borderRadius: '3px',
                   }}
                 />
                 <p
                   style={{
                     backgroundColor: `${values.backgroudColor}`,
                     width: '243px',
-                    height: '60px',
-                    fontFamily: 'poppis',
-                    fontStyle: 'normal',
-                    fontWeight: 'bold',
-                    fontSize: '15px',
-                    lineHeight: '33px',
-                    position: 'absolute',
-                    bottom: '0px',
-                    left: '-6px',
                     color: '#000000',
+                    position: 'absolute',
                     justifyContent: 'center',
-                    alignItems: 'center',
+                    textAlign: 'center',
+                    verticalAlign: 'middle',
+                    borderRadius: '3px',
+                    bottom: '0px',
+                    left: '-0px',
+                    height: '57px',
+                    lineHeight: '57px',
                   }}
                 >
                   {values.text}

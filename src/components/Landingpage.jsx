@@ -20,10 +20,10 @@ const Homepage = () => {
         <Marketplace className="marketplace" />
         <Favresto />
         <Onmenu />
-        {/*<Whysafi />
+        <Whysafi />
         <Peoplesay />
         <Connect />
-        <Locserved />
+        {/*<Locserved />
         <Readyorder />
        <Footer /> */}
       </Space>

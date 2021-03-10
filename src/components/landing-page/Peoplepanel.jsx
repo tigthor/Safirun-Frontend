@@ -17,6 +17,7 @@ import mason from '../../assets/pics/Mrmason.png';
 import ma from '../../assets/pics/Mrna.png';
 import hans from '../../assets/pics/hans-eiskonen.jpg';
 import jane from '../../assets/pics/Missjane.png';
+import Connect from './reusable/connectWithus';
 
 const Peoplepanel = () => {
   const variants = {
@@ -37,20 +38,20 @@ const Peoplepanel = () => {
               <Row gutter={[206, 106]} className="Tweets">
                 <Col span={60} className="tweet_box">
                   <Card>
-                    <img src={mark} alt="" />
-                    <Typography
-                      style={{
-                        position: 'relative',
+                    <motion.div
+                      initial="hidden"
+                      animate="visible"
+                      variants={variants}
+                      transition={{
+                        repeat: Infinity,
+                        duration: 28,
+                        delay: 19,
                       }}
                     >
-                      <motion.div
-                        initial="hidden"
-                        animate="visible"
-                        variants={variants}
-                        transition={{
-                          repeat: Infinity,
-                          duration: 18,
-                          delay: 10,
+                      <img src={mark} alt="" />
+                      <Typography
+                        style={{
+                          position: 'relative',
                         }}
                       >
                         <p className="Tweet_text">
@@ -59,26 +60,26 @@ const Peoplepanel = () => {
                           not normal. Alex
                         </p>
                         <img src={twitter} class="icon-twitter-bird"></img>
-                      </motion.div>
-                    </Typography>
+                      </Typography>
+                    </motion.div>
                   </Card>
                 </Col>
                 <Col span={60} className="tweet_box">
                   <Card>
-                    <img src={mason} alt="" />
-                    <Typography
-                      style={{
-                        position: 'relative',
+                    <motion.div
+                      initial="hidden"
+                      animate="visible"
+                      variants={variants}
+                      transition={{
+                        repeat: Infinity,
+                        duration: 15,
+                        delay: 7,
                       }}
                     >
-                      <motion.div
-                        initial="hidden"
-                        animate="visible"
-                        variants={variants}
-                        transition={{
-                          repeat: Infinity,
-                          duration: 15,
-                          delay: 7,
+                      <img src={mason} alt="" />
+                      <Typography
+                        style={{
+                          position: 'relative',
                         }}
                       >
                         <p className="Tweet_text">
@@ -86,26 +87,26 @@ const Peoplepanel = () => {
                           dishes so safirun it is. David
                         </p>
                         <img src={twitter} class="icon-twitter-bird"></img>
-                      </motion.div>
-                    </Typography>
+                      </Typography>
+                    </motion.div>
                   </Card>
                 </Col>
                 <Col span={60} className="tweet_box">
                   <Card>
-                    <img src={ma} alt="" />
-                    <Typography
-                      style={{
-                        position: 'relative',
+                    <motion.div
+                      initial="hidden"
+                      animate="visible"
+                      variants={variants}
+                      transition={{
+                        repeat: Infinity,
+                        duration: 14,
+                        delay: 5,
                       }}
                     >
-                      <motion.div
-                        initial="hidden"
-                        animate="visible"
-                        variants={variants}
-                        transition={{
-                          repeat: Infinity,
-                          duration: 14,
-                          delay: 5,
+                      <img src={ma} alt="" />
+                      <Typography
+                        style={{
+                          position: 'relative',
                         }}
                       >
                         <p className="Tweet_text">
@@ -113,28 +114,36 @@ const Peoplepanel = () => {
                           dishes so safirun it is. David
                         </p>
                         <img src={twitter} class="icon-twitter-bird"></img>
-                      </motion.div>
-                    </Typography>
+                      </Typography>
+                    </motion.div>
                   </Card>
                 </Col>
               </Row>
               <Row gutter={[206, 106]} className="Tweets">
-                <Col span={60} className="tweet_box">
+                <Col
+                  span={60}
+                  style={{
+                    textAlign: 'center',
+                    /* text-justify: auto; */
+                    maxWidth: '150px',
+                    height: '210px',
+                  }}
+                >
                   <Card>
-                    <img src={jane} alt="" />
-                    <Typography
-                      style={{
-                        position: 'relative',
+                    <motion.div
+                      initial="hidden"
+                      animate="visible"
+                      variants={variants}
+                      transition={{
+                        repeat: Infinity,
+                        duration: 10,
+                        delay: 7,
                       }}
                     >
-                      <motion.div
-                        initial="hidden"
-                        animate="visible"
-                        variants={variants}
-                        transition={{
-                          repeat: Infinity,
-                          duration: 10,
-                          delay: 7,
+                      <img src={jane} alt="" />
+                      <Typography
+                        style={{
+                          position: 'relative',
                         }}
                       >
                         <p className="Tweet_text">
@@ -143,26 +152,44 @@ const Peoplepanel = () => {
                           not normal. Alex
                         </p>
                         <img src={twitter} class="icon-twitter-bird"></img>
-                      </motion.div>
-                    </Typography>
+                      </Typography>
+                    </motion.div>
                   </Card>
                 </Col>
-                <Col span={60} className="tweet_box">
+                <Col
+                  span={60}
+                  style={{
+                    maxWidth: '220px',
+                    height: '210px',
+                    backgroundColor: '#ffff',
+                  }}
+                >
+                  <Connect />
+                </Col>
+                <Col
+                  span={60}
+                  style={{
+                    textAlign: 'center',
+                    /* text-justify: auto; */
+                    maxWidth: '150px',
+                    height: '210px',
+                  }}
+                >
                   <Card>
-                    <img src={jane} alt="" />
-                    <Typography
-                      style={{
-                        position: 'relative',
+                    <motion.div
+                      initial="hidden"
+                      animate="visible"
+                      variants={variants}
+                      transition={{
+                        repeat: Infinity,
+                        duration: 28,
+                        delay: 14,
                       }}
                     >
-                      <motion.div
-                        initial="hidden"
-                        animate="visible"
-                        variants={variants}
-                        transition={{
-                          repeat: Infinity,
-                          duration: 12,
-                          delay: 3,
+                      <img src={ma} alt="" />
+                      <Typography
+                        style={{
+                          position: 'relative',
                         }}
                       >
                         <p className="Tweet_text">
@@ -170,35 +197,8 @@ const Peoplepanel = () => {
                           dishes so safirun it is. David
                         </p>
                         <img src={twitter} class="icon-twitter-bird"></img>
-                      </motion.div>
-                    </Typography>
-                  </Card>
-                </Col>
-                <Col span={60} className="tweet_box">
-                  <Card>
-                    <img src={ma} alt="" />
-                    <Typography
-                      style={{
-                        position: 'relative',
-                      }}
-                    >
-                      <motion.div
-                        initial="hidden"
-                        animate="visible"
-                        variants={variants}
-                        transition={{
-                          repeat: Infinity,
-                          duration: 9,
-                          delay: 1,
-                        }}
-                      >
-                        <p className="Tweet_text">
-                          Just convinced myself that it's "too late" to do
-                          dishes so safirun it is. David
-                        </p>
-                        <img src={twitter} class="icon-twitter-bird"></img>
-                      </motion.div>
-                    </Typography>
+                      </Typography>
+                    </motion.div>
                   </Card>
                 </Col>
               </Row>
