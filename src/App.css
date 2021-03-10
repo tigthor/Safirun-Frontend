@@ -611,3 +611,9 @@ h6.light,
   -ms-transform: translateY(-5px);
   -o-transform: translateY(-5px);
 }
+
+.whats_on_menu_text {
+  font-weight: 300;
+  text-align: left;
+  padding-left: 90px;
+}

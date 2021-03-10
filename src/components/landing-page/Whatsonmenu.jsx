@@ -35,21 +35,24 @@ const Onmenu = () => {
     },
   ];
     return (
-      <div style={{
-        display: 'flex',
-        flexDirection: 'column'
-      }}>
-        <h1 className="light">What's on the menu</h1>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          height: '600px',
+        }}
+      >
+        <h1 className="whats_on_menu_text">What's on the menu</h1>
         <div className="whatOnTheMenuPar" style={{ height: '463px' }}>
           <div
             className="whatOnTheMenuChil1"
-            style={{ width: '299px', height: '463px' }}
+            style={{ width: '299px', height: '463px', position: 'relative' }}
           >
             <img
               src="../../assets/burger.png"
               style={{
                 width: '299px',
-                height: '400px',
+                height: '430px',
               }}
             />
             <p
@@ -59,8 +62,8 @@ const Onmenu = () => {
                 color: '#000000',
                 position: 'absolute',
                 justifyContent: 'center',
-                bottom: '-0px',
-                left: '-6px',
+                bottom: '0px',
+                left: '-0px',
                 height: '57px',
               }}
             >

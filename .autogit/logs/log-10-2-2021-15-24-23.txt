@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Wed Mar 10 2021 15:24:23 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.css
+* src/components/Firstscreen.jsx
+* src/components/Landingpage.jsx
+* src/components/landing-page/FavResto.jsx
+* src/components/landing-page/Whatsonmenu.jsx
+
+
+Created files:
+* .autogit/logs/log-10-2-2021-14-53-50.txt
+
+
+Deleted files:
+
+
+Renamed files:
