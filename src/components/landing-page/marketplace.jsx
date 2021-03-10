@@ -73,6 +73,7 @@ const Marketplace = () => {
                   width: '342px',
                   height: '303px',
                   left: '539px',
+                    borderRadius: '3px',
                   top: '1002px',
                 }}
               />
@@ -89,7 +90,8 @@ const Marketplace = () => {
                   lineHeight: '33px',
                   position: 'absolute',
                   bottom: '-4px',
-                  left: '-6px',
+                  left: '0px',
+                  borderRadius: '3px',
                   color: '#FFFFFF',
                   justifyContent: 'center',
                   alignItems: 'center',
@@ -105,6 +107,7 @@ const Marketplace = () => {
               style={{
                 width: '1042px',
                 height: '246px',
+                  borderRadius: '3px',
                 left: '539px',
                 top: '1002px',
               }}
@@ -117,7 +120,8 @@ const Marketplace = () => {
                 position: 'absolute',
                 justifyContent: 'center',
                 bottom: '-4px',
-                left: '-6px',
+                borderRadius: '3px',
+                left: '-0px',
                 height: '57px',
               }}
             >

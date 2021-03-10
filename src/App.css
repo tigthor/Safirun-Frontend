@@ -439,7 +439,12 @@ h6.light,
   align-items: center;
   margin: 7px;
   margin: 0 auto;
-  background-color: #ffff
+  border-radius: 3px;
+  background-color: #ffff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 
 .marketPlaceChil2 {
@@ -447,12 +452,14 @@ h6.light,
   justify-content: center;
     max-width: 1440px;
   flex-wrap: wrap;
+    border-radius: 3px;
   align-content: flex-start;
   align-items: baseline;
 }
 .marketPlaceChil3 {
   flex-direction: column;
   position: relative;
+    border-radius: 3px;
   margin: 7px;
 }
 
@@ -568,4 +575,8 @@ h6.light,
   text-align: center;
   text-decoration-style: wavy;
   -moz-text-decoration-style: wavy;
+  -webkit-border-radius: 300px;
+  -moz-border-radius: 300px;
+  -ms-border-radius: 300px;
+  -o-border-radius: 300px;
 }

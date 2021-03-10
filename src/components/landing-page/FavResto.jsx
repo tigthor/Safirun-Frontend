@@ -2,7 +2,7 @@ import React from 'react';
 const Favresto = () => {
     return (
       <div className="favoriteRestoPar">
-        <div style={{ marginRight: '200px', marginTop: '50px' }}>
+        <div style={{ marginRight: '200px', marginTop: '90px' }}>
           <h3
             class="fontF"
             style={{
