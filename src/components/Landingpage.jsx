@@ -22,8 +22,8 @@ const Homepage = () => {
         <Onmenu />
         <Whysafi />
         <Peoplesay />
-        {/*<Locserved />
-        <Readyorder />
+        <Locserved />
+        {/*<Readyorder />
        <Footer /> */}
       </Space>
     </div>
