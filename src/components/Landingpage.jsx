@@ -23,8 +23,8 @@ const Homepage = () => {
         <Whysafi />
         <Peoplesay />
         <Locserved />
-        {/*<Readyorder />
-       <Footer /> */}
+        <Readyorder />
+        {/*<Footer /> */}
       </Space>
     </div>
   );
