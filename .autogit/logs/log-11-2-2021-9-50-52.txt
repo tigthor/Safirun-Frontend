@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Thu Mar 11 2021 09:50:52 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .babelrc
+* package-lock.json
+* package.json
+* snowpack.config.js
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
