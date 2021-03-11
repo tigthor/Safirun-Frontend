@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Thu Mar 11 2021 08:50:34 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* package.json
+* snowpack.config.js
+* src/components/landing-page/Readyorder.jsx
+
+
+Created files:
+* .autogit/logs/log-11-2-2021-8-18-20.txt
+
+
+Deleted files:
+
+
+Renamed files:
