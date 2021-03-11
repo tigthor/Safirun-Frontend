@@ -7,23 +7,25 @@
     "lint": "prettier --check \"src/**/*.{js,jsx}\""
   },
   "dependencies": {
-    "@material-ui/icons": "^4.11.2",
-    "antd": "^4.13.0",
-    "framer-motion": "^3.10.0",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "react-icons": "^4.2.0",
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@babel/node": "^7.12.6",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.13",
     "@babel/register": "^7.12.1",
     "@babel/runtime": "^7.12.5",
+    "@material-ui/icons": "^4.11.2",
+    "antd": "^4.13.0",
+    "framer-motion": "^3.10.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-icons": "^4.2.0",
     "regenerator-runtime": "^0.13.7"
   },
   "devDependencies": {
+    "@snowpack/plugin-babel": "^2.1.6",
     "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-react-refresh": "^2.4.0",
     "@snowpack/plugin-webpack": "^2.3.0",
@@ -32,6 +34,7 @@
     "@web/test-runner": "^0.12.0",
     "chai": "^4.2.0",
     "prettier": "^2.0.5",
-    "snowpack": "^3.0.1"
+    "snowpack": "^3.0.1",
+    "snowpack-plugin-selective-import-to-require": "^0.3.0"
   }
 }

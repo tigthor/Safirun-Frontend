@@ -17,6 +17,13 @@ module.exports = {
         },
       },
     ],
+    [
+      'snowpack-plugin-selective-import-to-require',
+      {
+        modules: ['os', 'child_process'],
+        types: ['.js'],
+      },
+    ],
   ],
   routes: [
     /* Enable an SPA Fallback in development: */
