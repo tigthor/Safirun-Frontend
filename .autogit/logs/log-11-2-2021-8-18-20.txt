@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Thu Mar 11 2021 08:18:20 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.css
+* src/components/Landingpage.jsx
+* src/components/landing-page/Readyorder.jsx
+* src/components/landing-page/locationWeServe.jsx
+
+
+Created files:
+* .autogit/logs/log-11-2-2021-0-34-38.txt
+
+
+Deleted files:
+
+
+Renamed files:
