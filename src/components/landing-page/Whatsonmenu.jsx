@@ -3,33 +3,33 @@ import React from 'react';
 const Onmenu = () => {
   const Values = [
     {
-      url: '../../assets/INDIAN.jpg',
+      url: '../../assets/indian.jpg',
       text: 'INDIAN',
       backgroudColor: '#CCCCCC',
     },
     {
-      url: '../../assets/BREAKFAST.jpg',
+      url: '../../assets/breakFast.jpg',
       text: 'BREAKFAST',
       backgroudColor: '#CCCCCC',
     },
     {
-      url: '../../assets/ITALIAN.jpg',
+      url: '../../assets/italian.jpg',
       text: 'ITALIAN',
       backgroudColor: '#CCCCCC',
     },
     {
-      url: '../../assets/ALCOHOL.jpg',
+      url: '../../assets/alcohol.jpg',
       text: 'ALCOHOL',
       backgroudColor: '#CCCCCC',
     },
 
     {
-      url: '../../assets/MEXICAN.png',
+      url: '../../assets/mexican.png',
       text: 'MEXICAN',
       backgroudColor: '#CCCCCC',
     },
     {
-      url: '../../assets/BACKERY.jpg',
+      url: '../../assets/backery.jpg',
       text: 'BACKERY',
       backgroudColor: '#CCCCCC',
     },

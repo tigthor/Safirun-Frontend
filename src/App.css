@@ -25,7 +25,7 @@ h1 {
   display: block;
   transform: translateZ(0px);
 }
-*/ .SiteSearchPanel__SearchBlock__Inner__Logo:before {
+.SiteSearchPanel__SearchBlock__Inner__Logo:before {
   font-size: 3.8571rem;
   color: #1f5ea9;
 }
@@ -403,7 +403,7 @@ h6.light,
   text-decoration: none;
   padding: 6px;
   position: absolute;
-  right: 325px;
+  right: 355px;
 }
 
 .row_how_it_works {
@@ -629,5 +629,5 @@ h6.light,
 .whats_on_menu_text {
   font-weight: 300;
   text-align: left;
-  padding-left: 90px;
+  padding-left: 120px;
 }

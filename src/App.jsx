@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './style';
 import './App.css';
 import Peoplepanel from './components/landing-page/Peoplepanel';
 import Firstscreen from './components/Firstscreen';
