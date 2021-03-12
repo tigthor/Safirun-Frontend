@@ -1,17 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App.jsx';
-import './index.css';
+import './App.css';
+import Homepage from './components/Landingpage';
+import React from "react"
+import { render } from "react-dom"
+import { Router, Link } from "@reach/router"
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root'),
-);
+let Home = () => <div>Home</div>
+let Dash = () => <div>Dash</div>
+const NotFound = () => (
+  <div>Sorry, nothing here.</div>
+)
 
-// Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
-// Learn more: https://www.snowpack.dev/concepts/hot-module-replacement
-// if (import.meta.hot) {
-//   import.meta.hot.accept();
+render(
+    <Router>
+        <Homepage path="/" />
+        <Dash path="dashboard" />
+        <NotFound default />
+    </Router>,
+    document.getElementById('root'),
+)
+
+// function App() {
+//   // Create the count state.
+
+//   // Return the App component.
+//   return (
+//     <div className="App">
+//       <Homepage />
+//     </div>
+//   );
 // }
+
+// export default App;

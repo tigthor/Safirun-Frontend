@@ -90,16 +90,6 @@ const HomePage2 = () => {
               <div className="SearchBox">
                 <Input
                   className="SearchInput"
-                  style={{
-                    width: '497.58px',
-                    top: '10px',
-                    right: '3300px',
-                    height: '44.59px',
-                    margin: 'center',
-                    borderRadius: '10px',
-                    borderColor: 'transparent',
-                    textAlign: 'center',
-                  }}
                   placeholder="Enter Delivery Address to See The Menu"
                 ></Input>
                 <Button

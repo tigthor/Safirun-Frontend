@@ -19,10 +19,18 @@ const Footer = () => {
               marginTop: '50px',
             }}
           >
-            <img src="../../assets/PlaystoreBadges-011.jpg"></img>
+            <img src="../../assets/PlaystoreBadges-011.jpg" style={{
+                // marginLeft: '10px',
+                  backgroundColor: 'black',
+                  color: 'black',
+                  
+            }}></img>
             <img
               src="../../assets/PlaystoreBadges-021.jpg"
-              style={{ marginLeft: '10px' }}
+              style={{ 
+                  marginLeft: '10px',
+                  backgroundColor: 'black'
+               }}
             ></img>
           </div>
         </div>

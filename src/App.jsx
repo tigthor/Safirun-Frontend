@@ -1,18 +1,29 @@
-import React, { useState, useEffect } from 'react';
 import './App.css';
-import Peoplepanel from './components/landing-page/Peoplepanel';
-import Firstscreen from './components/Firstscreen';
 import Homepage from './components/Landingpage';
+import React from "react"
+import { render } from "react-dom"
+import { Router, Link } from "@reach/router"
 
-function App() {
-  // Create the count state.
+let Home = () => <div>Home</div>
+let Dash = () => <div>Dash</div>
 
-  // Return the App component.
-  return (
-    <div className="App">
-      <Homepage />
-    </div>
-  );
-}
+render(
+    <Router>
+        <Homepage path="/" className='App'/>
+        <Dash path="dashboard" />
+    </Router>,
+    document.getElementById('root'),
+)
 
-export default App;
+// function App() {
+//   // Create the count state.
+
+//   // Return the App component.
+//   return (
+//     <div className="App">
+//       <Homepage />
+//     </div>
+//   );
+// }
+
+// export default App;

@@ -9,25 +9,28 @@ import Peoplesay from './landing-page/Peoplepanel';
 import Onmenu from './landing-page/Whatsonmenu';
 import Favresto from './landing-page/FavResto';
 import Whysafi from './landing-page/Whysafirun';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { Space } from 'antd'
 
 
 const Homepage = () => {
-  return (
-    <div>
-      <Space direction="vertical" size="large">
-        <Firstscreen />
-        <Marketplace className="marketplace" />
-        <Favresto />
-        <Onmenu />
-        <Whysafi />
-        <Peoplesay />
-        {/*<Locserved />
-        <Readyorder />
-       <Footer /> */}
-      </Space>
-    </div>
-  );
+    return (
+        <Router>
+            <div className="landing_page">
+                <Space direction="vertical" size="large">
+                    <Firstscreen />
+                    <Marketplace className="marketplace" />
+                    <Favresto />
+                    <Onmenu />
+                    <Whysafi />
+                    <Peoplesay />
+                    <Locserved />
+                    <Readyorder />
+                    {/*<Footer />*/}
+                </Space>
+            </div>
+        </Router>
+    );
 };
 
 export default Homepage;

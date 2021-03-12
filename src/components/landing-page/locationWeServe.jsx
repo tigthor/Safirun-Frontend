@@ -2,10 +2,12 @@ import React from 'react';
 
 const Locserved = () => {
     return (
-      <div>
+      <div style={{
+          backgroundColor: '#fffff'
+      }}>
         <h1>Location we currently serve</h1>
         <img src="../../assets/map.png" style={{
-          maxWidth:'700px'
+          maxWidth:'1200px'
         }}></img>
       </div>
     );

@@ -8,6 +8,30 @@
   color: black;
 }
 
+.landing_page {
+    background-color: #ffff;
+  max-width: 1440px;
+  text-align: center;
+  height: 5500px;
+  text-decoration-style: wavy;
+  -moz-text-decoration-style: wavy
+}
+
+.SearchInput {
+    width: 497.58px;
+                    top: 10px;
+                    right: 3300px;
+                    height: 44.59px;
+                    margin: center;
+                    border-radius: 10px;
+                    border-color: transparent;
+                    /* text-align: center; */
+}
+
+.SearchInput::placeholder {
+    padding-left: 40px;
+}
+
 .SiteSearchPanel__SearchBlock__Inner {
   padding-right: 30px;
   padding-top: -180px;
@@ -551,6 +575,8 @@ h6.light,
 .readyToOrder {
   position: relative;
   margin: 7px;
+  width: 618px;
+  margin-top: 100px;
   top: 10px;
 }
 
@@ -591,6 +617,7 @@ h6.light,
   background-color: #ffff;
   max-width: 1440px;
   text-align: center;
+  height: 5500px;
   text-decoration-style: wavy;
   -moz-text-decoration-style: wavy;
   -webkit-border-radius: 300px;
