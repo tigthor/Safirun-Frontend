@@ -1,8 +1,8 @@
 import './App.css';
 import Homepage from './components/Landingpage';
-import React from "react"
-import { render } from "react-dom"
-import { Router, Link } from "@reach/router"
+import React from "react";
+import { render } from "react-dom";
+import { Router, Link } from "@reach/router";
 
 let Home = () => <div>Home</div>
 let Dash = () => <div>Dash</div>
@@ -19,15 +19,6 @@ render(
     document.getElementById('root'),
 )
 
-// function App() {
-//   // Create the count state.
-
-//   // Return the App component.
-//   return (
-//     <div className="App">
-//       <Homepage />
-//     </div>
-//   );
-// }
-
-// export default App;
+if (import.meta.hot) {
+  import.meta.hot.accept();
+}

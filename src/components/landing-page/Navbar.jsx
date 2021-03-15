@@ -17,7 +17,7 @@ const Navbar = () => {
       />
       <div className="links">
         <Card className="nav_How_it_works">
-          <p className="text_how_it_works">How it works</p>
+          <h4 className="text_how_it_works">How it works</h4>
           <div className="div_how_it_works">
             <Row className="row_how_it_works">
               <Col>

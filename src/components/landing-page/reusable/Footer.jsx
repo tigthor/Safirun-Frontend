@@ -1,5 +1,7 @@
 import React from 'react';
 import { Button, Divider, Card, Input, Space, Row, Col } from 'antd';
+import apple from '../../../assets/apple2.png';
+import google from '../../../assets/googleplay.png'
 
 const Footer = () => {
   return (
@@ -19,17 +21,26 @@ const Footer = () => {
               marginTop: '50px',
             }}
           >
-            <img src="../../assets/PlaystoreBadges-011.jpg" style={{
+            <img src={apple} style={{
                 // marginLeft: '10px',
                   backgroundColor: 'black',
                   color: 'black',
+                  borderColor: 'black',
+                  borderRadius: '80px',
+                  height: '50px',
+                  width: '50px'
                   
             }}></img>
             <img
-              src="../../assets/PlaystoreBadges-021.jpg"
+              src={google}
               style={{ 
                   marginLeft: '10px',
-                  backgroundColor: 'black'
+                  backgroundColor: 'black',
+                  color: 'black',
+                  borderColor: 'black',
+                  borderRadius: '80px',
+                  height: '50px',
+                  width: '50px'
                }}
             ></img>
           </div>

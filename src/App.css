@@ -34,7 +34,7 @@
 
 .SiteSearchPanel__SearchBlock__Inner {
   padding-right: 30px;
-  padding-top: -180px;
+  padding-top: -580px;
 }
 
 h1 {
@@ -162,8 +162,8 @@ body {
 .Homepart {
   background-color: #eaa24d;
   max-width: 1440px;
-  max-height: 900px;
-  border-radius: 10px;
+  max-height: 630px;
+  border-radius: 60px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;

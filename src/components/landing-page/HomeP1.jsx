@@ -19,7 +19,9 @@ const HomePage2 = () => {
     <div className="Homepage2">
       <div className="SiteSearchPanel__SearchBlock__Inner">
         <div className="SiteSearchPanel__SearchBlock__OpacityContainer">
-          <Space size="middle" direction="vertical">
+          <Space size="middle" direction="vertical" style={{
+              paddingBottom: '200px'
+          }}>
             <Row>
               <div className="SiteSearchPanel__SearchBlock__Inner__Logo icon-delivery-logo">
                 We deliver Wines & Spirits
