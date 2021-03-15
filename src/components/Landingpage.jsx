@@ -26,7 +26,7 @@ const Homepage = () => {
                     <Peoplesay />
                     <Locserved />
                     <Readyorder />
-                    {/*<Footer />*/}
+                    <Footer />
                 </Space>
             </div>
         </Router>

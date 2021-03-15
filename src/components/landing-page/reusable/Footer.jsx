@@ -1,9 +1,12 @@
 import React from 'react';
 import { Button, Divider, Card, Input, Space, Row, Col } from 'antd';
+import google from '../../../../public/googlepaly.png';
+import apple from '../../../../public/apple2.png'
+
 
 const Footer = () => {
   return (
-    <div style={{ backgroundColor: '#0E0E0E' }}>
+    <div style={{ backgroundColor: '#0E0E0E',maxWidth:'1440px'}}>
       <div className="footerChil1">
         <div style={{ marginRight: '500px', marginTop: '50px' }}>
           <img
@@ -16,21 +19,35 @@ const Footer = () => {
               display: 'flex',
               justifyContent: 'space-between',
               marginRight: '250px',
-              marginTop: '50px',
+              justifyItems: 'baseline',
+              // marginTop: '50px',
             }}
           >
-            <img src="../../assets/PlaystoreBadges-011.jpg" style={{
-                // marginLeft: '10px',
-                  backgroundColor: 'black',
-                  color: 'black',
-                  
-            }}></img>
             <img
-              src="../../assets/PlaystoreBadges-021.jpg"
-              style={{ 
-                  marginLeft: '10px',
-                  backgroundColor: 'black'
-               }}
+              src={apple}
+              style={{
+                // marginLeft: '10px',
+                backgroundColor: 'black',
+                // color: 'black',
+                // borderColor: 'black',
+                // borderRadius: '80px',
+
+                height: '87px',
+                width: '150px',
+              }}
+            ></img>
+            <img
+              src={google}
+              style={{
+                marginLeft: '10px',
+                backgroundColor: 'black',
+                // color: 'black',
+                // borderColor: 'black',
+                // borderRadius: '80px',
+                height: '87px',
+                width: '150px',
+                marginTop: '30px',
+              }}
             ></img>
           </div>
         </div>

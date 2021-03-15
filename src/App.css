@@ -107,7 +107,7 @@ h1 {
 }
 
 body {
-  background-color: #00b894;
+  background-color:white;
   margin: 0;
   padding: 0;
 }
@@ -579,6 +579,9 @@ h6.light,
   margin-top: 100px;
   top: 10px;
 }
+.foodPar{
+  max-width: 1240px;
+}
 
 .footerChil1 {
   display: flex;
@@ -658,3 +661,577 @@ h6.light,
   text-align: left;
   padding-left: 120px;
 }
+
+.foodHeader{
+  display: flex;
+}
+.Header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content:space-evenly;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+.foodchil1{
+  background-color: #363636;
+  width:1440px ;
+  height: 50px; 
+  top: 116px;
+  text-align: center;
+}
+.foodchil2{
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 37px;
+color: #FFFFFF;
+margin-left: -500px;
+}
+.foodchil3 {
+  display: flex;
+ flex-direction: row;
+ justify-content: center;
+ margin: 7px;
+ 
+ 
+}
+.foodchil3pic{
+  margin-top: -20px;
+}
+.foodchil3text{
+  margin-right: 50px;
+}
+
+.foodchil4{
+  display: flex;
+}
+.foodchil5{
+  background: #DB573B;
+  width: 757px;
+  height: 300px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.fooderChil6{
+  display: flex;
+ flex-direction: row;
+ justify-content: center;
+ margin: 7px;
+}
+.fooderChil7{
+  display: flex;
+   flex-direction: row;
+   justify-content: center;
+   justify-content:space-evenly;
+   align-items: baseline;
+  }
+
+.fooderChil9{
+display: flex;
+ flex-direction: row;
+ justify-content: center;
+ justify-content: space-between;
+ align-items: baseline;
+ margin-left: 220px;
+}
+
+.fooderChil8{
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+  
+  }
+
+  .fooderChil10{
+    flex-direction: column;
+    position: relative;
+    margin: 7px;
+  }
+  .foodchil11{
+    width: 241px;
+    height: 400px;
+top: 812px;  
+background: #FFFFFF;
+box-shadow: 0px 0px 10.6px rgba(0, 0, 0, 0.15);
+display: inline-block;
+margin-top: 40px;
+padding: 20px;
+  }
+
+.foodchil12{
+  display: flex;
+  display: inline-block;
+  
+}
+.foodchil13{
+  display: inline-block;
+  margin-top: -440px;
+}
+
+.foodchil13{
+  font-weight: normal;
+}
+  
+.TriangleShapeCSS{
+  position: absolute;
+  width: 80.64px;
+  height: 74.63px;
+  background-color: #FF0000;
+  color: white;
+  border-bottom-width: 120px;
+  border-right-width: 60px;
+  border-left-width: 60px;
+}
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-bottom: 70px solid transparent;
+  border-left: 70px solid red;
+}
+
+.drinkChil1{
+  display: flex;
+  flex-direction: column;
+position: absolute;
+background-color: #22B511;
+width: 300px;
+height: 400px;
+text-align: center;
+justify-content: center;
+line-height: 50px;
+
+}
+
+.drinkChil2{
+  display: flex;
+  justify-content: space-between;
+  width: 683px;
+  height: 468px;
+left: 29px;
+top: 256px;
+background-color: #22B511;
+margin-top: 10px;
+}
+
+.drinkChil3{
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 7px;
+
+}
+.drinkChil4{
+  display: flex;
+  margin: 7px;
+  width: 1440px;
+}
+.drinkChil5{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  /* margin-left: 50px;
+   margin-right: 50px; */
+   margin: -7px;
+
+}
+
+.drinkChil6{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7px;
+}
+
+.drinkChil7{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7px;
+}
+.drinkChil8{
+  width: 180.76px;
+height: 250.1px;
+background: linear-gradient(180deg, #F0F0F0 0%, #F0F0F0 0.01%, rgba(245, 245, 245, 0.640689) 64.29%, rgba(255, 255, 255, 0) 100%);
+border-radius: 5px;
+}
+.drinkChiHr{
+width: 1440px;
+height: 20px;
+background: #F7F7F7;
+}
+.drinkChil9{
+display: flex;
+flex-direction: row;
+position: absolute;
+background-color: black;
+margin-top: 100px;
+}
+
+.drinkChil10{
+  display: flex;
+   flex-direction: row;
+   justify-content: center;
+   justify-content: space-between;
+   align-items: baseline;
+   margin-left: 220px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+  }
+
+  .drinkChil11{
+    display: flex;
+    position: absolute;
+     margin-left: 200px;
+     color: white;
+     margin-top: 450px;  
+  }
+/* .drinkChil10{
+  position: absolute;
+width: 13px;
+height: 13px;
+left: 319px;
+top: 666px;
+background: #FFFFFF;
+  } */
+
+  .drink2Chil1{
+    display: flex;
+    justify-content: space-between;
+    width: 1354px;
+height: 484.36px;
+  left: 29px;
+  top: 256px;
+  background-color: #22B511;
+  margin-top: 10px;
+  
+  }
+
+.drink2Chil2{
+    margin-top: 80px;  
+  }
+
+  .drink2Chil3{
+    display: flex;
+     flex-direction: row;
+     justify-content: center;
+     justify-content: space-between;
+     align-items: baseline;
+     margin-left: 210px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+    }
+    .drink2Chil4{
+      display: flex;
+     position: absolute;
+      margin-left: 600px;
+      color: white;
+      margin-top: 450px;   
+  }
+    
+
+.drink3Chil1{
+  background-color: #363636;
+  width: 1350px;
+  height: 50px; 
+  top: 116px;
+  text-align: center; 
+  }
+.drink3Chil2{
+  /* width: 1200px;
+    height: 532px; */
+
+    width: 1350px;
+height: 532px;
+  }
+
+  .drink3Chil3{
+  font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 37px;
+color: #FFFFFF;
+}
+
+.drink3Chil4{
+  display: flex;
+  position: relative;
+}
+.drink3Chil5{
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+.drink3Chil6{
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+margin: 7px;
+margin-left: 150px;
+margin-right: 100px;
+
+}
+.drink3Chil7{
+  height: 35px;
+  left: 10px;
+  top: 6px;
+  background: #ECECEC;
+  border-radius: 40px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15Px;
+  justify-content:space-evenly;
+  margin: 5px;
+  }
+
+  .drink3Chil8{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+.drink3Chil9{
+  margin-left: 20px;
+  margin-right:  20px;
+  align-content: space-between;
+}
+
+.drink3Chil10{
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: baseline;
+  justify-content: center;
+  position: relative; */
+  /* margin: 7px; */
+}
+
+.drink3Chil11{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  
+}
+
+.drink3Chil12{
+  width: 241px;
+  height: 400px;
+top: 812px;  
+background: #FFFFFF;
+box-shadow: 0px 0px 10.6px rgba(0, 0, 0, 0.15);
+display: inline-block;
+margin-top: 40px;
+padding: 20px;
+margin-left: 50px;
+}
+
+.drink3Chil13{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  width: 1000px;
+}
+.shopChil1{
+  position: absolute;
+width: 53.27px;
+height: 20px;
+left: 108.67px;
+top: 154px;
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+
+color: #FFFFFF;
+background-color: black;
+margin-left: 5px;
+margin-top: 20px;
+text-align: center;
+padding-top: 5px;
+
+}
+
+.shopChil2{
+  display: flex;
+   flex-direction: row;
+   justify-content: center;
+   justify-content: space-between;
+   align-items: baseline;
+   margin-left: 220px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+  }
+
+  .shopChil3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+     margin: -7px;
+  }
+
+  .shopChil4{
+    width: 180.76px;
+  height: 250.1px;
+  border-radius: 5px;
+  }
+
+  .shopChil6{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .shop2chil1{
+    position: absolute;
+width: 791px;
+height: 113px;
+left: 305px;
+top: 204px;
+font-family: Poppins;
+font-style: italic;
+font-weight:bold;
+font-size: 100px;
+line-height: 112px;
+color: #FFFFFF;
+
+  }
+
+  .shop2chil2{
+    display: flex;
+    justify-content: space-between;
+    width: 1350px;
+    height: 468px;
+  left: 29px;
+  margin-top: 2px;
+  }
+  .shop2chil3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: #E5E5E5;;
+  }
+
+  .shop2chil4{
+    display: flex;
+    margin-left: 30px;
+    margin-top: -25px;
+    background-color: #F6F6F6;
+    padding-right: 100px;
+    justify-items: center;
+  }
+
+  .shop2chil5{
+    width: 1440px;
+    margin-top: -50px;
+    padding-bottom: 50px;
+
+  }
+  .shop2chil6{
+    position: absolute;
+    width: 1380px;
+height: 60px;
+left: -28px;
+margin-top: 20px;
+display: flex;
+justify-content: space-between;
+/* margin-left: 40px;
+margin-right: 40px; */
+  }
+  .shop2chil7{
+    margin-left: 40px;
+  
+  }
+
+  .shop2chil8{
+margin-right: 40px;
+  }
+
+  .shop2chil9{
+    display: flex;
+    position: relative;
+  }
+
+.shop2chil10{
+display: flex;
+position: relative;
+}
+.shop2chil11{
+  background: #E5E5E5;
+}
+
+.shop2chil12{
+  display: flex;
+   flex-direction: row;
+   justify-content: center;
+   justify-content: space-between;
+   align-items: baseline;
+   margin-left: 220px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   /* background-color: white; */
+  }
+
+  .shop2chil13{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+     margin: -7px;
+     /* background-color: white; */
+     /* width: 1440px; */
+  }
+  .shop2chil14{
+    background-color: white;
+    margin-left: -40px;
+    margin-top: 25px;
+  }
+  .shopChill15{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .shop3chil1{
+    position: absolute;
+    top: 200px;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 67px;
+    color: #000000;
+    margin-left: 100px;
+
+  }
+
+.shop3chil2{
+    background-color: #363636;
+    width: 1350px;
+    height: 50px; 
+    top: 116px;
+    text-align: center;
+  }
+
+  .shop3chil3{
+    display: flex;
+    justify-content: space-between;
+    width: 1350px;
+    height: 468px;
+  left: 29px;
+  margin-top: 10px;
+  }
+
+
+
+
+
+
+
+
