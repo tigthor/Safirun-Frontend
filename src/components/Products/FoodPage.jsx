@@ -472,9 +472,9 @@ const FoodPage = () => {
                                     <Card className='fooderChil10'>
                                         <img src={fav.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                         <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px' }}>
-                                            <p style={{ lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>{fav.title}</p>
-                                            <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>{fav.sub1}</p>
-                                            <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>
+                                            <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{fav.title}</p>
+                                            <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{fav.sub1}</p>
+                                            <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>
                                                 <img src='../assets/star.png' style={{ position: 'absolute', marginLeft: '100px', marginTop: '8px' }}></img>
                                                 <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', position: 'relative' }}>{fav.sub2}</p>
                                                 <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', position: 'relative', marginLeft: '120px', marginTop: '-30px' }}>{fav.sub3}</p>
@@ -502,9 +502,9 @@ const FoodPage = () => {
                                 <Card className='fooderChil10'>
                                     <img src={special.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                     <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
-                                        <p style={{ lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>{special.title}</p>
-                                        <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>{special.sub1}</p>
-                                        <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>
+                                        <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{special.title}</p>
+                                        <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{special.sub1}</p>
+                                        <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>
                                             <img src='../assets/star.png' style={{ position: 'absolute', marginLeft: '100px', marginTop: '8px' }}></img>
                                             <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' }}>{special.sub2}</p>
                                             <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', position: 'relative', marginLeft: '120px', marginTop: '-30px' }}>{special.sub3}</p>
@@ -530,9 +530,9 @@ const FoodPage = () => {
                                 <Card className='fooderChil10'>
                                     <img src={popular.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                     <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
-                                        <p style={{ lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>{popular.title}</p>
-                                        <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>{popular.sub1}</p>
-                                        <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' ,marginLeft:'10px'}}>
+                                        <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{popular.title}</p>
+                                        <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{popular.sub1}</p>
+                                        <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>
                                             <img src='../assets/star.png' style={{ position: 'absolute', marginLeft: '100px', marginTop: '8px' }}></img>
                                             <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' }}>{popular.sub2}</p>
                                             <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', position: 'relative', marginLeft: '120px', marginTop: '-30px' }}>{popular.sub3}</p>
@@ -557,9 +557,9 @@ const FoodPage = () => {
                                 <Card className='fooderChil10'>
                                     <img src={hurry.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                     <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
-                                        <p style={{ lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>{hurry.title}</p>
-                                        <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px' ,marginLeft:'10px'}}>{hurry.sub1}</p>
-                                        <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' ,marginLeft:'10px'}}>
+                                        <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{hurry.title}</p>
+                                        <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{hurry.sub1}</p>
+                                        <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>
                                             <img src='../assets/star.png' style={{ position: 'absolute', marginLeft: '100px', marginTop: '8px' }}></img>
                                             <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' }}>{hurry.sub2}</p>
                                             <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', position: 'relative', marginLeft: '120px', marginTop: '-30px' }}>{hurry.sub3}</p>
@@ -584,9 +584,9 @@ const FoodPage = () => {
                                 <Card className='fooderChil10'>
                                     <img src={recomended.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                     <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
-                                        <p style={{ lineHeight: '30px', margin: '0px', padding: '0px' ,marginLeft:'10px'}}>{recomended.title}</p>
-                                        <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px' ,marginLeft:'10px'}}>{recomended.sub1}</p>
-                                        <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' ,marginLeft:'10px'}}>
+                                        <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{recomended.title}</p>
+                                        <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{recomended.sub1}</p>
+                                        <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>
                                             <img src='../assets/star.png' style={{ position: 'absolute', marginLeft: '100px', marginTop: '8px' }}></img>
                                             <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' }}>{recomended.sub2}</p>
                                             <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', position: 'relative', marginLeft: '120px', marginTop: '-30px' }}>{recomended.sub3}</p>
@@ -611,9 +611,9 @@ const FoodPage = () => {
                                     <Card className='fooderChil10'>
                                         <img src={allResto1.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                         <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
-                                            <p style={{ lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>{allResto1.title}</p>
-                                            <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>{allResto1.sub1}</p>
-                                            <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' ,marginLeft:'10px'}}>
+                                            <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{allResto1.title}</p>
+                                            <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{allResto1.sub1}</p>
+                                            <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>
                                                 <img src='../assets/star.png' style={{ position: 'absolute', marginLeft: '100px', marginTop: '8px' }}></img>
                                                 <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' }}>{allResto1.sub2}</p>
                                                 <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', position: 'relative', marginLeft: '120px', marginTop: '-30px' }}>{allResto1.sub3}</p>
@@ -630,9 +630,9 @@ const FoodPage = () => {
                                     <Card className='fooderChil10'>
                                         <img src={fav.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                         <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
-                                            <p style={{ lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px'}}>{fav.title}</p>
-                                            <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>{fav.sub1}</p>
-                                            <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' ,marginLeft:'10px'}}>
+                                            <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{fav.title}</p>
+                                            <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{fav.sub1}</p>
+                                            <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>
                                                 <img src='../assets/star.png' style={{ position: 'absolute', marginLeft: '100px', marginTop: '8px' }}></img>
                                                 <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' }}>{fav.sub2}</p>
                                                 <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', position: 'relative', marginLeft: '120px', marginTop: '-30px' }}>{fav.sub3}</p>
@@ -650,9 +650,9 @@ const FoodPage = () => {
                                     <Card className='fooderChil10'>
                                         <img src={allResto3.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                         <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
-                                            <p style={{ lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>{allResto3.title}</p>
-                                            <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px' ,marginLeft:'10px'}}>{allResto3.sub1}</p>
-                                            <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' ,marginLeft:'10px'}}>
+                                            <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{allResto3.title}</p>
+                                            <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{allResto3.sub1}</p>
+                                            <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>
                                                 <img src='../assets/star.png' style={{ position: 'absolute', marginLeft: '100px', marginTop: '8px' }}></img>
                                                 <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' }}>{allResto3.sub2}</p>
                                                 <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', position: 'relative', marginLeft: '120px', marginTop: '-30px' }}>{allResto3.sub3}</p>
@@ -670,9 +670,9 @@ const FoodPage = () => {
                                     <Card className='fooderChil10'>
                                         <img src={allResto4.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                         <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
-                                            <p style={{ lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' ,marginLeft:'10px'}}>{allResto4.title}</p>
-                                            <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px',marginLeft:'10px' }}>{allResto4.sub1}</p>
-                                            <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>
+                                            <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px', marginLeft: '10px' }}>{allResto4.title}</p>
+                                            <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px', marginLeft: '10px' }}>{allResto4.sub1}</p>
+                                            <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>
                                                 <img src='../assets/star.png' style={{ position: 'absolute', marginLeft: '100px', marginTop: '8px' }}></img>
                                                 <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' }}>{allResto4.sub2}</p>
                                                 <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', position: 'relative', marginLeft: '120px', marginTop: '-30px' }}>{allResto4.sub3}</p>
@@ -690,9 +690,9 @@ const FoodPage = () => {
                                     <Card className='fooderChil10'>
                                         <img src={allResto5.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                         <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column', justifyItems: 'baseline', justifyContent: 'space-evenly' }}>
-                                            <p style={{ lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>{allResto5.title}</p>
-                                            <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px',marginLeft:'10px' }}>{allResto5.sub1}</p>
-                                            <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' ,marginLeft:'10px'}}>
+                                            <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{allResto5.title}</p>
+                                            <p style={{ fontSize: '14px', color: '#787878', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{allResto5.sub1}</p>
+                                            <div style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>
                                                 <img src='../assets/star.png' style={{ position: 'absolute', marginLeft: '100px', marginTop: '8px' }}></img>
                                                 <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px' }}>{allResto5.sub2}</p>
                                                 <p style={{ fontSize: '14.2675px', color: '#000000', lineHeight: '30px', margin: '0px', padding: '0px', position: 'relative', marginLeft: '120px', marginTop: '-30px' }}>{allResto5.sub3}</p>
@@ -712,9 +712,9 @@ const FoodPage = () => {
             </div> */}
 
 
-            <div style={{display:'flex',position:'relative'}}>
+            <div style={{ display: 'flex', position: 'relative' }}>
 
-                <div  style={{position:'absolute'}}><div class="arrow-right"> <p style={{marginLeft:'-65px',color:'white',marginBottom:'30px'}}>New</p></div></div>
+                <div style={{ position: 'absolute' }}><div class="arrow-right"> <p style={{ marginLeft: '-65px', color: 'white', marginBottom: '30px' }}>New</p></div></div>
             </div>
 
         </div>
@@ -723,15 +723,15 @@ const FoodPage = () => {
 
 ReactDOM.render(
     <React.StrictMode>
-      <BrowserRouter>
-        <FoodPage />
-      </BrowserRouter>
+        <BrowserRouter>
+            <FoodPage />
+        </BrowserRouter>
     </React.StrictMode>,
     document.getElementById('food')
-  );
-  
-  // Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
-  // Learn more: https://www.snowpack.dev/concepts/hot-module-replacement
-  if (import.meta.hot) {
+);
+
+// Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
+// Learn more: https://www.snowpack.dev/concepts/hot-module-replacement
+if (import.meta.hot) {
     import.meta.hot.accept();
   }

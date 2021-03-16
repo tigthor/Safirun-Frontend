@@ -830,6 +830,7 @@ padding: 20px;
 }
 
 .ProductCard_MainTitle {
+<<<<<<< HEAD
   padding-left: 10px;
 }
 
@@ -1030,4 +1031,42 @@ padding: 20px;
   -moz-transform: translateY(-7px);
   -ms-transform: translateY(-7px);
   -o-transform: translateY(-7px);
+=======
+    padding-left: 10px;
+}
+
+.ProductCard_Description {
+   padding-left: 10px; 
+}
+
+.ProductCard_Additional_Info {
+    padding-left: 10px;
+    display: flex;
+    position: relative 
+}
+
+.ProductCard_Additional_Info_ratings {
+    display: flex;
+    justify-items: auto;
+    justify-content: space-between;
+    position: absolute;
+    left: 120px;
+    /* margin: 5px; */
+}
+
+.BestSelling_Items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 216px;
+}
+
+.BestSelling {
+    max-width: 1440px;
+    max-height: 3000px;
+    align-items: center;
+    justify-items: center;
+>>>>>>> fbc0b05 (All necesary files)
 }
