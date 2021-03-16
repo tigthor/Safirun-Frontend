@@ -23,10 +23,10 @@ const Footer = () => {
           >
             <img src={apple} style={{
                 // marginLeft: '10px',
-                  backgroundColor: 'black',
-                  color: 'black',
-                  borderColor: 'black',
-                  borderRadius: '80px',
+                  // backgroundColor: 'black',
+                  // color: 'black',
+                  // borderColor: 'black',
+                  // borderRadius: '80px',
                   height: '50px',
                   width: '50px'
                   
@@ -35,10 +35,10 @@ const Footer = () => {
               src={google}
               style={{ 
                   marginLeft: '10px',
-                  backgroundColor: 'black',
-                  color: 'black',
-                  borderColor: 'black',
-                  borderRadius: '80px',
+                  // backgroundColor: 'black',
+                  // color: 'black',
+                  // borderColor: 'black',
+                  // borderRadius: '80px',
                   height: '50px',
                   width: '50px'
                }}
