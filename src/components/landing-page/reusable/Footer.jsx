@@ -27,20 +27,20 @@ const Footer = () => {
                   // color: 'black',
                   // borderColor: 'black',
                   // borderRadius: '80px',
-                  height: '50px',
-                  width: '50px'
+                  height: '150px',
+                  width: '150px'
                   
             }}></img>
             <img
               src={google}
               style={{ 
                   marginLeft: '10px',
-                  // backgroundColor: 'black',
+                  backgroundColor: 'black',
                   // color: 'black',
                   // borderColor: 'black',
                   // borderRadius: '80px',
-                  height: '50px',
-                  width: '50px'
+                  height: '150px',
+                  width: '150px'
                }}
             ></img>
           </div>
