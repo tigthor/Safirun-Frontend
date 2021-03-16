@@ -2,7 +2,7 @@ const merchant_navbar = () => {
     return (
         <div>
             <div>
-                <img src=''></img>
+                
             </div>
         </div>
     )

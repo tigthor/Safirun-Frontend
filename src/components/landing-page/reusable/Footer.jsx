@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Divider, Card, Input, Space, Row, Col } from 'antd';
 import apple from '../../../assets/apple2.png';
-import google from '../../../assets/googleplay.png'
+import google from '../../../assets/pics/googlepaly.png'
 
 const Footer = () => {
   return (
@@ -18,30 +18,35 @@ const Footer = () => {
               display: 'flex',
               justifyContent: 'space-between',
               marginRight: '250px',
-              marginTop: '50px',
+              justifyItems: 'baseline',
+              // marginTop: '50px',
             }}
           >
-            <img src={apple} style={{
+            <img
+              src={apple}
+              style={{
                 // marginLeft: '10px',
-                  // backgroundColor: 'black',
-                  // color: 'black',
-                  // borderColor: 'black',
-                  // borderRadius: '80px',
-                  height: '150px',
-                  width: '150px'
-                  
-            }}></img>
+                // backgroundColor: 'black',
+                // color: 'black',
+                // borderColor: 'black',
+                // borderRadius: '80px',
+
+                height: '150px',
+                width: '150px',
+              }}
+            ></img>
             <img
               src={google}
-              style={{ 
-                  marginLeft: '10px',
-                  backgroundColor: 'black',
-                  // color: 'black',
-                  // borderColor: 'black',
-                  // borderRadius: '80px',
-                  height: '150px',
-                  width: '150px'
-               }}
+              style={{
+                marginLeft: '10px',
+                backgroundColor: 'black',
+                // color: 'black',
+                // borderColor: 'black',
+                // borderRadius: '80px',
+                height: '80px',
+                width: '150px',
+                marginTop: '30px',
+              }}
             ></img>
           </div>
         </div>
