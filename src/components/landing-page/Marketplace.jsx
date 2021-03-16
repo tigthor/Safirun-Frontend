@@ -7,31 +7,37 @@ const Marketplace = () => {
       url: '../../assets/food1.png',
       text: 'FOOD',
       backgroudColor: '#C2773C',
+      href: 'food'
     },
     {
       url: '../../assets/drinks2.png',
       text: 'DRINKS',
       backgroudColor: '#813F5A',
+      href: 'drinks'
     },
     {
       url: '../../assets/GROCERIES2.png',
       text: 'GROCERIES',
       backgroudColor: '#589D16',
+      href: 'groceries'
     },
     {
       url: '../../assets/PHARMACY-ESSENTIALS2.png',
       text: 'PHARMACY & ESSENTIALS',
       backgroudColor: '#3F85B8',
+      href: 'pharmacy'
     },
     {
       url: '../../assets/FLORIST2.png',
       text: 'FLORIST',
       backgroudColor: '#AB2B1A',
+      href: 'florist'
     },
     {
       url: '../../assets/UTILITIES2.png',
       text: 'UTILITIES',
       backgroudColor: '#004CE7',
+      href: 'utilities'
     },
   ];
   return (
@@ -82,7 +88,11 @@ const Marketplace = () => {
                 lineHeight: '57px',
               }}
             >
-              {data.text}
+                <a href={data.href} style={{
+                    textDecoration: 'none',
+                    color: '#FFFFFF'
+                }}>
+              {data.text}</a>
             </p>
           </div>
         ))}
