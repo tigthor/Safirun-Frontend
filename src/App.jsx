@@ -2,7 +2,7 @@ import './App.css';
 import Homepage from './components/Landingpage';
 import React from "react"
 import { render } from "react-dom"
-import { Router, Link } from "@reach/router"
+import { Router, Link } from "@reach/router";
 
 let Home = () => <div>Home</div>
 let Dash = () => <div>Dash</div>

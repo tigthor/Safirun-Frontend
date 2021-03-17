@@ -1,5 +1,4 @@
 import React from 'react';
-import Florist from '../../../assets/Florist1.png'
 
 const ChooseFlorist = ({ locations }) => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Row, Col, Image, Layout } from 'antd';
+import { Card, Row, Col, Image, Layout, Space } from 'antd';
 import star from '../../../../public/Star.png';
 import Flower1 from '../../../../public/assets/Flower1.png';
 import Flower2 from '../../../../public/assets/Flower2.png';

@@ -42,7 +42,7 @@ const Page = () => {
     },
     {
       id: 3,
-      floristImage: '../../assets/Florist3',
+      floristImage: 'assets/Florist3',
       floristName: 'Ifeza Florist',
       floristLocation: '(Kigali, Kigali, Rwanda)',
     },
@@ -56,7 +56,7 @@ const Page = () => {
         <MostPopular />
         <FloraMidSection details={pageDetails[0]}/>
         <ChooseFlorist locations={floristLoc}/>
-        <FLoraMidSection details={pageDetails[1]} />
+        <FloraMidSection details={pageDetails[1]} />
         <Footer />
       </Space>
     </div>
