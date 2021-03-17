@@ -929,6 +929,17 @@ h6.light,
   -o-border-radius: 20px;
 }
 
+.Products_AdSection_MainText_Button:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #ffff;
+  color: #000;
+  -webkit-transform: translateY(-7px);
+  -moz-transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -o-transform: translateY(-7px);
+}
+
 .FloraMidSection_MainText {
   background-image: url('GetWell.png') ;
   height: 477px;
@@ -979,7 +990,7 @@ h6.light,
 .FloraMidSection_MainText_Button:hover {
   transform: translateY(-7px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  background-color: #cccc;
+  background-color: #ff5a9f;
   -webkit-transform: translateY(-7px);
   -moz-transform: translateY(-7px);
   -ms-transform: translateY(-7px);
@@ -990,6 +1001,30 @@ h6.light,
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-
+  justify-content: space-evenly;
+  max-width: 1440px;
 }
 
+.ChooseFloristCard {
+  box-shadow: 1px 1px 6px 0px rgba(73, 67, 67, 0.2);
+  border-radius: 10px;
+}
+
+.ChooseFloristCard_Image {
+  height: 157px;
+  width: 312.35px;
+}
+
+.ChooseFloristCard_Text {
+  text-align: center;
+}
+
+.ChooseFloristCard:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #ff5a9f;
+  -webkit-transform: translateY(-7px);
+  -moz-transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -o-transform: translateY(-7px);
+}

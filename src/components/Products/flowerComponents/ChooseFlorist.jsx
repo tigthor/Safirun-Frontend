@@ -1,18 +1,23 @@
 import React from 'react';
+import { Card, Space } from 'antd';
 
 const ChooseFlorist = ({ Locations }) => {
   return (
     <div>
+    <Space size='small' direction='vertical'>
       <h1>Choose A Florist</h1>
       <div className='ChooseFlorist'>
         {Locations.map((Location) => (
-          <div key={location.id}>
-            <img src={Location.floristImage} />
-            <h3>{location.floristName}</h3>
-            <p>{location.floristLocation}</p>
-          </div>
+          <Card key={location.id} className='ChooseFloristCard'>
+            <img src={Location.floristImage} className='ChooseFloristCard_Image'/>
+            <div className='ChooseFloristCard_Text'>
+            <h3>{Location.floristName}</h3>
+            <p>{Location.floristLocation}</p>
+            </div>
+          </Card>
         ))}
       </div>
+      </Space>
     </div>
   );
 };
