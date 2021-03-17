@@ -30,19 +30,19 @@ const Page = () => {
   const [floristLoc, setFloristLoc] = useState([
     {
       id: 1,
-      floristImage: '../../assets/Florist1',
+      floristImage: '../../assets/Florist1.png',
       floristName: 'Aroma FLorists',
       floristLocation: '(Kigali, Kigali, Rwanda)',
     },
     {
       id: 2,
-      floristImage: '../../assets/Florist2',
+      floristImage: '../../assets/Florist2.png',
       floristName: 'JM Flowers',
       floristLocation: '(Kigali, Kigali, Rwanda)',
     },
     {
       id: 3,
-      floristImage: 'assets/Florist3',
+      floristImage: '../../assets/Florist3.png',
       floristName: 'Ifeza Florist',
       floristLocation: '(Kigali, Kigali, Rwanda)',
     },
@@ -54,8 +54,8 @@ const Page = () => {
         <AdSection />
         <BestSelling />
         <MostPopular />
-        <FloraMidSection details={pageDetails[0]}/>
-        <ChooseFlorist locations={floristLoc}/>
+        <FloraMidSection details={pageDetails[0]} />
+        <ChooseFlorist Locations={floristLoc} />
         <FloraMidSection details={pageDetails[1]} />
         <Footer />
       </Space>

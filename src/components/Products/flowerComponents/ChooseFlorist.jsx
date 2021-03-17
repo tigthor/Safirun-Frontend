@@ -1,13 +1,13 @@
 import React from 'react';
 
-const ChooseFlorist = ({ locations }) => {
+const ChooseFlorist = ({ Locations }) => {
   return (
     <div>
       <h1>Choose A Florist</h1>
       <div>
-        {locations.map((location) => (
+        {Locations.map((Location) => (
           <div key={location.id}>
-            <img src={location.floristImage} />
+            <img src={Location.floristImage} />
             <h3>{location.floristName}</h3>
             <p>{location.floristLocation}</p>
           </div>

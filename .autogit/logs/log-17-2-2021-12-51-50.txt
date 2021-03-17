@@ -1,0 +1,24 @@
+-------------------- Auto-Git Log --------------------
+		Wed Mar 17 2021 12:51:50 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* public/assets/FLORIST2.png
+* src/App.jsx
+* src/components/Products/FlowerPage.jsx
+* src/components/Products/flowerComponents/ChooseFlorist.jsx
+* src/components/Products/flowerComponents/MostPopular.jsx
+
+
+Created files:
+* .autogit/logs/log-17-2-2021-12-16-2.txt
+
+
+Deleted files:
+* src/assets/Florist2.png
+* src/components/Products/FlowerPage2.jsx
+
+
+Renamed files:
+* [object Object]
+* [object Object]
