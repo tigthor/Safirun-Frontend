@@ -43,7 +43,7 @@ const Footer = () => {
                 // color: 'black',
                 // borderColor: 'black',
                 // borderRadius: '80px',
-                height: '80px',
+                height: '85px',
                 width: '150px',
                 marginTop: '30px',
               }}
