@@ -4,7 +4,7 @@ const ChooseFlorist = ({ Locations }) => {
   return (
     <div>
       <h1>Choose A Florist</h1>
-      <div>
+      <div className='ChooseFlorist'>
         {Locations.map((Location) => (
           <div key={location.id}>
             <img src={Location.floristImage} />

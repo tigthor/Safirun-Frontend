@@ -16,11 +16,11 @@ const FloraMidSection = ({ details }) => {
       }}
     >
       <Space size="large" direction="vertical">
-        <h3 className="GetWell_AdSection_MainText_Title">{details.title}</h3>
-        <p className="GetWell_AdSection_MainText_Description">
+        <h3 className="FloraMidSection_MainText_Title">{details.title}</h3>
+        <p className="FloraMidSection_MainText_Description">
           {details.description}
         </p>
-        <button className="GetWell_AdSection_MainText_Button">ORDER NOW</button>
+        <button className="FloraMidSection_MainText_Button">ORDER NOW</button>
       </Space>
     </div>
   );

@@ -929,7 +929,7 @@ h6.light,
   -o-border-radius: 20px;
 }
 
-.GetWell_AdSection_MainText {
+.FloraMidSection_MainText {
   background-image: url('GetWell.png') ;
   height: 477px;
   max-width: 1440px;
@@ -940,19 +940,19 @@ h6.light,
   flex-direction: column;
 }
 
-.GetWell_AdSection_MainText_Title {
+.FloraMidSection_MainText_Title {
   font-weight: 600;
   font-size: 30px;
   color: #ffff
 }
 
-.GetWell_AdSection_MainText_Description {
+.FloraMidSection_MainText_Description {
   color: #ffff;
   font-weight: 600;
   font-size: 16px;
 }
 
-.GetWell_AdSection_MainText_Button {
+.FloraMidSection_MainText_Button {
   color: #ffff;
   font-weight: 600;
   font-size: 16px;
@@ -966,3 +966,30 @@ h6.light,
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+
+.FloraMidSection_MainText_Button {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+}
+
+.FloraMidSection_MainText_Button:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #cccc;
+  -webkit-transform: translateY(-7px);
+  -moz-transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -o-transform: translateY(-7px);
+}
+
+.ChooseFlorist {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-
+}
+
