@@ -734,4 +734,4 @@ ReactDOM.render(
 // Learn more: https://www.snowpack.dev/concepts/hot-module-replacement
 if (import.meta.hot) {
     import.meta.hot.accept();
-}
+  }
