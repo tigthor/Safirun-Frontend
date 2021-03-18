@@ -9,13 +9,13 @@ import Peoplesay from './landing-page/Peoplepanel';
 import Onmenu from './landing-page/Whatsonmenu';
 import Favresto from './landing-page/FavResto';
 import Whysafi from './landing-page/Whysafirun';
-import { BrowserRouter as Router } from 'react-router-dom';
+// import { BrowserRouter as Router } from 'react-router-dom';
 import { Space } from 'antd'
 
 
 const Homepage = () => {
     return (
-        <Router>
+        // <Router>
             <div className="landing_page">
                 <Space direction="vertical" size="large">
                     <Firstscreen />
@@ -29,7 +29,7 @@ const Homepage = () => {
                     <Footer />
                 </Space>
             </div>
-        </Router>
+        // </Router>
     );
 };
 

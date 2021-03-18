@@ -1,10 +1,5 @@
 import React from 'react';
 import { Card, Row, Col, Image, Layout, Space } from 'antd';
-import star from '../../../../public/Star.png';
-import Flower1 from '../../../../public/assets/Flower1.png';
-import Flower2 from '../../../../public/assets/Flower2.png';
-import Flower3 from '../../../../public/assets/Flower3.png';
-import Flower4 from '../../../../public/assets/Flower4.png';
 
 const FloristData = [
   {
@@ -63,7 +58,7 @@ const MostPopular = () => {
                     <div className="ProductCard_Additional_Info_ratings">
                       <img
                         className="ProductCard_Additional_Info_ratings_star"
-                        src={star}
+                        src='Star.png'
                       />
                       <p className="ProductCard_Additional_Info_ratings_txt">
                         {data.infoRatingsText}

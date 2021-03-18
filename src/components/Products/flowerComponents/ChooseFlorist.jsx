@@ -8,7 +8,7 @@ const ChooseFlorist = ({ Locations }) => {
       <h1>Choose A Florist</h1>
       <div className='ChooseFlorist'>
         {Locations.map((Location) => (
-          <Card key={location.id} className='ChooseFloristCard'>
+          <Card key={Location.id} className='ChooseFloristCard'>
             <img src={Location.floristImage} className='ChooseFloristCard_Image'/>
             <div className='ChooseFloristCard_Text'>
             <h3>{Location.floristName}</h3>

@@ -6,7 +6,7 @@ const Favresto = () => {
         <div style={{ marginRight: '200px', marginTop: '150px' }}>
           <Space direction="vertical" size="middle">
             <h3
-              class="fontF"
+              className="fontF"
               style={{
                 textAlign: 'left',
                 fontStyle: 'normal',

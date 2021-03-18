@@ -1,18 +1,17 @@
 import React from 'react';
-import MainPic from '../../../assets/FlowerMainHeadPic.png';
 import { Button, Space } from 'antd';
 
-const AdSection = () => {
+const AdSection = ({details}) => {
   return (
     <div className="Products_AdSection">
-      <img src={MainPic} className="Products_AdSection_MainPic" />
+      <img src={details.MainPic} className="Products_AdSection_MainPic" />
       <div className="Products_AdSection_MainText">
         <Space size="large" direction="vertical">
           <h3 className="Products_AdSection_MainText_Title">
-            Flowers at your doorstep
+            {details.MainTitle}
           </h3>
           <p className="Products_AdSection_MainText_Description">
-            Order flowers to your loved one for special occasions
+            {details.MainDescription}
           </p>
           <button className="Products_AdSection_MainText_Button">
             ORDER NOW

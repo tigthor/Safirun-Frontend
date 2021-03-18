@@ -9,14 +9,7 @@ import {
   Col,
   Typography,
 } from 'antd';
-import twitter from '../../assets/pics/twitter_ico.png';
 import { motion } from 'framer-motion';
-import food from '../../assets/pictures/Food.png';
-import mark from '../../assets/pics/Mrmark.png';
-import mason from '../../assets/pics/Mrmason.png';
-import ma from '../../assets/pics/Mrna.png';
-import hans from '../../assets/pics/hans-eiskonen.jpg';
-import jane from '../../assets/pics/Missjane.png';
 import Connect from './reusable/connectWithus';
 
 const Peoplepanel = () => {
@@ -47,7 +40,7 @@ const Peoplepanel = () => {
                         delay: 19,
                       }}
                     >
-                      <img src={mark} alt="" />
+                      <img src='assets/pics/Mrmark.png' alt="" />
                       <Typography
                         style={{
                           position: 'relative',
@@ -58,7 +51,7 @@ const Peoplepanel = () => {
                           points required to get $20 off @safirun is probably
                           not normal. Alex
                         </p>
-                        <img src={twitter} class="icon-twitter-bird"></img>
+                        <img src='assets/pics/twitter_ico.png' className="icon-twitter-bird"></img>
                       </Typography>
                     </motion.div>
                   </Card>
@@ -75,7 +68,7 @@ const Peoplepanel = () => {
                         delay: 7,
                       }}
                     >
-                      <img src={mason} alt="" />
+                      <img src='assets/pics/Mrmason.png' alt="" />
                       <Typography
                         style={{
                           position: 'relative',
@@ -85,7 +78,7 @@ const Peoplepanel = () => {
                           Just convinced myself that it's "too late" to do
                           dishes so safirun it is. David
                         </p>
-                        <img src={twitter} class="icon-twitter-bird"></img>
+                        <img src='assets/pics/twitter_ico.png' className="icon-twitter-bird"></img>
                       </Typography>
                     </motion.div>
                   </Card>
@@ -102,7 +95,7 @@ const Peoplepanel = () => {
                         delay: 5,
                       }}
                     >
-                      <img src={ma} alt="" />
+                      <img src='assets/pics/Mrna.png' alt="" />
                       <Typography
                         style={{
                           position: 'relative',
@@ -112,7 +105,7 @@ const Peoplepanel = () => {
                           Just convinced myself that it's "too late" to do
                           dishes so safirun it is. David
                         </p>
-                        <img src={twitter} class="icon-twitter-bird"></img>
+                        <img src='assets/pics/twitter_ico.png' className="icon-twitter-bird"></img>
                       </Typography>
                     </motion.div>
                   </Card>
@@ -139,7 +132,7 @@ const Peoplepanel = () => {
                         delay: 7,
                       }}
                     >
-                      <img src={jane} alt="" />
+                      <img src='assets/pics/Missjane.png' alt="" />
                       <Typography
                         style={{
                           position: 'relative',
@@ -150,7 +143,7 @@ const Peoplepanel = () => {
                           points required to get $20 off @safirun is probably
                           not normal. Alex
                         </p>
-                        <img src={twitter} class="icon-twitter-bird"></img>
+                        <img src='assets/pics/twitter_ico.png' className="icon-twitter-bird"></img>
                       </Typography>
                     </motion.div>
                   </Card>
@@ -185,7 +178,7 @@ const Peoplepanel = () => {
                         delay: 14,
                       }}
                     >
-                      <img src={ma} alt="" />
+                      <img src='assets/pics/Mrna.png' alt="" />
                       <Typography
                         style={{
                           position: 'relative',
@@ -195,7 +188,7 @@ const Peoplepanel = () => {
                           Just convinced myself that it's "too late" to do
                           dishes so safirun it is. David
                         </p>
-                        <img src={twitter} class="icon-twitter-bird"></img>
+                        <img src='assets/pics/twitter_ico.png' className="icon-twitter-bird"></img>
                       </Typography>
                     </motion.div>
                   </Card>

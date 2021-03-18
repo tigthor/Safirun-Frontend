@@ -1,7 +1,5 @@
 import React from 'react';
 import { MdArrowForward } from 'react-icons/md';
-import Arrow from '../../assets/pictures/right-arrow-solid-square-button.png';
-import location from '../../assets/pictures/location.png';
 import { Button, Input, Space } from 'antd';
 
 const Readyorder = () => {
@@ -63,12 +61,12 @@ const Readyorder = () => {
                                             left: '-2.5px',
                                             bottom: '-3.5px',
                                         }}
-                                        src={Arrow}
+                                        src='assets/pictures/right-arrow-solid-square-button.png'
                                     />
                                 }
                             ></Button>
                             <img
-                                src={location}
+                                src='assets/pictures/location.png'
                                 style={{
                                     position: 'absolute',
                                     left: '110px',

@@ -77,7 +77,7 @@ const Values = [
                 {
                     Data.map(data => (
                         <div className='foodchil3'>
-                            <img class='foodchil3pic' src={data.url}></img>
+                            <img className='foodchil3pic' src={data.url}></img>
                             <p foodchil3text>{data.text}</p>
                         </div>
                     ))
@@ -86,7 +86,7 @@ const Values = [
   
             <div>
             <div className='drinkChil2'>
-               <div class='drinkChil1'>
+               <div className='drinkChil1'>
               <p>Bottle of <br></br>perfection </p>
               <p>Drink Responsiility</p>
               <p style={{ border: '2px solid white', borderRadius: '20px', width: '100px' }}>order Now</p>
@@ -117,9 +117,7 @@ const Values = [
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
       <Drinks />
-    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('drink')
 );

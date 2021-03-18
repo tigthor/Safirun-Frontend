@@ -1,7 +1,5 @@
 import React from 'react';
 import { Button, Divider, Card, Input, Space, Row, Col } from 'antd';
-import apple from '../../../assets/apple2.png';
-import google from '../../../assets/pics/googlepaly.png'
 
 const Footer = () => {
   return (
@@ -9,7 +7,7 @@ const Footer = () => {
       <div className="footerChil1">
         <div style={{ marginRight: '500px', marginTop: '50px' }}>
           <img
-            src="../assets/Safirun-logo.png"
+            src="assets/Safirun-logo.png"
             style={{ marginLeft: '-400px' }}
           />
           <br></br>
@@ -23,26 +21,17 @@ const Footer = () => {
             }}
           >
             <img
-              src={apple}
+              src='assets/apple2.png'
               style={{
-                // marginLeft: '10px',
-                // backgroundColor: 'black',
-                // color: 'black',
-                // borderColor: 'black',
-                // borderRadius: '80px',
-
                 height: '150px',
                 width: '150px',
               }}
             ></img>
             <img
-              src={google}
+              src='assets/pics/googlepaly.png'
               style={{
                 marginLeft: '10px',
                 backgroundColor: 'black',
-                // color: 'black',
-                // borderColor: 'black',
-                // borderRadius: '80px',
                 height: '85px',
                 width: '150px',
                 marginTop: '30px',

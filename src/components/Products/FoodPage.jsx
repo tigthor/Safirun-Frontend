@@ -406,7 +406,7 @@ const FoodPage = () => {
                 {
                     Data.map(data => (
                         <div className='foodchil3'>
-                            <img class='foodchil3pic' src={data.url}></img>
+                            <img className='foodchil3pic' src={data.url}></img>
                             <p foodchil3text>{data.text}</p>
                         </div>
                     ))
@@ -714,7 +714,7 @@ const FoodPage = () => {
 
             <div style={{ display: 'flex', position: 'relative' }}>
 
-                <div style={{ position: 'absolute' }}><div class="arrow-right"> <p style={{ marginLeft: '-65px', color: 'white', marginBottom: '30px' }}>New</p></div></div>
+                <div style={{ position: 'absolute' }}><div className="arrow-right"> <p style={{ marginLeft: '-65px', color: 'white', marginBottom: '30px' }}>New</p></div></div>
             </div>
 
         </div>
