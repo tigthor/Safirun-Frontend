@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import { MenuOutlined } from '@ant-design/icons'
 import { Space, Card, Row, Col, Radio } from 'antd'
 import { MdArrowForward } from 'react-icons/md';
 import Layout from 'antd/lib/layout/layout';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import ReactDOM from 'react-dom';
 import '../../App.css';
 
 
-const FoodPage = () => {
+export const FoodPage = () => {
     const Data = [
         {
             url: '../assets/Food-1.png',
@@ -721,17 +719,4 @@ const FoodPage = () => {
     );
 }
 
-ReactDOM.render(
-    <React.StrictMode>
-        <BrowserRouter>
-            <FoodPage />
-        </BrowserRouter>
-    </React.StrictMode>,
-    document.getElementById('food')
-);
 
-// Hot Module Replacement (HMR) - Remove this snippet to remove HMR.
-// Learn more: https://www.snowpack.dev/concepts/hot-module-replacement
-if (import.meta.hot) {
-    import.meta.hot.accept();
-  }
