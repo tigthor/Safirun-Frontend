@@ -1,50 +1,11 @@
 import React from 'react';
 import { Card, Row, Col, Image, Layout, Space } from 'antd';
 
-const FloristData = [
-    {
-        key: 1,
-        mainPic: '../assets/Flower1.png',
-        mainTitle: 'Aroma',
-        mainDesc: '$$-Flowers-Delivery',
-        infoTime: '20-30 min',
-        infoRatingsText: '4.2',
-        infoRatingsText2: '(200+)',
-    },
-    {
-        key: 2,
-        mainPic: '../assets/Flower2.png',
-        mainTitle: 'Ifeza',
-        mainDesc: '$$-Flowers-Delivery',
-        infoTime: '20-30 min',
-        infoRatingsText: '4.2',
-        infoRatingsText2: '(200+)',
-    },
-    {
-        key: 3,
-        mainPic: '../assets/Flower3.png',
-        mainTitle: 'JM Flowers',
-        mainDesc: '$$-Flowers-Delivery',
-        infoTime: '20-30 min',
-        infoRatingsText: '4.2',
-        infoRatingsText2: '(200+)',
-    },
-    {
-        key: 4,
-        mainPic: '../assets/Flower4.png',
-        mainTitle: 'Kimironko Market',
-        mainDesc: '$$-Flowers-Delivery',
-        infoTime: '20-30 min',
-        infoRatingsText: '4.2',
-        infoRatingsText2: '(200+)',
-    }
-]
-
-const BestSelling = () => {
+const BestSelling = ({ title,FloristData }) => {
     return (
       <div className="BestSelling">
         <Row align="middle">
-          <h1>Best Selling Flowers</h1>
+          <h1>{title}</h1>
             <Space size="middle" direction="horizontal" className="BestSelling_Items">
               {FloristData.map((data) => (
                 <Card className="oneProductCard" key={data.key}>
