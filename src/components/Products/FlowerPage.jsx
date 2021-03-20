@@ -1,15 +1,12 @@
 import React, { Component, useState } from "react";
-// import { MenuOutlined } from '@ant-design/icons'
-import { Space, Card, Row, Col, Radio } from "antd";
-import BestSelling from "./flowerComponents/BestSelling";
-import MostPopular from "./flowerComponents/MostPopular";
-import AdSection from "./flowerComponents/AdSection";
-import FloraMidSection from "./flowerComponents/FloraMidSection";
+import { Space } from "antd";
+import ProductsAdSection from "./reusable/ProductsAdSection";
+import FloraMidSection from "./reusable/FloraMidSection";
 import ChooseFlorist from "./flowerComponents/ChooseFlorist";
+import FloraCategories from "./reusable/FloraCategories";
 import Footer from "../landing-page/reusable/Footer";
 
 const FlowerPage = () => {
-
   const [itemsData, setItemsData] = useState([
     {
       key: 1,
@@ -88,12 +85,61 @@ const FlowerPage = () => {
     },
   ]);
 
+  const [floraCatStyle, setFloraCatStyle] = useState([
+    {
+      maxWidth: "1440px",
+      alignItems: "center",
+      justifyItems: "center",
+    },
+    {
+      width: "100%",
+      paddingLeft: "calc((100% - 96.5%))",
+    },
+    {
+      width: "100%",
+      paddingLeft: "157px",
+      display: "flex",
+      flexDirection: "row",
+      alignItems: "center",
+      marginRight: "auto",
+      marginLeft: "auto",
+    },
+  ]);
+
+  const [adStyles, setAdStyles] = useState([
+    {
+      backgroundColor: "#ff5a9f",
+      maxHeight: "400px",
+      width: "683px",
+      textAlign: "center",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      flexDirection: "column",
+    },
+    {
+      fontWeight: "600",
+      fontSize: "30px",
+      color: "#ffff",
+    },
+  ]);
+
+  const [pageDivider, setPageDivider] = useState(43);
+
   return (
     <div className="FlowerPage">
-      <Space size="large" direction="vertical">
-        <AdSection details={pageDetails[2]} />
-        <BestSelling title='Best Selling Flowers' FloristData={itemsData}/>
-        <MostPopular title='Most Popular FLowers' FloristData={itemsData}/>
+      <Space size={pageDivider} direction="vertical">
+        <ProductsAdSection details={pageDetails[2]} Styles={adStyles}/>
+        <FloraCategories
+          floraStyles={floraCatStyle}
+          title="Best Selling Flowers"
+          FloristData={itemsData}
+        />
+        <FloraCategories
+          floraStyles={floraCatStyle}
+          title="Most Popular FLowers"
+          FloristData={itemsData}
+        />
         <FloraMidSection details={pageDetails[0]} />
         <ChooseFlorist Locations={floristLoc} />
         <FloraMidSection details={pageDetails[1]} />
