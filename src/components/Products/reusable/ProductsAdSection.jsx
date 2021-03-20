@@ -1,15 +1,13 @@
-import React from 'react';
-import { Button, Space } from 'antd';
+import React from "react";
+import { Button, Space } from "antd";
 
-const AdSection = ({details}) => {
+const ProductsAdSection = ({ details, Styles }) => {
   return (
     <div className="Products_AdSection">
       <img src={details.MainPic} className="Products_AdSection_MainPic" />
-      <div className="Products_AdSection_MainText">
+      <div style={Styles[0]}>
         <Space size="large" direction="vertical">
-          <h3 className="Products_AdSection_MainText_Title">
-            {details.MainTitle}
-          </h3>
+          <h3 style={Styles[1]}>{details.MainTitle}</h3>
           <p className="Products_AdSection_MainText_Description">
             {details.MainDescription}
           </p>
@@ -22,4 +20,4 @@ const AdSection = ({details}) => {
   );
 };
 
-export default AdSection;
+export default ProductsAdSection;
