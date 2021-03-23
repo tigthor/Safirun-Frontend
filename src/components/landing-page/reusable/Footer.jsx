@@ -61,7 +61,7 @@ const Footer = () => {
           link: "",
         },
         {
-          title: "RUBAVE",
+          title: "RUBAVU",
           link: "",
         },
       ],
