@@ -5,6 +5,10 @@ import { MdArrowForward } from 'react-icons/md';
 import Layout from 'antd/lib/layout/layout';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ReactDOM from 'react-dom';
+import Footer from '../../landing-page/reusable/Footer';
+import ProductsNavbar from '../reusable/ProductsNavbar';
+import DiscountPass from '../reusable/DiscountPass';
+
 
 
 const ShopingCategories = () => {
@@ -35,52 +39,7 @@ const ShopingCategories = () => {
         },
     ]
 
-    const Beauty = [
-        {
-            url: '../beauty.png',
-            text: 'Beauty Products',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../beauty.png',
-            text: 'Beauty Products',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../beauty.png',
-            text: 'Beauty Products',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../beauty.png',
-            text: 'Beauty Products',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../beauty.png',
-            text: 'Beauty Products',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../beauty.png',
-            text: 'Beauty Products',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../beauty.png',
-            text: 'Beauty Products',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-    ]
-
-    const Electronics = [
+    const Shop = [
         {
             url: '../shop1-2.png',
             text: 'Flash Drive',
@@ -88,32 +47,20 @@ const ShopingCategories = () => {
             sub2: '5000 RWF'
         },
         {
-            url: '../shop1-2.png',
-            text: 'Flash Drive',
+            url: '../shop2-2.png',
+            text: 'Shoe',
             sub1: 'For Special One',
             sub2: '5000 RWF'
         },
         {
-            url: '../shop1-2.png',
-            text: 'Flash Drive',
+            url: '../shop3-2.png',
+            text: 'TV',
             sub1: 'For Special One',
             sub2: '5000 RWF'
         },
         {
-            url: '../shop1-2.png',
-            text: 'Flash Drive',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop1-2.png',
-            text: 'Flash Drive',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop1-2.png',
-            text: 'Flash Drive',
+            url: '../shop4-2.png',
+            text: 'Blender',
             sub1: 'For Special One',
             sub2: '5000 RWF'
         },
@@ -125,273 +72,206 @@ const ShopingCategories = () => {
         },
     ]
 
-    const Shoes = [
-        {
-            url: '../shop2-2.png',
-            text: 'Shoes',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop2-2.png',
-            text: 'Shoes',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop2-2.png',
-            text: 'Shoes',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop2-2.png',
-            text: 'Shoes',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop2-2.png',
-            text: 'Shoes',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop2-2.png',
-            text: 'Shoes',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop2-2.png',
-            text: 'Shoes',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-    ]
 
-    const TV = [
-        {
-            url: '../shop3-2.png',
-            text: 'TV',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop3-2.png',
-            text: 'TV',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop3-2.png',
-            text: 'TV',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop3-2.png',
-            text: 'TV',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop3-2.png',
-            text: 'TV',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop3-2.png',
-            text: 'TV',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop3-2.png',
-            text: 'TV',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-    ]
-
-    const HomeAppliance = [
-        {
-            url: '../shop4-2.png',
-            text: 'HomeAppliance',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop4-2.png',
-            text: 'HomeAppliance',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop4-2.png',
-            text: 'HomeAppliance',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop4-2.png',
-            text: 'HomeAppliance',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop4-2.png',
-            text: 'HomeAppliance',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop4-2.png',
-            text: 'HomeAppliance',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-        {
-            url: '../shop4-2.png',
-            text: 'HomeAppliance',
-            sub1: 'For Special One',
-            sub2: '5000 RWF'
-        },
-    ]
-
+    const { Sider } = Layout;
     return (
         <div>
-        <div>
+        <div style={{backgroundColor:'#E5E5E5'}}>
 
-            <div className='shop3chil2'>
-                <p className='foodchil2'>Free Delively +10% Off With SafiRun Pass</p>
-            </div>
+        <Space size="large" direction="vertical">
+                <ProductsNavbar />
+                <DiscountPass />
+            </Space>
 
-           
             <div style={{ display: 'flex', position: 'relative' }}>
-                <div className='shop3chil3'>
-                    <img src='../shop3-1.png' className='shop3chil3' />
-                    <h1 className='shop3chil1'>Shop With Us</h1>
+                <div className='shop2chil2'>
+                    <img src='../shopB.png' className='shop2chil2' />
+                    <h1 className='shop2chil1'>Kigali Electronics</h1>
 
                 </div>
 
             </div>
 
-        
-            <div style={{ marginLeft: '30px', marginRight: '60px', backgroundColor:'#E5E5E5' }}>
-        <div style={{backgroundColor:'white'}}>
-          <div className='drinkChil10'>
-            <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Beauty</h1>
-            <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px' }} />
-          </div>
-          <div className='drinkChil5'>
-            {
-              Beauty.map(beauty => (
-                <div className='drinkChil8'>
-                  <div style={{ position: 'relative' }}>
-                    <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
-                    <img src={beauty.url}></img>
-                  </div>
+            <div className='shop2chil6'>
 
-                  <p>{beauty.text}</p>
-                  <p>{beauty.sub1}</p>
-                  <p>{beauty.sub2}</p>
+                <div className='shop2chil7'>
+
+                    <p style={{ fontWeight: 'bold' }}>Shopping-Delively</p>
+                    <div className='shop2chil9'>
+                        <p style={{ marginLeft: '10px' }}>1234 KG24 Nyarugenge District,Kigali,Rwanda</p>
+                        <img src='../Location1.png' style={{ position: 'absolute', width: '20px', height: '20px', marginLeft: '-10px' }}></img>
+                    </div>
                 </div>
-              ))
-            }
-          </div></div>
 
-        <div style={{backgroundColor:'white'}}>
-          <div className='drinkChil10'>
-            <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Electronics</h1>
-            <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px' }} />
-          </div>
-          <div className='drinkChil5'>
-            {
-              Electronics.map(electronics => (
-                <div className='drinkChil8'>
-                  <div style={{ position: 'relative' }}>
-                    <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
-                    <img src={electronics.url}></img>
-                  </div>
-
-                  <p>{electronics.text}</p>
-                  <p>{electronics.sub1}</p>
-                  <p>{electronics.sub2}</p>
+                <div className='shop2chil8'>
+                    <div className='shop2chil10'>
+                        <p style={{}}><b>Sunday</b>:11AM-9PM <b>Monday-Friday</b>:11AM-9PM</p>
+                        <img src='../Location2.png' style={{ position: 'absolute', width: '20px', height: '20px', marginLeft: '-25px' }}></img>
+                    </div>
+                    <p style={{}}><b>Suturday</b>:11AM-9PM</p>
                 </div>
-              ))
-            }
-          </div></div>
 
-        <div style={{backgroundColor:'white'}}>
-          <div className='drinkChil10'>
-            <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Shoes</h1>
-            <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px' }} />
-          </div>
-          <div className='drinkChil5'>
-            {
-              Shoes.map(shoes => (
-                <div className='drinkChil8'>
-                  <div style={{ position: 'relative' }}>
-                    <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
-                    <img src={shoes.url}></img>
-                  </div>
+            </div>
+            <div className='shop2chil3'>
+                <Layout className='shop2chil4'>
+                    <div>
+                        <Space size='medium' direction='vertical'>
+                            <Col style={{ marginLeft: '20px' }}>FILTER BY<br></br><br></br>
+                                <Space size='middle' direction='vertical'>
+                                    <Col style={{ marginLeft: '25px' }}>Sort</Col>
+                                    <Row style={{ fontWeight: 'normal', marginLeft: '30px' }}><Radio>Delivery</Radio></Row>
+                                    <Row><Radio style={{ color: '#2E2929', fontWeight: 'normal', marginLeft: '30px' }}>Sales</Radio></Row>
+                                    <Row><Radio style={{ color: '#2E2929', fontWeight: 'normal', marginLeft: '30px' }}>Special Offers</Radio></Row>
+                                    <Row><Radio style={{ color: '#2E2929', fontWeight: 'normal', marginLeft: '30px' }}>Electronics</Radio></Row>
+                                    <Row><Radio style={{ color: '#2E2929', fontWeight: 'normal', marginLeft: '30px' }}>Fashion</Radio></Row>
+                                    <Row><Radio style={{ color: '#2E2929', fontWeight: 'normal', marginLeft: '30px' }}>TV</Radio></Row>
+                                    <Row><Radio style={{ color: '#2E2929', fontWeight: 'normal', marginLeft: '30px' }}>House Appliances</Radio></Row><br></br>
+                                    <Row><Radio style={{ color: '#2E2929', fontWeight: 'normal', marginLeft: '30px' }}>Bag</Radio></Row>
+                                    <Row><Radio style={{ color: '#2E2929', fontWeight: 'normal', marginLeft: '30px' }}>Furnitures</Radio></Row>
 
-                  <p>{shoes.text}</p>
-                  <p>{shoes.sub1}</p>
-                  <p>{shoes.sub2}</p>
+                                </Space>
+                            </Col>
+
+                        </Space>
+
+                    </div>
+                </Layout>
+                <Layout className='shop2chil5'>
+                    <div className='shop2chil16'>
+                        <div className='shop2chil14'>
+                            <div className='shop2chil12'>
+                                <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Deal of the day</h1>
+                                <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px' }} />
+                            </div>
+                            <div className='shop2chil13'>
+                                {
+                                    Shop.map(shop => (
+                                        <div className='shop2chil15'>
+                                            <div style={{ position: 'relative' }}>
+                                                <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '150px' }}></img>
+                                                <p className='shop2chil17'> 30% off</p>
+                                                <img src={shop.url}></img>
+                                            </div>
+
+                                            <p style={{ fontWeight: 'bold' }}>{shop.text}</p>
+                                            <p style={{}}>{shop.sub1}</p>
+                                            <p style={{ fontWeight: 'bold' }}>{shop.sub2}</p>
+                                        </div>
+                                    ))
+                                }
+                            </div></div>
+
+
+                        <div>
+                            <div className='shop2chil14'>
+                                <div className='shop2chil12'>
+                                    <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Sales</h1>
+                                    <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px' }} />
+                                </div>
+                                <div className='shop2chil13'>
+                                    {
+                                        Shop.map(shop => (
+                                            <div className='shop2chil15'>
+                                                <div style={{ position: 'relative' }}>
+                                                    <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
+                                                    <p className='shop2chil17'> 30% off</p>
+                                                    <img src={shop.url}></img>
+                                                </div>
+
+                                                <p style={{ fontWeight: 'bold' }}>{shop.text}</p>
+                                                <p>{shop.sub1}</p>
+                                                <p style={{ fontWeight: 'bold' }}>{shop.sub2}</p>
+                                            </div>
+                                        ))
+                                    }
+                                </div></div>
+                        </div>
+
+
+                        <div>
+                            <div className='shop2chil14'>
+                                <div className='shop2chil12'>
+                                    <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Most Popular</h1>
+                                    <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px' }} />
+                                </div>
+                                <div className='shop2chil13'>
+                                    {
+                                        Shop.map(shop => (
+                                            <div className='shop2chil15'>
+                                                <div style={{ position: 'relative' }}>
+                                                    <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
+                                                    <p className='shop2chil17'> 30% off</p>
+                                                    <img src={shop.url}></img>
+                                                </div>
+
+                                                <p style={{ fontWeight: 'bold' }}>{shop.text}</p>
+                                                <p>{shop.sub1}</p>
+                                                <p style={{ fontWeight: 'bold' }}>{shop.sub2}</p>
+                                            </div>
+                                        ))
+                                    }
+                                </div></div>
+                        </div>
+
+                    </div>
+                </Layout>
+
+            </div>
+            </div>
+            <div className='shopChill15'>
+                <div className='drink2Chil3'>
+                    <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Shoose a Categories</h1>
+                    <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                 </div>
-              ))
-            }
-          </div></div>
 
-          <div style={{backgroundColor:'white'}}>
-          <div className='drinkChil10'>
-            <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>TV</h1>
-            <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px' }} />
-          </div>
-          <div className='drinkChil5'>
-            {
-              TV.map(tv => (
-                <div className='drinkChil8'>
-                  <div style={{ position: 'relative' }}>
-                    <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
-                    <img src={tv.url}></img>
-                  </div>
+                <div className='drinkChil6'>
 
-                  <p>{tv.text}</p>
-                  <p>{tv.sub1}</p>
-                  <p>{tv.sub2}</p>
+                    <div style={{ position: 'relative' }}>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '100px', fontWeight: 'bold' }}>Beauty</h1>
+                        <img src='../shopCategory1.png'></img>
+                    </div>
+
+                    <div style={{ position: 'relative' }}>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '30px', marginTop: '80px', fontWeight: 'bold' }}>Home Appliances</h1>
+                        <img src='../shopCategory2.png'></img>
+                    </div>
+
+                    <div style={{ position: 'relative' }}>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '60px', marginTop: '80px', fontWeight: 'bold' }}>Shoes</h1>
+                        <img src='../shopCategory3.png'></img>
+                    </div>
+
+                    <div style={{ position: 'relative' }}>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '100px', fontWeight: 'bold' }}>Fashion</h1>
+                        <img src='../shopCategory4.png'></img>
+                    </div>
+
                 </div>
-              ))
-            }
-          </div></div>
 
-          <div style={{backgroundColor:'white'}}>
-          <div className='drinkChil10'>
-            <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Home Appliance</h1>
-            <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px' }} />
-          </div>
-          <div className='drinkChil5'>
-            {
-              HomeAppliance.map(homeAppliance => (
-                <div className='drinkChil8'>
-                  <div style={{ position: 'relative' }}>
-                    <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
-                    <img src={homeAppliance.url}></img>
-                  </div>
+                <div className='drinkChil7'>
 
-                  <p>{homeAppliance.text}</p>
-                  <p>{homeAppliance.sub1}</p>
-                  <p>{homeAppliance.sub2}</p>
+                    <div style={{ position: 'relative' }}>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '100px', fontWeight: 'bold' }}>Phone</h1>
+                        <img src='../shopCategory5.png'></img>
+                    </div>
+
+                    <div style={{ position: 'relative' }}>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '100px', fontWeight: 'bold' }}>Kitchen</h1>
+                        <img src='../shopCategory6.png'></img>
+                    </div>
+
+                    <div style={{ position: 'relative' }}>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '80px', fontWeight: 'bold' }}>Bag</h1>
+                        <img src='../shopCategory7.png'></img>
+                    </div>
+
+                    <div style={{ position: 'relative' }}>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '100px', marginTop: '80px', fontWeight: 'bold' }}>Furniture</h1>
+                        <img src='../shopCategory8.png'></img>
+                    </div>
                 </div>
-              ))
-            }
-          </div></div>
-      </div>
-</div>
-           
+            </div>
+            <Footer />
         </div>
     );
 }

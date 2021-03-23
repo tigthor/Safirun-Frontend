@@ -7,19 +7,19 @@ const Marketplace = () => {
       url: '../../assets/food1.png',
       text: 'FOOD',
       backgroudColor: '#C2773C',
-      href: 'food'
+      href: 'food/home'
     },
     {
       url: '../../assets/drinks2.png',
       text: 'DRINKS',
       backgroudColor: '#813F5A',
-      href: 'drinks'
+      href: 'drinks/home'
     },
     {
       url: '../../assets/GROCERIES2.png',
       text: 'GROCERIES',
       backgroudColor: '#589D16',
-      href: 'groceries'
+      href: 'groceries/home'
     },
     {
       url: '../../assets/PHARMACY-ESSENTIALS2.png',
@@ -108,7 +108,7 @@ const Marketplace = () => {
               
             }}
           />
-          <p
+          <a href='shop/home'
             style={{
               backgroundColor: '#750062',
               width: '1042px',
@@ -122,10 +122,11 @@ const Marketplace = () => {
               left: '-0px',
               height: '57px',
               lineHeight: '57px',
+              textDecoration:'none'
             }}
           >
             SHOPPING
-          </p>
+          </a>
         </div>
       </div>
     </div>

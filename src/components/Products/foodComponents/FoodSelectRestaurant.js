@@ -4,8 +4,10 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import { MdArrowForward } from 'react-icons/md';
 import Layout from 'antd/lib/layout/layout';
-import { Space, Card, Row, Col, Radio } from 'antd'
-
+import { Space, Card, Row, Col, Radio } from 'antd';
+import ProductsNavbar from '../reusable/ProductsNavbar';
+import DiscountPass from '../reusable/DiscountPass';
+import Footer from '../../landing-page/reusable/Footer';
 
 
 const FoodSelectRestaurant = () => {
@@ -19,46 +21,49 @@ const FoodSelectRestaurant = () => {
   ]
   const Text = [
     {
-      text1: 'Chardonnay',
+      text1: 'Most popular',
     },
     {
-      text1: 'Pinot Noir',
+      text1: 'Entrees',
     },
     {
-      text1: 'Meriot',
+      text1: 'Sides',
     },
     {
-      text1: 'port',
+      text1: 'Beverages',
     },
     {
-      text1: 'Rioja',
+      text1: 'BreakFast',
     },
     {
-      text1: 'Phone',
+      text1: 'Chicken',
     },
     {
-      text1: 'Sangria',
+      text1: 'Beef',
     },
     {
-      text1: 'Port',
+      text1: 'SeaFood',
     },
     {
-      text1: 'Rioja',
+      text1: 'MilkShake',
     },
     {
-      text1: 'Phone',
+      text1: 'Fries',
     },
     {
-      text1: 'Sangria',
+      text1: 'Liver',
     },
     {
-      text1: 'Rioja',
+      text1: 'Cakes',
     },
     {
-      text1: 'Phone',
+      text1: 'Juices',
     },
     {
-      text1: 'Sangria',
+      text1: 'Grills',
+    },
+    {
+      text1: 'Family',
     },
   ]
 
@@ -162,11 +167,13 @@ const FoodSelectRestaurant = () => {
 
   return (
     <div>
-      <div className='drink3Chil1'>
-        <p className='drink3Chil3'>Free Delively +10% Off With SafiRun Pass</p>
-      </div>
-      <div className='drink3Chil4'>
-        <img src="../foodSel1.png" className='drink3Chil2' />
+      <Space size="large" direction="vertical">
+                <ProductsNavbar />
+                <DiscountPass />
+
+                </Space>
+      <div className='food2chil7'>
+        <img src="../foodSel1.png" className='food2chil8' />
         <p className='food2chil4'>Camellia Restaurant</p>
         <img src="../food2-1.png" className='food2chil5'/>
         <img src="../food2-2.png" className='food2chil6'/>
@@ -175,24 +182,24 @@ const FoodSelectRestaurant = () => {
       <div className='food2chil3'>
         {
           Text.map(text => (
-            <p className='drink3Chil7'>{text.text1}</p>
+            <p className='food2chil9'>{text.text1}</p>
           ))
         }
       </div>
 
       <div className='food2chil2'>
 
-        <div className='shop2chil7'>
+        <div className='food2chil10'>
 
           <p style={{ fontWeight: 'bold' }}>Shopping-Delively</p>
-          <div className='shop2chil9'>
+          <div className='food2chil11'>
             <p style={{ marginLeft: '10px' }}>1234 KG24 Nyarugenge District,Kigali,Rwanda</p>
             <img src='../Location1.png' style={{ position: 'absolute', width: '20px', height: '20px', marginLeft: '-10px' }}></img>
           </div>
         </div>
 
-        <div className='shop2chil8'>
-          <div className='shop2chil10'>
+        <div className='food2chil12'>
+          <div className='food2chil13'>
             <p style={{}}><b>Sunday</b>:11AM-9PM <b>Monday-Friday</b>:11AM-9PM</p>
             <img src='../Location2.png' style={{ position: 'absolute', width: '20px', height: '20px', marginLeft: '-25px' }}></img>
           </div>
@@ -201,8 +208,8 @@ const FoodSelectRestaurant = () => {
 
       </div>
 
-      <div className='drink3Chil8'>
-        <Layout className='foodchil11'>
+      <div className='food2chil14'>
+        <Layout className='food2chil15'>
           <div>
             <Space size='medium' direction='vertical'>
               <Col>
@@ -230,11 +237,11 @@ const FoodSelectRestaurant = () => {
         <Layout className='food2chil1'>
 
 
-          <div className='fooderChil8'>
+          <div className='food2chil16'>
 
             {
               SpecialOffer.map(special => (
-                <Card className='fooderChil10'>
+                <Card className='food2chil17'>
                   <img src={special.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                   <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
                     <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{special.title}</p>
@@ -253,11 +260,11 @@ const FoodSelectRestaurant = () => {
 
 
 
-          <div className='fooderChil8'>
+          <div className='food2chil16'>
 
             {
               Hurry.map(hurry => (
-                <Card className='fooderChil10'>
+                <Card className='food2chil17'>
                   <img src={hurry.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                   <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
                     <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{hurry.title}</p>
@@ -274,11 +281,11 @@ const FoodSelectRestaurant = () => {
           </div>
 
 
-          <div className='fooderChil8'>
+          <div className='food2chil16'>
 
             {
               Recomended.map(recomended => (
-                <Card className='fooderChil10'>
+                <Card className='food2chil17'>
                   <img src={recomended.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                   <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
                     <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{recomended.title}</p>
@@ -296,7 +303,9 @@ const FoodSelectRestaurant = () => {
 
 
         </Layout>
+      
       </div>
+      <Footer />
     </div>
   )
 }

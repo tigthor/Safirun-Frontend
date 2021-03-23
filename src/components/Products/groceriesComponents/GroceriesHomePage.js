@@ -195,6 +195,8 @@ const GroceriesHomePage = () => {
       <div className='foodchil3'>
         {
           Data.map(data => (
+
+            
             <div className='foodchil3'>
               <img class='foodchil3pic' src={data.url}></img>
               <p foodchil3text>{data.text}</p>

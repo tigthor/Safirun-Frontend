@@ -4,7 +4,10 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import { MdArrowForward } from 'react-icons/md';
 import Layout from 'antd/lib/layout/layout';
-import { Space, Card, Row, Col, Radio } from 'antd'
+import { Space, Card, Row, Col, Radio } from 'antd';
+import ProductsNavbar from '../reusable/ProductsNavbar';
+import DiscountPass from '../reusable/DiscountPass';
+import Footer from '../../landing-page/reusable/Footer'
 
 
 
@@ -263,9 +266,10 @@ import { Space, Card, Row, Col, Radio } from 'antd'
 
   return (
     <div>
-      <div className='drink3Chil1'>
-        <p className='drink3Chil3'>Free Delively +10% Off With SafiRun Pass</p>
-      </div>
+      <Space size="large" direction="vertical">
+                <ProductsNavbar />
+                <DiscountPass />
+            </Space>
       <div className='drink3Chil4'>
         <img src="../RecdWine.png" className='drink3Chil2' />
         <p className='drink3Chil5'>Red Wine</p>
@@ -300,14 +304,14 @@ import { Space, Card, Row, Col, Radio } from 'antd'
 
           <div className='drink3Chil9'>
             <div>
-              <div className='fooderChil9'>
+              <div className='drink3Chil14'>
                 <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-170px', color: '#000000', fontWeight: 'bold' }}>Chardonnay</h1>
                 <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px', marginRight: '50px' }} />
               </div>
               <div style={pageStyles[0]}>
                 {
                   Chardonnay.map(chardonnay => (
-                    <div className='drinkChil8'>
+                    <div className='drink3Chil15'>
                       <div style={{ position: 'relative' }}>
                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                         <img src={chardonnay.url}></img>
@@ -324,14 +328,14 @@ import { Space, Card, Row, Col, Radio } from 'antd'
 
             <br></br><br></br><br></br>
             <div>
-              <div className='fooderChil9'>
+              <div className='drink3Chil14'>
                 <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-170px', color: '#000000', fontWeight: 'bold' }}>Pinot noir</h1>
                 <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px', marginRight: '50px' }} />
               </div>
               <div className='drink3Chil13'>
                 {
                   Pinot.map(pinot => (
-                    <div className='drinkChil8'>
+                    <div className='drink3Chil17'>
                       <div style={{ position: 'relative' }}>
                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                         <img src={pinot.url}></img>
@@ -347,14 +351,14 @@ import { Space, Card, Row, Col, Radio } from 'antd'
             </div>
 
             <br></br><br></br><br></br><div>
-              <div className='fooderChil9'>
+              <div className='drink3Chil14'>
                 <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-170px', color: '#000000', fontWeight: 'bold' }}>Melrot</h1>
                 <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px', marginRight: '50px' }} />
               </div>
               <div className='drink3Chil13'>
                 {
                   Melrot.map(melrot => (
-                    <div className='drinkChil8'>
+                    <div className='drink3Chil18'>
                       <div style={{ position: 'relative' }}>
                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                         <img src={melrot.url}></img>
@@ -371,14 +375,14 @@ import { Space, Card, Row, Col, Radio } from 'antd'
 
             <br></br><br></br><br></br>
             <div>
-              <div className='fooderChil9'>
+              <div className='drink3Chil14'>
                 <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-170px', color: '#000000', fontWeight: 'bold' }}>Port</h1>
                 <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px', marginRight: '50px' }} />
               </div>
               <div className='drink3Chil13'>
                 {
                   Port.map(port => (
-                    <div className='drinkChil8'>
+                    <div className='drink3Chil18'>
                       <div style={{ position: 'relative' }}>
                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                         <img src={port.url}></img>
@@ -394,14 +398,14 @@ import { Space, Card, Row, Col, Radio } from 'antd'
             </div>
             <br></br><br></br><br></br>
             <div>
-              <div className='fooderChil9'>
+              <div className='drink3Chil14'>
                 <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-170px', color: '#000000', fontWeight: 'bold' }}>Rioja</h1>
                 <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px', marginRight: '50px' }} />
               </div>
               <div className='drink3Chil13'>
                 {
                   Rioja.map(rioja => (
-                    <div className='drinkChil8'>
+                    <div className='drink3Chil18'>
                       <div style={{ position: 'relative' }}>
                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                         <img src={rioja.url}></img>
@@ -417,14 +421,14 @@ import { Space, Card, Row, Col, Radio } from 'antd'
             </div>
             <br></br><br></br><br></br>
             <div>
-              <div className='fooderChil9'>
+              <div className='drink3Chil14'>
                 <h1 style={{ fontSize: '26.9px', lineHeight: '40px', color: '#000000', fontWeight: 'bold' }}>Phone</h1>
                 <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px' }} />
               </div>
               <div className='drink3Chil13'>
                 {
                   Phone.map(phone => (
-                    <div className='drinkChil8'>
+                    <div className='drink3Chil18'>
                       <div style={{ position: 'relative' }}>
                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                         <img src={phone.url}></img>
@@ -442,6 +446,7 @@ import { Space, Card, Row, Col, Radio } from 'antd'
           </div>
         </Layout>
       </div>
+      <Footer />
     </div>
   )
 }

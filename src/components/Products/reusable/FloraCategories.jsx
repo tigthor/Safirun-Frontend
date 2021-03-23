@@ -20,7 +20,7 @@ const FloraCategories = ({ title, FloristData, floraStyles }) => {
                   <div className="ProductCard_Additional_Info_ratings">
                     <img
                       className="ProductCard_Additional_Info_ratings_star"
-                      src="Star.png"
+                      src="../../../Star.png"
                     />
                     <p className="ProductCard_Additional_Info_ratings_txt">
                       {data.infoRatingsText}

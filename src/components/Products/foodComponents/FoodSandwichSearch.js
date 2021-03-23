@@ -6,6 +6,9 @@ import Layout from 'antd/lib/layout/layout';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import Footer from '../../landing-page/reusable/Footer'
+import ProductsNavbar from '../reusable/ProductsNavbar';
+import DefaultCatIcons from '../reusable/DefaultCatIcons';
+import DiscountPass from '../reusable/DiscountPass';
 
 
 const FoodSandwichSearch = () => {
@@ -222,53 +225,26 @@ const FoodSandwichSearch = () => {
         }
     ]
 
-    
+
     const { Sider } = Layout;
     return (
         <div class='foodPar'>
 
-            <div className='Header'>
-                <div style={{ display: 'flex', position: 'relative', flexDirection: 'row' }}>
-                    <div style={{ position: 'absolute', marginLeft: '-200px' }}><img src="../assets/image2ico.png" style={{ width: '40px', height: '27px', marginTop: '20px', position: 'absolute', marginLeft: '-30px' }} />
-                        <img src="../assets/SafiRuLoGo2.png" style={{ width: '174px', height: '69px', marginTop: '10px' }} /></div>
-                </div>
-                <div style={{ display: 'flex', position: 'relative', flexDirection: 'row', marginLeft: '-220px' }}>
-                    <p style={{ position: 'relative', width: '91px', height: '47px', left: '300px', top: '34px', backgroundColor: '#000000', borderRadius: '20px', fontSize: '16px', lineHeight: '24px', color: '#FFFFFF', textAlign: 'center', position: 'absolute' }}>Delively</p>
-                    <p style={{ position: 'absolute', width: '281px', height: '47px', left: '350px', top: '34px', backgroundColor: '#E5E5E5', borderRadius: '20px', boxShadow: '0px 0px 4px rgba', textAlign: 'center', position: 'absolute' }}>Dine in       PickUp</p>
-                </div>
-                <div style={{ display: 'flex', position: 'relative', flexDirection: 'row' }}>
-                    <img src="../assets/pin.png" style={{ position: 'relative', width: '29px', height: '25px', marginLeft: '480px', marginTop: '30px', position: 'absolute' }} />
-                    <p style={{ position: 'absolute', width: '531px', height: '47px', left: '700px', top: '34px', backgroundColor: '#E5E5E5', borderRadius: '20px', boxShadow: '0px 0px 4px rgba', textAlign: 'center', position: 'absolute' }}>3rd Floor, Fairview Building. Thu, 25, 2021, 9:00 AM-9:30 AM</p>
-                </div>
-                <div style={{ display: 'flex', position: 'relative', flexDirection: 'row' }}>
-                    <img src="../assets/Search.png" style={{ width: '29px', height: '25px', position: 'absolute' }} />
-                    <img src="../assets/Account.png" style={{ width: '29px', height: '25px', position: 'absolute' }} />
-                    <img src="../assets/ShoppingCart.png" style={{ width: '29px', height: '25px', position: 'absolute' }} />
-                </div>
-            </div>
-            <div className='foodchil1'>
-                <p className='foodchil2'>Free Delively +10% Off With SafiRun Pass</p>
-            </div>
+            <Space size="large" direction="vertical">
+                <ProductsNavbar />
+                <DiscountPass />
+                <DefaultCatIcons />
+            
 
-            <div className='foodchil3'>
-                {
-                    Data.map(data => (
-                        <div className='foodchil3'>
-                            <img class='foodchil3pic' src={data.url}></img>
-                            <p foodchil3text>{data.text}</p>
-                        </div>
-                    ))
-                }
-            </div>
-            <div className='foodchil4'>
+            <div className='food1chil1'>
                 <div><img src='../assets/FoodB.png' style={{ width: '683px', height: '400px' }}></img></div>
-                <div className='foodchil5'>
+                <div className='food1chil2'>
                     <h1>TastFood at your doorStep</h1>
                     <p>Order food from our best restaurants you <br></br> can have a delightful experience</p>
                     <p style={{ border: '2px solid white', borderRadius: '20px', width: '100px', marginLeft: '250px' }}>order Now</p>
                 </div>
             </div>
-            <div className='fooderChil7'>
+            <div className='food1chil3'>
                 {
                     Values.map(values => (
                         <div>
@@ -278,8 +254,8 @@ const FoodSandwichSearch = () => {
                     ))
                 }
             </div>
-            <div className='foodchil12'>
-                <Layout className='foodchil11'>
+            <div className='food1chil4'>
+                <Layout className='food1chil4'>
                     <div>
                         <Space size='medium' direction='vertical'>
                             <Col>
@@ -304,15 +280,15 @@ const FoodSandwichSearch = () => {
 
                     </div>
                 </Layout>
-                <Layout className='foodchil13'>
+                <Layout className='food1chil5'>
                     <div>
-                        
 
-                        <div className='fooderChil8'>
+
+                        <div className='food1chil6'>
 
                             {
                                 Favorite.map(fav => (
-                                    <Card className='fooderChil10'>
+                                    <Card className='food1chil7'>
                                         <img src={fav.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                         <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px' }}>
                                             <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{fav.title}</p>
@@ -332,11 +308,11 @@ const FoodSandwichSearch = () => {
                     </div>
 
 
-                    <div className='fooderChil8'>
+                    <div className='food1chil6'>
 
                         {
                             SpecialOffer.map(special => (
-                                <Card className='fooderChil10'>
+                                <Card className='food1chil7'>
                                     <img src={special.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                     <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
                                         <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{special.title}</p>
@@ -353,12 +329,12 @@ const FoodSandwichSearch = () => {
                         }
                     </div>
 
-                   
-                    <div className='fooderChil8'>
+
+                    <div className='food1chil6'>
 
                         {
                             Popular.map(popular => (
-                                <Card className='fooderChil10'>
+                                <Card className='food1chil7'>
                                     <img src={popular.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                     <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
                                         <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{popular.title}</p>
@@ -374,13 +350,13 @@ const FoodSandwichSearch = () => {
                         }
                     </div>
 
-                    
 
-                    <div className='fooderChil8'>
+
+                    <div className='food1chil6'>
 
                         {
                             Hurry.map(hurry => (
-                                <Card className='fooderChil10'>
+                                <Card className='food1chil7'>
                                     <img src={hurry.url} style={{ width: '242px', height: '150px', marginBottom: '-8px' }}></img>
                                     <div style={{ height: '94px', width: '242px', boxShadow: '0px 0px 11px', display: 'flex', flexDirection: 'column' }}>
                                         <p style={{ lineHeight: '30px', margin: '0px', padding: '0px', marginLeft: '10px' }}>{hurry.title}</p>
@@ -396,14 +372,9 @@ const FoodSandwichSearch = () => {
                         }
                     </div>
 
-                   
+
                 </Layout>
             </div>
-
-            {/* <div>
-                <p className='TriangleShapeCSS'>View</p>
-
-            </div> */}
 
 
             <div style={{ display: 'flex', position: 'relative' }}>
@@ -413,7 +384,7 @@ const FoodSandwichSearch = () => {
             <br></br>
             <footer>
                 <Footer /></footer>
-
+                </Space>
 
         </div>
     );

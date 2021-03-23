@@ -11,11 +11,11 @@ const ProductsNavbar = () => {
     <div className="ProductsNavbar">
       <div className="ProductsNavbar__Categories_logo">
           <img
-            src="assets/categoriesMain.png"
+            src="../../../../assets/categoriesMain.png"
             className="ProductsNavbar__Categories_Icon"
           />
           <img
-            src="assets/SafiOfficialLogo.png"
+            src="../../../../assets/SafiOfficialLogo.png"
             className="ProductsNavbar__Logo"
           />
       </div>
@@ -23,16 +23,16 @@ const ProductsNavbar = () => {
       <Input className="ProductsNavbar_Input" />
       <div className="ProductsNavbar__ForUser">
         <img
-          src="assets/SearchIcon.png"
+          src="../../../../assets/SearchIcon.png"
           className="ProductsNavbar_UserSection"
         />
         <img
-          src="assets/cartIcon.png"
+          src="../../../../assets/cartIcon.png"
           className="ProductsNavbar_UserSection"
           bordered="false"
         />
         <img
-          src="assets/AccountIcon.png"
+          src="../../../../assets/AccountIcon.png"
           className="ProductsNavbar_UserSection"
         />
       </div>

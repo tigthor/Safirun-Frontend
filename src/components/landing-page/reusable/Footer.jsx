@@ -73,15 +73,15 @@ const Footer = () => {
     <Space size='small' direction='vertical'>
       <div className="FooterFirstSection">
         <div className="FooterFirstSection__LogosApps">
-          <img src="assets/Safirun-logo.png" />
+          <img src="../../../assets/Safirun-logo.png" />
           <br></br>
           <div className="FooterAppsSection">
             <img
-              src="assets/apple2.png"
+              src="../../../assets/apple2.png"
               className="FooterAppsSection__AppleStore"
             />
             <img
-              src="assets/pics/googlepaly.png"
+              src="../../../assets/pics/googlepaly.png"
               className="FooterAppsSection__GooglePlay"
             ></img>
           </div>

@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import { MdArrowForward } from 'react-icons/md';
 import { Space } from 'antd'
 import Footer from '../../landing-page/reusable/Footer'
+import ProductsNavbar from '../reusable/ProductsNavbar';
+import DiscountPass from '../reusable/DiscountPass';
 
 const DrinksViewAll = () => {
 
@@ -89,10 +91,13 @@ const DrinksViewAll = () => {
 
     return (
         <div>
-            <div className='drink3Chil1'>
-                <p className='drink3Chil3'>Free Delively +10% Off With SafiRun Pass</p>
-            </div>
-            <div style={{ display: 'flex', position: 'relative',marginTop:'-15px' }}>
+            <Space size="large" direction="vertical">
+                <ProductsNavbar />
+                <DiscountPass />
+            </Space>
+
+
+            <div style={{ display: 'flex', position: 'relative', marginTop: '-15px' }}>
                 <div className='drink2Chil1'>
                     <div class='drink2Chil2'>
                         <h1 style={{ color: 'white', fontWeight: 'bold', fontSize: '65px', marginLeft: '300px' }}>Bottle of<br></br> perfection </h1>
@@ -110,7 +115,7 @@ const DrinksViewAll = () => {
                 </div>
             </div>
 
-            <div className='fooderChil7'>
+            <div className='drink2Chil5'>
                 {
                     Values.map(values => (
                         <div>
@@ -121,17 +126,17 @@ const DrinksViewAll = () => {
                 }
             </div>
 
-            <div> <hr className='drinkChiHr'></hr></div>
+            <div> <hr className='drink2Chil8'></hr></div>
             <div style={{ marginLeft: '20px', marginRight: '20px' }}>
                 <div>
                     <div className='drink2Chil3'>
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Red Wine</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -150,10 +155,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>White Wine</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -172,10 +177,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Rose's Winer</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -193,10 +198,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Cases of wine</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -214,10 +219,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Vodka</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -235,10 +240,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Champagne & Sparkling wine</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -256,10 +261,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Creamy Liqueur</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -277,10 +282,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Snacks</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -298,10 +303,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Wisky $ Scotch</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -319,10 +324,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Tequila & Mezcal</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -340,10 +345,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Rum</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -361,10 +366,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Beer</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -382,10 +387,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Gin</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -403,10 +408,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Mixers,Water & Sodas</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -424,10 +429,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Tobacco</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -445,10 +450,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Canned Drinks</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -466,10 +471,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Non Alcoholic</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -487,10 +492,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Brand & Cognac</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -508,10 +513,10 @@ const DrinksViewAll = () => {
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Bourbor</h1>
                         <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                     </div>
-                    <div className='drinkChil5'>
+                    <div className='drink2Chil6'>
                         {
                             Whisky.map(whisky => (
-                                <div className='drinkChil8'>
+                                <div className='drink2Chil7'>
                                     <div style={{ position: 'relative' }}>
                                         <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                         <img src={whisky.url}></img>
@@ -529,10 +534,10 @@ const DrinksViewAll = () => {
                             <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Grassware & Accessories</h1>
                             <p style={{ fontWeight: 'bold', marginRight: '40px' }}>View All</p>
                         </div>
-                        <div className='drinkChil5'>
+                        <div className='drink2Chil6'>
                             {
                                 Whisky.map(whisky => (
-                                    <div className='drinkChil8'>
+                                    <div className='drink2Chil7'>
                                         <div style={{ position: 'relative' }}>
                                             <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
                                             <img src={whisky.url}></img>
@@ -547,6 +552,7 @@ const DrinksViewAll = () => {
                         </div></div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 

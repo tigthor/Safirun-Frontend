@@ -5,31 +5,31 @@ import { motion } from "framer-motion";
 const DefaultCatIcons = () => {
   const First_Screen_Icons = [
     {
-      imgSrc: "assets/pictures/Beer.png",
+      imgSrc: "../../../../assets/pictures/Beer.png",
       description: "DRINKS",
     },
     {
-      imgSrc: "assets/pictures/Food.png",
+      imgSrc: "../../../../assets/pictures/Food.png",
       description: "FOOD",
     },
     {
-      imgSrc: "assets/pictures/Bags.png",
+      imgSrc: "../../../../assets/pictures/Bags.png",
       description: "GROCERIES",
     },
     {
-      imgSrc: "assets/pictures/Florist6.png",
+      imgSrc: "../../../../assets/pictures/Florist6.png",
       description: "FLORIST",
     },
     {
-      imgSrc: "assets/pictures/Florist7.png",
+      imgSrc: "../../../../assets/pictures/Florist7.png",
       description: "UTILITIES",
     },
     {
-      imgSrc: "assets/pictures/Florist4.png",
+      imgSrc: "../../../../assets/pictures/Florist4.png",
       description: "PHARMACY & ESSENTIALS",
     },
     {
-      imgSrc: "assets/pictures/Florist5.png",
+      imgSrc: "../../../../assets/pictures/Florist5.png",
       description: "SHOPPING",
     },
   ];

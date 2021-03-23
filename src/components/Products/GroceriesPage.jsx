@@ -136,7 +136,7 @@ const GroceriesPage = () => {
       },
       {
         key: 4,
-        mainPic: "../assets/grocPop4.png",
+        mainPic: "../../../../assets/grocPop4.png",
         mainTitle: "Ceres Juice",
         mainDesc: "5000 RWF",
         infoTime: "20-30 min",
@@ -146,7 +146,7 @@ const GroceriesPage = () => {
       ,
       {
         key: 5,
-        mainPic: "../assets/grocPop5.png",
+        mainPic: "../../../../assets/grocPop5.png",
         mainTitle: "Inyange milk",
         mainDesc: "5000 RWF",
         infoTime: "20-30 min",
@@ -157,7 +157,7 @@ const GroceriesPage = () => {
   ]);
   const [pageDetails, setPageDetails] = useState([
     {
-      MainPic: "assets/groceriesMainPic.png",
+      MainPic: "../../../assets/groceriesMainPic.png",
       MainTitle: "Need Groceries",
       MainDescription: "Get your favorite groceries delivered to your doorstep",
     },
@@ -213,25 +213,25 @@ const GroceriesPage = () => {
     [
       {
         id: 1,
-        storeImage: "assets/grocMark1.png",
+        storeImage: "../../../assets/grocMark1.png",
         storeName: "Ndoli Super Market",
         storeLocation: "(Kigali, Kigali, Rwanda)",
       },
       {
         id: 2,
-        storeImage: "assets/grocMark2.png",
+        storeImage: "../../../assets/grocMark2.png",
         storeName: "Simba Super Market",
         storeLocation: "(Kigali, Kigali, Rwanda)",
       },
       {
         id: 3,
-        storeImage: "assets/grocMark3.png",
+        storeImage: "../../../assets/grocMark3.png",
         storeName: "Sawa City",
         storeLocation: "(Kigali, Kigali, Rwanda)",
       },
       {
         id: 4,
-        storeImage: "assets/grocMark4.png",
+        storeImage: "../../../assets/grocMark4.png",
         storeName: "Woodland Super Market",
         storeLocation: "(Kigali, Kigali, Rwanda)",
       },
@@ -239,25 +239,25 @@ const GroceriesPage = () => {
     [
       {
         id: 1,
-        storeImage: "assets/grocMark5.png",
+        storeImage: "../../../assets/grocMark5.png",
         storeName: "Eat Green",
         storeLocation: "(Kigali, Kigali, Rwanda)",
       },
       {
         id: 2,
-        storeImage: "assets/grocMark6.png",
+        storeImage: "../../../assets/grocMark6.png",
         storeName: "Go Green",
         storeLocation: "(Kigali, Kigali, Rwanda)",
       },
       {
         id: 3,
-        storeImage: "assets/grocMark7.png",
+        storeImage: "../../../assets/grocMark7.png",
         storeName: "Butchery oil",
         storeLocation: "(Kigali, Kigali, Rwanda)",
       },
       {
         id: 4,
-        storeImage: "assets/grocMark8.png",
+        storeImage: "../../../assets/grocMark8.png",
         storeName: "Kigali Farms",
         storeLocation: "(Kigali, Kigali, Rwanda)",
       },
