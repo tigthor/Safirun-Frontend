@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Space } from "antd";
 
-const ProductsAdSection = ({ details, Styles }) => {
+const ProductsAdSection = ({ details, Styles,buttonClass }) => {
   return (
     <div className="Products_AdSection">
       <img src={details.MainPic} className="Products_AdSection_MainPic" />
@@ -11,7 +11,7 @@ const ProductsAdSection = ({ details, Styles }) => {
           <p className="Products_AdSection_MainText_Description">
             {details.MainDescription}
           </p>
-          <button className="Products_AdSection_MainText_Button">
+          <button className={buttonClass}>
             ORDER NOW
           </button>
         </Space>

@@ -7,7 +7,7 @@ const FloraCategories = ({ title, FloristData, floraStyles }) => {
       <Row align="middle">
         <Space size="small" direction="vertical">
           <h1 style={floraStyles[1]}>{title}</h1>
-          <Space size="middle" direction="horizontal" style={floraStyles[2]}>
+          <Space size="middle" direction="horizontal" style={floraStyles[2]} wrap='true'>
             {FloristData.map((data) => (
               <Card className="oneProductCard" key={data.key}>
                 <img src={data.mainPic} className="oneProductCard_MainPic" />

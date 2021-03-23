@@ -8,40 +8,40 @@ import DefaultCatIcons from "./reusable/DefaultCatIcons";
 import DiscountPass from "./reusable/DiscountPass";
 import ProductsNavbar from './reusable/ProductsNavbar';
 
-const PharmacyPage = () => {
+const UtilitiesPage = () => {
   const [itemsData, setItemsData] = useState([
     {
       key: 1,
-      mainPic: "../assets/pharmacyProd1.png",
-      mainTitle: "Pampers",
-      mainDesc: "$$-Pharmacy-Delivery",
+      mainPic: "../assets/utilitiesItem1.png",
+      mainTitle: "3.9 KG Cylinder",
+      mainDesc: "$$-Gas-Delivery",
       infoTime: "20-30 min",
       infoRatingsText: "4.2",
       infoRatingsText2: "(200+)",
     },
     {
       key: 2,
-      mainPic: "../assets/pharmacyProd2.png",
-      mainTitle: "Always",
-      mainDesc: "$$-Pharmacy-Delivery",
+      mainPic: "../assets/utilitiesItem2.png",
+      mainTitle: "6 KG Cylinder",
+      mainDesc: "$$-Gas-Delivery",
       infoTime: "20-30 min",
       infoRatingsText: "4.2",
       infoRatingsText2: "(200+)",
     },
     {
       key: 3,
-      mainPic: "../assets/pharmacyProd3.png",
-      mainTitle: "Celeac for babies",
-      mainDesc: "$$-Pharmacy-Delivery",
+      mainPic: "../assets/utilitiesItem3.png",
+      mainTitle: "12 KG Cylinder",
+      mainDesc: "$$-Gas-Delivery",
       infoTime: "20-30 min",
       infoRatingsText: "4.2",
       infoRatingsText2: "(200+)",
     },
     {
       key: 4,
-      mainPic: "../assets/pharmacyProd4.png",
-      mainTitle: "Johnston",
-      mainDesc: "$$-Pharmacy-Delivery",
+      mainPic: "../assets/utilitiesItem4.png",
+      mainTitle: "20 KG Cylinder",
+      mainDesc: "$$-Gas-Delivery",
       infoTime: "20-30 min",
       infoRatingsText: "4.2",
       infoRatingsText2: "(200+)",
@@ -49,9 +49,9 @@ const PharmacyPage = () => {
     ,
     {
       key: 5,
-      mainPic: "../assets/pharmacyProd4.png",
-      mainTitle: "Coldcap",
-      mainDesc: "$$-Pharmacy-Delivery",
+      mainPic: "../assets/utilitiesItem4.png",
+      mainTitle: "40 KG Cylinder",
+      mainDesc: "$$-Gas-Delivery",
       infoTime: "20-30 min",
       infoRatingsText: "4.2",
       infoRatingsText2: "(200+)",
@@ -59,16 +59,16 @@ const PharmacyPage = () => {
   ]);
   const [pageDetails, setPageDetails] = useState([
     {
-      MainPic: "assets/pharmacyMainPic.png",
-      MainTitle: "Need your house cleaned",
+      MainPic: "assets/utilitiesMainPic.png",
+      MainTitle: "Cook with Gas",
       MainDescription:
-        "Get your favorite cleaning products delivered to your doorstep",
+        "Need Gaz? Order and your cylinder will reach you in minutes",
     },
   ]);
 
   const [adStyles, setAdStyles] = useState([
     {
-      backgroundColor: "#237DCF",
+      backgroundColor: "#092878",
       maxHeight: "400px",
       width: "683px",
       textAlign: "center",
@@ -105,47 +105,7 @@ const PharmacyPage = () => {
     },
   ]);
 
-  const [storeLocStyles, setStoreLocStyles] = useState([
-    {
-      paddingLeft: "calc((100% - 92.5%))",
-      paddingRight: "calc((100% - 98%))",
-    },
-  ]);
-
-  const [storeLoc, setStoreLoc] = useState([
-    {
-      id: 1,
-      storeImage: "assets/pharmacyStore1.png",
-      storeName: "Kasha",
-      storeLocation: "(Kigali, Kigali, Rwanda)",
-    },
-    {
-      id: 2,
-      storeImage: "assets/pharmacyStore2.png",
-      storeName: "Vine Pharmacy",
-      storeLocation: "(Kigali, Kigali, Rwanda)",
-    },
-    {
-      id: 3,
-      storeImage: "assets/pharmacyStore3.png",
-      storeName: "Kipharma",
-      storeLocation: "(Kigali, Kigali, Rwanda)",
-    },
-    {
-      id: 4,
-      storeImage: "assets/pharmacyStore4.png",
-      storeName: "Pharmacy Conseil",
-      storeLocation: "(Kigali, Kigali, Rwanda)",
-    },
-    {
-      id: 5,
-      storeImage: "assets/pharmacyStore5.png",
-      storeName: "Teta Pharmacy",
-      storeLocation: "(Kigali, Kigali, Rwanda)",
-    },
-  ]);
-
-  const [buttonClassName, setButtonClassName] = useState("PharmacyOrderButton");
+  const [buttonClassName, setButtonClassName] = useState("UtilitiesOrderButton");
 
   return (
     <div className="PharmacyPage">
@@ -160,24 +120,18 @@ const PharmacyPage = () => {
         />
         <FloraCategories
           floraStyles={floraCatStyle}
-          title="Top Picks For You"
+          title="Need a Refill?"
           FloristData={itemsData}
         />
         <FloraCategories
           floraStyles={floraCatStyle}
-          title="Featured Products"
+          title="New"
           FloristData={itemsData}
         />
-        <FloraCategories
-          floraStyles={floraCatStyle}
-          title="Most Popular"
-          FloristData={itemsData}
-        />
-        <ChooseStore Locations={storeLoc} Styles={storeLocStyles[0]} />
         <Footer />
       </Space>
     </div>
   );
 };
 
-export default PharmacyPage;
+export default UtilitiesPage;
