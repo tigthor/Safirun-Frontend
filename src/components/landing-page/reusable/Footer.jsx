@@ -60,6 +60,10 @@ const Footer = () => {
           title: "KIGALI",
           link: "",
         },
+        {
+          title: "RUBAVE",
+          link: "",
+        },
       ],
     ],
   ]);
