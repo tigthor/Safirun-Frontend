@@ -1281,9 +1281,6 @@ h6.light,
 }
 .FooterFirstSection {
   display: flex;
-  /* justify-content: center; */
-  /* flex-wrap: wrap; */
-  /* margin-left: 15px; */
 }
 
 .FooterFirstSection__LogosApps {
