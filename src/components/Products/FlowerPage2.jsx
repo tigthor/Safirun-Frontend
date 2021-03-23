@@ -54,16 +54,16 @@ const FlowerPage2 = () => {
 
   const [floraCatStyle, setFloraCatStyle] = useState([
     {
-      maxWidth: "1240px",
+      maxWidth: "1200px",
       alignItems: "center",
       justifyItems: "center",
     },
     {
-      paddingLeft: "calc((100% - 96.5%))",
+      paddingLeft: "calc((100% - 92.5%))",
     },
     {
       width: "100%",
-      paddingLeft: "calc((100% - 96.5%))",
+      paddingLeft: "calc((100% - 92.5%))",
       paddingRight: "calc((100% - 98%))",
       display: "flex",
       flexDirection: "row",

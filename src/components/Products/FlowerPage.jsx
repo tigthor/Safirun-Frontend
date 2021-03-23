@@ -97,7 +97,7 @@ const FlowerPage = () => {
     },
     {
       width: "100%",
-      paddingLeft: "157px",
+      paddingLeft: "197px",
       display: "flex",
       flexDirection: "row",
       alignItems: "center",
@@ -125,11 +125,18 @@ const FlowerPage = () => {
   ]);
 
   const [pageDivider, setPageDivider] = useState(43);
+  const [buttonClassName, setButtonClassName] = useState(
+    "Products_AdSection_MainText_Button"
+  );
 
   return (
     <div className="FlowerPage">
       <Space size={pageDivider} direction="vertical">
-        <ProductsAdSection details={pageDetails[2]} Styles={adStyles}/>
+        <ProductsAdSection
+          details={pageDetails[2]}
+          Styles={adStyles}
+          buttonClass={buttonClassName}
+        />
         <FloraCategories
           floraStyles={floraCatStyle}
           title="Best Selling Flowers"
