@@ -51,7 +51,9 @@ const Navbar = () => {
       />
       <div className="links">
         <Card className="nav_How_it_works">
-          <h4 className="text_how_it_works" onClick={showModal}>
+          <h4 className="text_how_it_works" onClick={() => {
+            showModal()
+          }}>
             How it works
           </h4>
           <div className="div_how_it_works">
