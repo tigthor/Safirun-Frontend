@@ -1,5 +1,5 @@
 
-import FoodHomepage from '../../src/components/Products/foodComponents/FoodHomepage'
+import FoodHomepage from '../../src/components/Products/FoodPage.jsx'
 
 export default function Homepage() {
   return (
