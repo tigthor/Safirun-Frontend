@@ -148,7 +148,7 @@ const Footer = () => {
         <div
           style={{ marginLeft: "840px", color: "white", marginTop: "-50px" }}
         >
-          <p>&#169; Copyright 2021 Safirun Logistics Ltd</p>
+          <p>&#169; Copyright 2021 Safirun Logistics Lt</p>
         </div>
       </div>
       </Space>
