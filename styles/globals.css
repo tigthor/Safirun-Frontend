@@ -1975,7 +1975,6 @@ color: #000000;
 .FooterAppsSection {
   display: flex;
   justify-content: space-between;
-  /* margin-right: 250px; */
   justify-items: baseline;
 }
 
