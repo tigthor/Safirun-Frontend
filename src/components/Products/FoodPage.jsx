@@ -1,9 +1,7 @@
 import React from 'react';
-// import { MenuOutlined } from '@ant-design/icons'
 import { Space, Card, Row, Col, Radio } from 'antd'
 import { MdArrowForward } from 'react-icons/md';
 import Layout from 'antd/lib/layout/layout';
-import '../../App.css';
 
 
 export const FoodPage = () => {
