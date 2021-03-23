@@ -1,11 +1,11 @@
 import React from 'react';
 import { Card, Space } from 'antd';
 
-const ChooseStore = ({ Locations,Styles }) => {
+const ChooseStore = ({ Locations,Styles, title }) => {
   return (
     <div style={Styles}>
     <Space size='small' direction='vertical'>
-      <h1>Choose A Store</h1>
+      <h1>{title}</h1>
       <Space size='large' direction='horizontal' wrap='true' className='ChooseStore'>
         {Locations.map((Location) => (
           <Card key={Location.id} className='ChooseStoreCard'>

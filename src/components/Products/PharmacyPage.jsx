@@ -173,7 +173,7 @@ const PharmacyPage = () => {
           title="Most Popular"
           FloristData={itemsData}
         />
-        <ChooseStore Locations={storeLoc} Styles={storeLocStyles[0]} />
+        <ChooseStore Locations={storeLoc} Styles={storeLocStyles[0]} title='Choose A Store'/>
         <Footer />
       </Space>
     </div>
