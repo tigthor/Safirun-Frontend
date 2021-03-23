@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Tue Mar 23 2021 14:26:05 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/Products/FoodPage.jsx
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
