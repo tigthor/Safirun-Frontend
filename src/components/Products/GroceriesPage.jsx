@@ -167,7 +167,7 @@ const GroceriesPage = () => {
     {
       backgroundColor: "#72A758",
       maxHeight: "400px",
-      width: "683px",
+      width: "calc(50%)",
       textAlign: "center",
       display: "flex",
       alignItems: "center",
@@ -183,7 +183,7 @@ const GroceriesPage = () => {
 
   const [floraCatStyle, setFloraCatStyle] = useState([
     {
-      maxWidth: "1200px",
+      maxWidth: "calc(80%)",
       alignItems: "center",
       justifyItems: "center",
     },
@@ -195,6 +195,7 @@ const GroceriesPage = () => {
       paddingLeft: "calc((100% - 92.5%))",
       paddingRight: "calc((100% - 98%))",
       display: "flex",
+      // flexWrap: "wrap",
       flexDirection: "row",
       alignItems: "center",
       marginRight: "auto",
@@ -264,7 +265,9 @@ const GroceriesPage = () => {
     ],
   ]);
 
-  const [buttonClassName, setButtonClassName] = useState("GroceriesOrderButton");
+  const [buttonClassName, setButtonClassName] = useState(
+    "GroceriesOrderButton"
+  );
 
   return (
     <div className="PharmacyPage">

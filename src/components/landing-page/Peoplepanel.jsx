@@ -24,7 +24,7 @@ const Peoplepanel = () => {
       <div className="WhatPeopleSayPanel__Background" />
       <div className="dcom__container__large">
         <div className="WhatPeopleSayPanel__Box">
-          <Space size="middle" direction="vertical">
+          <Space size="middle" direction="vertical" wrap='true'>
             <h2 className="light">What people say about us</h2>
             <div className="Main_Tweet_Box">
               <Row gutter={[206, 106]} className="Tweets">

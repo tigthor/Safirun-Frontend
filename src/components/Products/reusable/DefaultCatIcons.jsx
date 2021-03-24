@@ -5,15 +5,16 @@ import { motion } from "framer-motion";
 const DefaultCatIcons = () => {
   const First_Screen_Icons = [
     {
-      imgSrc: "../../../../assets/pictures/Beer.png",
-      description: "DRINKS",
-    },
-    {
-      imgSrc: "../../../../assets/pictures/Food.png",
+      imgSrc: "assets/pictures/Food.png",
       description: "FOOD",
     },
     {
-      imgSrc: "../../../../assets/pictures/Bags.png",
+      imgSrc: "assets/pictures/Beer.png",
+      description: "DRINKS",
+    },
+    
+    {
+      imgSrc: "assets/pictures/Bags.png",
       description: "GROCERIES",
     },
     {

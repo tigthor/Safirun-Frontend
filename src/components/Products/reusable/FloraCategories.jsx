@@ -5,6 +5,7 @@ const FloraCategories = ({ title, FloristData, floraStyles }) => {
   return (
     <div style={floraStyles[0]}>
       <Row align="middle">
+      {/* box-shadow: 1px 7px 36px 15px rgba(73, 67, 67, 0.2); */}
         <Space size="small" direction="vertical">
           <h1 style={floraStyles[1]}>{title}</h1>
           <Space size="middle" direction="horizontal" style={floraStyles[2]} wrap='true'>
