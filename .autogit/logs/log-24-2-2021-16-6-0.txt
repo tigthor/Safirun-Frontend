@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Wed Mar 24 2021 16:06:00 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/landing-page/Marketplace.jsx
+* src/components/landing-page/Readyorder.jsx
+* styles/App.css
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
