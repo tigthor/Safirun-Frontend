@@ -17,7 +17,7 @@ const Readyorder = () => {
             <div
                 className="readyToOrder"
             >
-                <Space size="middle" direction="vertical">
+                <Space size="middle" direction="vertical" wrap='true'>
                     <h2
                     style={{
                         textAlign: 'left',
