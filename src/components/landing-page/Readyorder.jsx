@@ -11,7 +11,9 @@ const Readyorder = () => {
                 flexWrap: 'wrap',
                 maxWidth: '1340px',
                 height: '400px',
-                backgroundColor: '#ffff'
+                backgroundColor: '#ffff',
+                marginLeft: 'auto',
+                marginRight: 'auto'
             }}
         >
             <div
