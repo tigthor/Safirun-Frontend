@@ -456,9 +456,9 @@ h6.light,
 
 .div_how_it_works {
   top: 65px;
-  height: 220px;
+  height: calc(21.36%);
   left: 350px;
-  width: 800px;
+  width: calc(55.55%);
   opacity: 0;
   background-color: #ffff;
   position: absolute;
