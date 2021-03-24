@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Tue Mar 23 2021 16:28:36 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/landing-page/Navbar.jsx
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

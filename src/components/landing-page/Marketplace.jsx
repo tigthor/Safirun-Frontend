@@ -28,7 +28,7 @@ const Marketplace = () => {
       href: 'pharmacy'
     },
     {
-      url: '../../assets/FLORIST2.png',
+      url: '../../FLORIST2.png',
       text: 'FLORIST',
       backgroudColor: '#AB2B1A',
       href: 'florist'
@@ -44,7 +44,8 @@ const Marketplace = () => {
     <div>
       <div className="marketPlaceChil1">
         <h1 className="light">SAFIRUN market place </h1>
-        <div style={{ display: 'flex', position: 'relative', flexDirection: 'row'}}>
+        <div style={{ display: 'flex', position: 'relative', flexDirection: 'row', marginLeft: 'auto',
+  marginRight: 'auto'}}>
           <p
             className="viewMore"
             style={{ marginRight: '20px', marginBottom: '-40px' }}
@@ -101,7 +102,7 @@ const Marketplace = () => {
             src="../assets/SHOPPIN2.png"
             style={{
               width: '1042px',
-              height: '246px',
+              height: '303px',
               borderRadius: '3px',
               left: '539px',
               top: '1002px',
@@ -117,7 +118,7 @@ const Marketplace = () => {
               justifyContent: 'center',
               textAlign: 'center',
               verticalAlign: 'middle',
-              bottom: '-4px',
+              // bottom: '-4px',
               borderRadius: '3px',
               left: '-0px',
               height: '57px',
