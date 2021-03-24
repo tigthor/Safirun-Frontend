@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import { Card, Row, Col, Modal, Space } from "antd";
 
 const Navbar = () => {
+  const variants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+    },
+  };
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const showModal = () => {

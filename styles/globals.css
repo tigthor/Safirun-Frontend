@@ -442,25 +442,32 @@ h6.light,
 .how_it_works_card {
   padding-top: 10px;
   padding-left: 30px;
+  padding-right: 30px
 }
 
 .how_it_work_p {
   height: 200px;
-  width: 180px;
+  width: 200px;
 }
 
 .div_how_it_works {
   top: 65px;
-  height: 300px;
   /* left: 350px; */
-  margin-left: 350px;
-  width: 900px;
+  max-height: 1000px;
+  margin-left: calc(30%);
+  max-width: calc(62.5%);
   /* opacity: 0; */
   background-color: #ffff;
   position: absolute;
   border-radius: 25px;
+
   display: flex;
-  box-shadow: 6px 8px 48px 23px #22b511;
+  flex-direction: row;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  box-shadow: 6px 8px 78px 33px #22b511;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
