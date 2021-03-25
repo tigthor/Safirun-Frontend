@@ -39,11 +39,11 @@ const Onmenu = () => {
         style={{
           display: 'flex',
           flexDirection: 'column',
-          height: '600px',
+          // height: '600px',
         }}
       >
         <h1 className="whats_on_menu_text">What's on the menu</h1>
-        <div className="whatOnTheMenuPar" style={{ height: '463px' }}>
+        <div className="whatOnTheMenuPar" style={{ }}>
           <div
             className="whatOnTheMenuChil1"
             style={{ width: '299px', height: '463px', position: 'relative' }}

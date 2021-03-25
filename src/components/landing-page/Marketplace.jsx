@@ -1,5 +1,5 @@
-import React from 'react';
-import { MdArrowForward } from 'react-icons/md';
+import React from "react";
+import { MdArrowForward } from "react-icons/md";
 
 const Marketplace = () => {
   const Data = [
@@ -22,40 +22,52 @@ const Marketplace = () => {
       href: 'groceries/home'
     },
     {
-      url: '../../assets/PHARMACY-ESSENTIALS2.png',
-      text: 'PHARMACY & ESSENTIALS',
-      backgroudColor: '#3F85B8',
-      href: 'pharmacy'
+      url: "../../assets/PHARMACY-ESSENTIALS2.png",
+      text: "PHARMACY & ESSENTIALS",
+      backgroudColor: "#3F85B8",
+      href: "pharmacy",
     },
     {
-      url: '../../assets/FLORIST2.png',
-      text: 'FLORIST',
-      backgroudColor: '#AB2B1A',
-      href: 'florist'
+      url: "../../FLORIST2.png",
+      text: "FLORIST",
+      backgroudColor: "#AB2B1A",
+      href: "florist",
     },
     {
-      url: '../../assets/UTILITIES2.png',
-      text: 'UTILITIES',
-      backgroudColor: '#004CE7',
-      href: 'utilities'
+      url: "../../assets/UTILITIES2.png",
+      text: "UTILITIES",
+      backgroudColor: "#004CE7",
+      href: "utilities",
     },
   ];
   return (
     <div>
       <div className="marketPlaceChil1">
-        <h1 className="light">SAFIRUN market place </h1>
-        <div style={{ display: 'flex', position: 'relative', flexDirection: 'row'}}>
+        <h1
+          style={{
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
+          SAFIRUN market place{" "}
+        </h1>
+        <div
+          style={{
+            display: "flex",
+            position: "relative",
+            flexDirection: "row",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
           <p
             className="viewMore"
-            style={{ marginRight: '20px', marginBottom: '-40px' }}
+            style={{ marginRight: "20px", marginBottom: "-40px" }}
           >
             View more
           </p>
           <p>
-            <MdArrowForward
-            className='ViewMore_arrow'
-               type='button'
-            />
+            <MdArrowForward className="ViewMore_arrow" type="button" />
           </p>
         </div>
       </div>
@@ -65,34 +77,38 @@ const Marketplace = () => {
             <img
               src={data.url}
               style={{
-                width: '342px',
-                height: '303px',
-                left: '539px',
-                borderRadius: '3px',
-                top: '1002px',
+                width: "342px",
+                height: "303px",
+                left: "539px",
+                borderRadius: "3px",
+                top: "1002px",
               }}
             />
             <p
               style={{
                 backgroundColor: `${data.backgroudColor}`,
-                width: '342px',
-                color: '#FFFFFF',
-                position: 'absolute',
-                justifyContent: 'center',
-                textAlign: 'center',
-                verticalAlign: 'middle',
-                bottom: '-4px',
-                borderRadius: '3px',
-                left: '-0px',
-                height: '57px',
-                lineHeight: '57px',
+                width: "342px",
+                color: "#FFFFFF",
+                position: "absolute",
+                justifyContent: "center",
+                textAlign: "center",
+                verticalAlign: "middle",
+                bottom: "-4px",
+                borderRadius: "3px",
+                left: "-0px",
+                height: "57px",
+                lineHeight: "57px",
               }}
             >
-                <a href={data.href} style={{
-                    textDecoration: 'none',
-                    color: '#FFFFFF'
-                }}>
-              {data.text}</a>
+              <a
+                href={data.href}
+                style={{
+                  textDecoration: "none",
+                  color: "#FFFFFF",
+                }}
+              >
+                {data.text}
+              </a>
             </p>
           </div>
         ))}
@@ -100,24 +116,23 @@ const Marketplace = () => {
           <img
             src="../assets/SHOPPIN2.png"
             style={{
-              width: '1042px',
-              height: '246px',
-              borderRadius: '3px',
-              left: '539px',
-              top: '1002px',
-              
+              width: "calc(100%)",
+              height: "303px",
+              borderRadius: "3px",
+              left: "539px",
+              top: "1002px",
             }}
           />
           <a href='shop/home'
             style={{
-              backgroundColor: '#750062',
-              width: '1042px',
-              color: '#FFFFFF',
-              position: 'absolute',
-              justifyContent: 'center',
-              textAlign: 'center',
-              verticalAlign: 'middle',
-              bottom: '-4px',
+              backgroundColor: "#750062",
+              width: "calc(100%)",
+              color: "#FFFFFF",
+              position: "absolute",
+              justifyContent: "center",
+              textAlign: "center",
+              verticalAlign: "middle",
+              // bottom: '-4px',
               borderRadius: '3px',
               left: '-0px',
               height: '57px',

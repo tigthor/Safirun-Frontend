@@ -3,8 +3,8 @@ import React from 'react';
 const Favresto = () => {
     return (
       <div className="favoriteRestoPar">
-        <div style={{ marginRight: '200px', marginTop: '150px' }}>
-          <Space direction="vertical" size="middle">
+        <div style={{  marginTop: '150px' }}>
+          <Space direction="vertical" size="middle" wrap='true'>
             <h3
               className="fontF"
               style={{
