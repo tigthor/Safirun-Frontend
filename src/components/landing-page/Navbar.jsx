@@ -77,7 +77,7 @@ const Navbar = () => {
                 {howItWorksData.map((howItWorks) => (
                   <Col>
                     <Card className="how_it_works_card">
-                      <Space size="middle" direction="vertical" wrap='true'>
+                      <Space size="middle" direction="vertical" wrap="true">
                         <h4>{howItWorks.title}</h4>
                         <img src={howItWorks.imgSrc} />
                         <p className="how_it_work_p">{howItWorks.body}</p>
@@ -90,7 +90,17 @@ const Navbar = () => {
           </Modal>
         </Card>
         <a href="/create">
-          <bold> Sign in </bold>
+          <bold>
+            <em> Sign in </em>
+          </bold>
+          <Modal
+            title="Basic Modal"
+            visible={isModalVisible}
+            onOk={handleOk}
+            onCancel={handleCancel}
+          >
+          <Login />
+          </Modal>
         </a>
         <div className="text-box">
           <a href="#" className="btn btn-white btn-animate">
