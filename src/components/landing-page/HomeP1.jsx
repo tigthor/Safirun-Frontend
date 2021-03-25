@@ -45,6 +45,7 @@ const HomePage2 = () => {
             style={{
               paddingBottom: "200px",
             }}
+            wrap="true"
           >
             <Row>
               <div className="SiteSearchPanel__SearchBlock__Inner__Logo icon-delivery-logo">

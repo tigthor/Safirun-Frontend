@@ -17,7 +17,7 @@ const Homepage = () => {
     return (
         // <Router>
             <div className="landing_page">
-                <Space direction="vertical" size="large">
+                <Space direction="vertical" size="large" wrap='true'>
                     <Firstscreen />
                     <Marketplace className="marketplace" />
                     <Favresto />

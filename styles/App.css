@@ -456,9 +456,9 @@ h6.light,
 
 .div_how_it_works {
   top: 65px;
-  height: 220px;
+  height: calc(21.36%);
   left: 350px;
-  width: 800px;
+  width: calc(55.55%);
   opacity: 0;
   background-color: #ffff;
   position: absolute;
@@ -490,6 +490,11 @@ h6.light,
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
+}
+
+.marketPlaceChil1 h1 {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .marketPlaceChil2 {
@@ -1025,5 +1030,3 @@ h6.light,
   -ms-transform: translateY(-7px);
   -o-transform: translateY(-7px);
 }
-
-
