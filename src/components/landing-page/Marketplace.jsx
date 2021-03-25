@@ -43,10 +43,14 @@ const Marketplace = () => {
   return (
     <div>
       <div className="marketPlaceChil1">
-        <h1 style={{
-          marginLeft: 'auto',
-                marginRight: 'auto'
-        }}>SAFIRUN market place </h1>
+        <h1
+          style={{
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
+          SAFIRUN market place{" "}
+        </h1>
         <div
           style={{
             display: "flex",
@@ -112,7 +116,7 @@ const Marketplace = () => {
           <img
             src="../assets/SHOPPIN2.png"
             style={{
-              width: "1042px",
+              width: "calc(100%)",
               height: "303px",
               borderRadius: "3px",
               left: "539px",
@@ -122,7 +126,7 @@ const Marketplace = () => {
           <a href='shop/home'
             style={{
               backgroundColor: "#750062",
-              width: "1042px",
+              width: "calc(100%)",
               color: "#FFFFFF",
               position: "absolute",
               justifyContent: "center",

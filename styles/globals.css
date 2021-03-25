@@ -9,6 +9,8 @@
   color: black;
 }
 
+@import 'ant-design-pro/dist/ant-design-pro.css';
+
 .landing_page {
   background-color: #ffff;
   max-width: calc(100%);
@@ -442,7 +444,7 @@ h6.light,
 .how_it_works_card {
   padding-top: 10px;
   padding-left: 30px;
-  padding-right: 30px
+  padding-right: 30px;
 }
 
 .how_it_work_p {
@@ -496,7 +498,7 @@ h6.light,
 
 .marketPlaceChil2 {
   display: flex;
-  max-width: calc(60%);
+  max-width: calc(100%);
   flex-wrap: wrap;
   border-radius: 3px;
   align-content: center;
@@ -504,10 +506,28 @@ h6.light,
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (min-width: 1450px) {
+  .marketPlaceChil2 {
+    display: flex;
+    max-width: calc(60%);
+    flex-wrap: wrap;
+    border-radius: 3px;
+    align-content: center;
+    align-items: baseline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .marketPlaceChil3 {
   flex-direction: column;
@@ -1051,7 +1071,7 @@ h6.light,
 }
 
 .FlowerPage {
-  max-width:calc(100%);
+  max-width: calc(100%);
   max-height: 5000px;
   display: flex;
   flex-direction: column;
@@ -2083,7 +2103,7 @@ margin-right: 40px; */
 }
 
 .FlowerPage2 {
-  max-width:calc(100%);
+  max-width: calc(100%);
   /* max-height: 5000px; */
   display: flex;
   flex-direction: column;
