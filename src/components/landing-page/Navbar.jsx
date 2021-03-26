@@ -95,11 +95,11 @@ const Navbar = () => {
           </bold>
           <Modal
             title="Basic Modal"
-            visible={isModalVisible}
+            visible={isModalVisible
+            }
             onOk={handleOk}
             onCancel={handleCancel}
           >
-          <Login />
           </Modal>
         </a>
         <div className="text-box">
