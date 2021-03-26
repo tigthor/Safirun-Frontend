@@ -76,10 +76,10 @@ const FlowerPage2 = () => {
 
   return (
     <div className="FlowerPage2">
-      <Space
-        size={pageDivider}
-        direction="vertical"
-      >
+      <Space size={pageDivider} direction="vertical">
+        <ProductsNavbar />
+        <DiscountPass />
+        <DefaultCatIcons />
         <FloraCategories
           floraStyles={floraCatStyle}
           title="Top Picks For you"
