@@ -8,38 +8,38 @@ const DefaultCatIcons = () => {
     {
       imgSrc: "assets/pictures/Food.png",
       description: "FOOD",
-      href: "brabh",
+      href: "../../../food/home",
     },
     {
       imgSrc: "assets/pictures/Beer.png",
       description: "DRINKS",
-      href: "brabh",
+      href: "../../../drinks/home",
     },
 
     {
       imgSrc: "assets/pictures/Bags.png",
       description: "GROCERIES",
-      href: "brabh",
+      href: "../../../groceries/home",
     },
     {
       imgSrc: "../../../../assets/pictures/Florist6.png",
       description: "FLORIST",
-      href: "brabh",
+      href: "florist",
     },
     {
       imgSrc: "../../../../assets/pictures/Florist7.png",
       description: "UTILITIES",
-      href: "brabh",
+      href: "/utilities",
     },
     {
       imgSrc: "../../../../assets/pictures/Florist4.png",
       description: "PHARMACY & ESSENTIALS",
-      href: "brabh",
+      href: "/pharmacy",
     },
     {
       imgSrc: "../../../../assets/pictures/Florist5.png",
       description: "SHOPPING",
-      href: "brabh",
+      href: "../../../shop/home",
     },
   ];
   return (

@@ -99,7 +99,6 @@ const Navbar = () => {
             onOk={handleOk}
             onCancel={handleCancel}
           >
-          <Login />
           </Modal>
         </a>
         <div className="text-box">

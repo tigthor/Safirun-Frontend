@@ -146,10 +146,10 @@ export const DrinksHomepage = () => {
                 <img src='../wine.png' style={{ width: '315px', height: '228px', marginBottom: '8px' }}></img>
               </div>
 
-              <div style={{ position: 'relative' }}>
+              <a  href='discription' style={{ position: 'relative' }}>
                 <h1 style={{ lineHeight: '40px', position: 'absolute', color: 'white', fontWeight: 'bold', fontSize: '45px', marginTop: '100px', marginLeft: '100px' }}>Whiskey</h1>
                 <img src='../whiskey.png' style={{ width: '315px', height: '228px', marginLeft: '10px' }}></img>
-              </div>
+              </a>
 
               <div style={{ position: 'relative' }}>
                 <h1 style={{ lineHeight: '40px', position: 'absolute', color: 'white', fontWeight: 'bold', fontSize: '45px', marginTop: '100px', marginLeft: '100px' }}>Vodka</h1>
@@ -197,7 +197,7 @@ export const DrinksHomepage = () => {
                   <div className='drinkChil8'>
                     <div style={{ position: 'relative' }}>
                       <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
-                      <img src={whisky.url}></img>
+                      <a href='discription'><img src={whisky.url}></img></a>
                     </div>
 
                     <p>{whisky.text}</p>
