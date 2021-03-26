@@ -5,7 +5,6 @@ import FloraMidSection from "./reusable/FloraMidSection";
 import ChooseFlorist from "./flowerComponents/ChooseFlorist";
 import FloraCategories from "./reusable/FloraCategories";
 import Footer from "../landing-page/reusable/Footer";
-import Footer from "../landing-page/reusable/Footer";
 import DefaultCatIcons from "./reusable/DefaultCatIcons";
 import DiscountPass from "./reusable/DiscountPass";
 import ProductsNavbar from "./reusable/ProductsNavbar";
