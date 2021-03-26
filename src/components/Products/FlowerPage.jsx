@@ -5,6 +5,10 @@ import FloraMidSection from "./reusable/FloraMidSection";
 import ChooseFlorist from "./flowerComponents/ChooseFlorist";
 import FloraCategories from "./reusable/FloraCategories";
 import Footer from "../landing-page/reusable/Footer";
+import Footer from "../landing-page/reusable/Footer";
+import DefaultCatIcons from "./reusable/DefaultCatIcons";
+import DiscountPass from "./reusable/DiscountPass";
+import ProductsNavbar from "./reusable/ProductsNavbar";
 
 const FlowerPage = () => {
   const [itemsData, setItemsData] = useState([
@@ -132,6 +136,9 @@ const FlowerPage = () => {
   return (
     <div className="FlowerPage">
       <Space size={pageDivider} direction="vertical">
+        <ProductsNavbar />
+        <DiscountPass />
+        <DefaultCatIcons />
         <ProductsAdSection
           details={pageDetails[2]}
           Styles={adStyles}
