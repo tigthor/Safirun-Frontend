@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import FloraCategories from "./reusable/FloraCategories";
 import { Space } from "antd";
 import Footer from "../landing-page/reusable/Footer";
+import DefaultCatIcons from "./reusable/DefaultCatIcons";
+import DiscountPass from "./reusable/DiscountPass";
+import ProductsNavbar from "./reusable/ProductsNavbar";
 
 const FlowerPage2 = () => {
   const [itemsData, setItemsData] = useState([
