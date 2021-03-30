@@ -1,17 +1,24 @@
 import React from "react";
 import { Card, Row, Col, Image, Layout, Space } from "antd";
+import { motion, useCycle } from "framer-motion";
 
 const FloraCategories = ({ title, FloristData, floraStyles }) => {
+  const [items, setItems] = useCycle(FloristData);
   return (
     <div style={floraStyles[0]}>
       <Row align="middle">
-      {/* box-shadow: 1px 7px 36px 15px rgba(73, 67, 67, 0.2); */}
         <Space size="small" direction="vertical">
           <h1 style={floraStyles[1]}>{title}</h1>
-          <Space size="middle" direction="horizontal" style={floraStyles[2]} wrap='true'>
+          <Space
+            size="middle"
+            direction="horizontal"
+            style={floraStyles[2]}
+            wrap="true"
+          >
             {FloristData.map((data) => (
               <Card className="oneProductCard" key={data.key}>
                 <img src={data.mainPic} className="oneProductCard_MainPic" />
+
                 <h3 className="ProductCard_MainTitle">{data.mainTitle}</h3>
                 <p className="ProductCard_Description">{data.mainDesc}</p>
                 <div className="ProductCard_Additional_Info">

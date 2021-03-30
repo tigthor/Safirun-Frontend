@@ -1,40 +1,43 @@
-import React from 'react';
-import { MdArrowForward } from 'react-icons/md';
-import { Button, Input, Space } from 'antd';
+import React from "react";
+import { MdArrowForward } from "react-icons/md";
+import { Button, Input, Space } from "antd";
+import SearchBar from "./reusable/SearchBar";
 
 const Readyorder = () => {
-    return (
-        <div
+  return (
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "right",
+        flexWrap: "wrap",
+        maxWidth: "1340px",
+        backgroundColor: "#ffff",
+        marginLeft: "auto",
+        marginRight: "auto",
+      }}
+    >
+      <div className="readyToOrder">
+        <Space size="middle" direction="vertical" wrap="true">
+          <h2
             style={{
-                display: 'flex',
-                justifyContent: 'right',
-                flexWrap: 'wrap',
-                maxWidth: '1340px',
-                height: '400px',
-                backgroundColor: '#ffff',
-                marginLeft: 'auto',
-                marginRight: 'auto'
+              textAlign: "left",
+              marginLeft: "100px",
+              fontSize: "40px",
             }}
-        >
-            <div
-                className="readyToOrder"
-            >
-                <Space size="middle" direction="vertical" wrap='true'>
-                    <h2
-                    style={{
-                        textAlign: 'left',
-                        marginLeft: '100px',
-                        fontSize: '40px'
-                    }}
-                    >Ready To Order</h2>
-                    <p style={{
-                        textAlign: 'left',
-                        marginLeft: '100px'
-                    }}>
-                        Browser local restaurants and stores for<br></br>delively by enterig
+          >
+            Ready To Order
+          </h2>
+          <p
+            style={{
+              textAlign: "left",
+              marginLeft: "100px",
+            }}
+          >
+            Browser local restaurants and stores for<br></br>delively by enterig
             your adress below
           </p>
-                    <div>
+          <div>
+            {/*
                         <div className="SearchBox">
                             <Input
                                 className="SearchInput"
@@ -77,19 +80,19 @@ const Readyorder = () => {
                                     width: '28.42px',
                                 }}
                             />
-                        </div>
-                    </div>
-                </Space>
-
-            </div>
-            <div>
-                <img
-                    src="../assets/order.png"
-                    style={{ position: 'absolute', width: '610px', height: '400px' }}
-                />
-            </div>
-        </div>
-    );
-}
+                        </div>*/}
+            <SearchBar />
+          </div>
+        </Space>
+      </div>
+      <div>
+        <img
+          src="../assets/order.png"
+          style={{ position: "absolute", width: "50%", height: "400px" }}
+        />
+      </div>
+    </div>
+  );
+};
 
 export default Readyorder;

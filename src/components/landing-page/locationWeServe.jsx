@@ -7,7 +7,7 @@ const Locserved = () => {
       }}>
         <h1>Location we currently serve</h1>
         <img src="../../assets/map.png" style={{
-          maxWidth:'1200px'
+          maxWidth:'calc(100%)'
         }}></img>
       </div>
     );

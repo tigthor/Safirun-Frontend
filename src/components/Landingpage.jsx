@@ -16,13 +16,13 @@ import { Space } from 'antd'
 const Homepage = () => {
     return (
         // <Router>
-            <div className="landing_page">
+            <div className=".bg-">
                 <Space direction="vertical" size="large" wrap='true'>
                     <Firstscreen />
                     <Marketplace className="marketplace" />
                     <Favresto />
                     <Onmenu />
-                    <Whysafi />
+                    {/* <Whysafi /> */}
                     <Peoplesay />
                     <Locserved />
                     <Readyorder />

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Button, Divider, Card, Input, Space, Row } from "antd";
 import { RightSquareFilled } from "@ant-design/icons";
+import SearchBar from './reusable/SearchBar'
 
 const HomePage2 = () => {
   const [hover, setHover] = useState(false);
@@ -91,7 +92,7 @@ const HomePage2 = () => {
               </div>
             </Row>
             <Row>
-              <div className="SearchBox">
+              {/*<div className="SearchBox">
                 <Input
                   className="SearchInput"
                   placeholder="Enter Delivery Address to See The Menu"
@@ -122,7 +123,8 @@ const HomePage2 = () => {
                     width: "38.42px",
                   }}
                 />
-              </div>
+              </div>*/}
+              <SearchBar />
             </Row>
           </Space>
         </div>
