@@ -14,6 +14,11 @@ const DrinksDiscription = () => {
 
     const [value, setValue] = React.useState(1);
 
+  const onChange = e => {
+    console.log('radio checked', e.target.value);
+    setValue(e.target.value);
+  };
+  
 
     return (
         <div>
@@ -54,7 +59,7 @@ const DrinksDiscription = () => {
                         </div>
 
                         <div>
-                            <Radio.Group value={value}>
+                            <Radio.Group onChange={onChange} value={value}>
                                 <div className='drink4chil4'><Radio className='drink4chil6' value={1}><p className='drink4chil9'>5000rwf</p></Radio><br></br></div>
                                 <div className='drink4chil7'><Radio className='drink4chil6' value={2}><p className='drink4chil9'>9000rwf</p></Radio><br></br></div>
                                 <div className='drink4chil8'><Radio className='drink4chil6' value={3}><p className='drink4chil9'>10,000rwf</p></Radio></div>
@@ -227,12 +232,12 @@ const DrinksDiscription = () => {
                     </div>
                     <hr className='drink4chil26'></hr>
                     <div className='drink4chil37'>
-                        <img src='../drink4chil38.png'></img>
+                        <img className='drink4chil38' src='../drink4Arrow2.png'></img>
                         <p>1</p>
                         <p>2</p>
                         <p>3</p>
                         <p>4</p>
-                        <img src='../drink4chil39.png'></img>
+                        <img className='drink4chil39' src='../drink4Arrow2.png'></img>
                     </div>
                 </div>
 

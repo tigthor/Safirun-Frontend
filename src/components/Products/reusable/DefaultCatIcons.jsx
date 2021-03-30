@@ -6,18 +6,18 @@ import Link from "next/link";
 const DefaultCatIcons = () => {
   const First_Screen_Icons = [
     {
-      imgSrc: "assets/pictures/Food.png",
+      imgSrc: "../../../../assets/pictures/Food.png",
       description: "FOOD",
       href: "../../../food/home",
     },
     {
-      imgSrc: "assets/pictures/Beer.png",
+      imgSrc: "../../../../assets/pictures/Beer.png",
       description: "DRINKS",
       href: "../../../drinks/home",
     },
 
     {
-      imgSrc: "assets/pictures/Bags.png",
+      imgSrc: "../../../../assets/pictures/Bags.png",
       description: "GROCERIES",
       href: "../../../groceries/home",
     },
