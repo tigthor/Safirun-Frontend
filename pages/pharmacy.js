@@ -1,10 +1,9 @@
-
-import PharmacyPage from '../src/components/Products/PharmacyPage';
+import PharmacyPage from "../components/Products/PharmacyPage";
 
 export default function Pharmacy() {
   return (
     <div>
       <PharmacyPage />
     </div>
-  )
+  );
 }

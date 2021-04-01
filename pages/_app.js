@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import "../css/index.css";
 import "swiper/swiper-bundle.css";
 import { motion, AnimatePresence } from "framer-motion";
 

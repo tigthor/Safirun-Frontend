@@ -92,38 +92,6 @@ const HomePage2 = () => {
               </div>
             </Row>
             <Row>
-              {/*<div className="SearchBox">
-                <Input
-                  className="SearchInput"
-                  placeholder="Enter Delivery Address to See The Menu"
-                ></Input>
-                <Button
-                  type="primary"
-                  className="SearchArrow"
-                  icon={
-                    <img
-                      style={{
-                        height: "50px",
-                        position: "absolute",
-                        width: "58.42px",
-                        left: "-2.5px",
-                        bottom: "-3.5px",
-                      }}
-                      src="assets/pictures/right-arrow-solid-square-button.png"
-                    />
-                  }
-                ></Button>
-                <img
-                  src="assets/pictures/location.png"
-                  style={{
-                    position: "absolute",
-                    left: "6px",
-                    top: "9.5px",
-                    height: "30px",
-                    width: "38.42px",
-                  }}
-                />
-              </div>*/}
               <SearchBar />
             </Row>
           </Space>

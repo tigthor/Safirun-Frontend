@@ -6,9 +6,28 @@ import NewNavbar from "./landing-page/NewNavbar";
 
 const Firstscreen = () => {
   return (
-    <div className="Homepart">
+    <div
+      style={{
+        backgroundColor: "#eaa24d",
+        maxWidth: "calc(100%)",
+        maxHeight: "100%",
+        borderRadius: "60px",
+      }}
+    >
       <NewNavbar />
-      <div className="SiteSearchPanel">
+      <div
+        style={{
+          backgroundPosition: "center center",
+          backgroundSize: "cover",
+          height: "100vh",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          boxSizing: "border-box",
+          position: "relative",
+        }}
+
+      >
         <HomePage2 />
       </div>
     </div>

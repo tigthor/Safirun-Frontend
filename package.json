@@ -1,12 +1,23 @@
 {
-  "name": "safirun",
-  "version": "0.1.0",
-  "private": true,
+  "name": "safirun-frontend",
+  "version": "2.0.0",
+  "description": "Next.js Safirun Official Website using Tailwind CSS",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Safirun-Logistics/Safirun-Frontend.git"
+  },
+  "author": "Thierry Byiringiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Safirun-Logistics/Safirun-Frontend/issues"
+  },
+  "homepage": "https://github.com/Safirun-Logistics/Safirun-Frontend#readme",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/lab": "^4.0.0-alpha.57",
@@ -17,9 +28,13 @@
     "clsx": "^1.1.1",
     "framer-motion": "^3.10.5",
     "mapbox-gl": "^2.2.0",
-    "next": "10.0.9",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "next": "10.1.2",
+    "postcss-100vh-fix": "^1.0.2",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-hover-media-feature": "^1.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-google-places-autocomplete": "^3.3.0",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
@@ -30,10 +45,16 @@
     "tailwindcss-theming": "^3.0.0-beta.1"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.8",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.4",
-    "tailwindcss-dark-mode": "^1.1.7"
+    "autoprefixer": "10.2.5",
+    "classnames": "2.2.6",
+    "i": "^0.3.6",
+    "npm": "^7.7.6",
+    "postcss": "8.2.8",
+    "postcss-100vh-fix": "1.0.2",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-hover-media-feature": "1.0.0",
+    "postcss-preset-env": "6.7.0",
+    "tailwindcss": "2.0.4",
+    "tailwindcss-plugins": "^0.3.0"
   }
 }
