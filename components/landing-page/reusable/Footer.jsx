@@ -69,8 +69,7 @@ const Footer = () => {
   ]);
 
   return (
-    <div className="Footer">
-    <Space size='small' direction='vertical' wrap='true'>
+    <Space size='small' direction='vertical' className='Footer'>
       <div className="FooterFirstSection">
         <div className="FooterFirstSection__LogosApps">
           <img src="../../../assets/Safirun-logo.png" />
@@ -156,8 +155,7 @@ const Footer = () => {
           <p>&#169; Copyright 2021 Safirun Logistics Ltd</p>
         </div>
       </div>
-      </Space>
-    </div>
+    </Space>
   );
 };
 

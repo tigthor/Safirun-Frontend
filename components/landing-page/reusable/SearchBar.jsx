@@ -70,7 +70,7 @@ const SearchBar = () => {
   };
   return (
     <div className="container">
-      <Search className="row " style={{ border: "1px solid #fc8019" }}>
+      <Search className="row bg-white rounded-md">
         <div className="text-left col-10 align-self-center">
           <div className="row">
             <Autocomplete
@@ -101,29 +101,21 @@ const SearchBar = () => {
                 />
               )}
             />
-            <button
-              type="button"
-              className="ml-4 text-right col-2 btn btn-sm align-self-center"
-            >
-              Locate Me
-            </button>
-          </div>
-        </div>
-        <button
+           <button
           type="button"
-          className="col-2 btn btn-lg"
+          className="col-2 btn btn-lg bg-green-600 text-black"
           onClick={() => {
             return goTo();
           }}
           style={{
             height: "100%",
-            color: "white",
-            backgroundColor: "#fc8019",
             borderRadius: "0px",
-          }}
-        >
-          <h6 className="font-weight-bold">FIND FOOD</h6>
-        </button>
+          }}>
+              Locate Me
+            </button>
+          </div>
+        </div>
+        
       </Search>
     </div>
   );

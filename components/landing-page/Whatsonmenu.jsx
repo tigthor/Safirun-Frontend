@@ -35,26 +35,15 @@ const Onmenu = () => {
     },
   ];
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        // height: '600px',
-      }}
-    >
-      <h1 className="whats_on_menu_text">What's on the menu</h1>
-      <div className="whatOnTheMenuPar" style={{}}>
+    <div>
+      <h1 className='lg:text-4xl text-2xl italic text-center transition-opacity'>What's on the menu</h1>
+      <div className="whatOnTheMenuPar">
         <div
-          className="whatOnTheMenuChil1"
           style={{ width: "299px", position: "relative" }}
         >
           <img
             src="../../assets/burger.png"
-            style={{
-              width: "299px",
-              height: "430px",
-              borderRadius: "3px",
-            }}
+            className='whats_on_menu_burger_pic'
           />
           <p
             style={{
@@ -74,10 +63,10 @@ const Onmenu = () => {
           >
             BUGGERS
           </p>
-        </div>
+          </div>
         <div
           className="whatOnTheMenuChil2"
-          style={{ width: "800px", height: "463px" }}
+          style={{ width: "800px" }}
         >
           {Values.map((values) => (
             <div className="whatOnTheMenuChil3">

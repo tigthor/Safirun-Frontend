@@ -42,35 +42,9 @@ const Marketplace = () => {
   ];
   return (
     <div>
-      <div className="marketPlaceChil1">
-        <h1
-          style={{
-            marginLeft: "auto",
-            marginRight: "auto",
-          }}
-        >
-          SAFIRUN market place{" "}
+        <h1 className='text-2xl italic text-center transition-opacity lg:text-4xl'>
+          SAFIRUN Marketplace
         </h1>
-        <div
-          style={{
-            display: "flex",
-            position: "relative",
-            flexDirection: "row",
-            marginLeft: "auto",
-            marginRight: "auto",
-          }}
-        >
-          <p
-            className="viewMore"
-            style={{ marginRight: "20px", marginBottom: "-40px" }}
-          >
-            View more
-          </p>
-          <p>
-            <MdArrowForward className="ViewMore_arrow" type="button" />
-          </p>
-        </div>
-      </div>
       <div className="marketPlaceChil2">
         {Data.map((data) => (
           <div className="marketPlaceChil3">
@@ -124,21 +98,7 @@ const Marketplace = () => {
             }}
           />
           <a href='shop/home'
-            style={{
-              backgroundColor: "#750062",
-              width: "calc(100%)",
-              color: "#FFFFFF",
-              position: "absolute",
-              justifyContent: "center",
-              textAlign: "center",
-              verticalAlign: "middle",
-              // bottom: '-4px',
-              borderRadius: '3px',
-              left: '-0px',
-              height: '57px',
-              lineHeight: '57px',
-              textDecoration:'none'
-            }}
+            className='MarketplaceShooping'
           >
             SHOPPING
           </a>

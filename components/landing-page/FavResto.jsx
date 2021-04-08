@@ -30,16 +30,9 @@ const Favresto = () => {
         </div>
         <div className="favoriteRestochil1">
           <img
-            src="../assets/Trackrunner1.jpg"
-            style={{ position: 'absolute', zIndex: 2 }}
-          ></img>
-          <img
-            src="../assets/Trackrunner2.jpg"
+            src="Safiapps.png" 
             style={{
-              position: 'relative',
-              top: '1px',
-              left: '200px',
-              zIndex: 1,
+              width: "300px"
             }}
           ></img>
         </div>

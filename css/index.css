@@ -37,7 +37,7 @@ max-height: 7500px;
   width: 11.6%;
   height: 6.625%;
   margin-left: 7%;
-  height: 30px;
+  height: 10%;
   /* margin-right: 8% */
 }
 
@@ -54,6 +54,40 @@ max-height: 7500px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+}
+
+@media (max-width: 500px) {
+  .SigninButton {
+    font-weight: 600;
+    font-size: 11px;
+    /* background-color: #eaa24d; */
+    border-color: transparent;
+    width: 60px;
+    height: 39px;
+    margin-left: 5px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  .SigninButton {
+    font-weight: 600;
+    font-size: 8px;
+    /* background-color: #eaa24d; */
+    border-color: transparent;
+    width: 40px;
+    height: 39px;
+    margin-left: 5px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+  }
 }
 
 .SigninButton:hover {
@@ -79,6 +113,38 @@ max-height: 7500px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+}
+
+@media (max-width: 500px) {
+  .HowItWorksButton {
+    font-weight: 600;
+    font-size: 11px;
+    background-color: #eaa24d;
+    border-color: transparent;
+    width: fit-content;
+    height: 39px;
+    border-radius: 5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .HowItWorksButton {
+    font-weight: 600;
+    font-size: 8px;
+    background-color: #eaa24d;
+    border-color: transparent;
+    width: fit-content;
+    height: 32px;
+    border-radius: 5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
 }
 
 .HowItWorksButton:hover {
@@ -109,6 +175,44 @@ max-height: 7500px;
   -o-border-radius: 20px;
 }
 
+@media (max-width:500px) {
+  .RegisterButton {
+    color: #eaa24d;
+    font-weight: 600;
+    font-size: 8px;
+    background-color: #000;
+    border-color: transparent;
+    width: 40px;
+    height: 23px;
+    margin-left: 5px;
+    border-radius: 10px;
+    /* box-shadow: 13px 4px 138px 5px rgba(255, 255, 255, 0.987); */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius:10px;
+    -o-border-radius: 10px;
+  }
+}
+
+@media (max-width:320px) {
+  .RegisterButton {
+    color: #eaa24d;
+    font-weight: 600;
+    font-size: 8px;
+    background-color: #000;
+    border-color: transparent;
+    width: 30px;
+    height: 23px;
+    margin-left: 5px;
+    border-radius: 10px;
+    /* box-shadow: 13px 4px 138px 5px rgba(255, 255, 255, 0.987); */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius:10px;
+    -o-border-radius: 10px;
+  }
+}
+
 .RegisterButton:hover {
   transform: translateY(-7px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -128,6 +232,18 @@ max-height: 7500px;
   height: 30px;
   flex-direction: row;
   /* justify-content: space-between; */
+}
+
+@media (max-width) {
+  .NewNavbar___Buttons {
+    margin-right: calc(4%);
+    /* max-width: calc(70%); */
+    display: flex;
+    /* height: 30px; */
+    flex-direction: row;
+    align-items: baseline;
+    /* justify-content: space-between; */
+  }
 }
 
 .SearchInput {
@@ -309,9 +425,9 @@ body {
 .Homepage2 {
   max-width: 100%;
   display: flex;
-  margin: center;
+  /* margin: center; */
   height: 40px;
-  margin: 10px auto;
+  /* margin: 10px auto; */
   align-items: center;
   justify-content: center;
 }
@@ -396,8 +512,8 @@ body {
   background: #ffff;
 }
 .WhatPeopleSayPanel__Box {
-  background: #cccc;
-  box-shadow: 0 10px 38px 0 rgba(0, 0, 0, 0.05);
+  background: #ffff;
+  box-shadow: 10px 10px 38px 20px rgba(0, 0, 0, 0.05);
   padding: 60px 0;
   position: relative;
   border-radius: 50px;
@@ -453,7 +569,7 @@ body {
   */
   max-width: 150px;
   height: 210px;
-  background: #cccc;
+  background:#ffff;
   border-radius: 10px;
   box-shadow: 0px 0px 4px rgba(228, 188, 188, 0.25);
   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
@@ -468,13 +584,14 @@ body {
   position: relative;
   padding: 15px;
   width: 240px;
-  right: 100px;
+  right: 60px;
   top: -280px;
   margin: 1em 0 3em;
   border-radius: 30px;
   /*color: #fff;
   */
   background: #ffff;
+  box-shadow: 2px 2px 4px rgba(228, 188, 188, 0.25);
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
@@ -484,19 +601,19 @@ body {
 .icon-twitter-bird {
   position: absolute;
   font-size: 1rem;
-  padding: 8px 6px 4px;
+  /* padding: 8px 6px 4px; */
   border-radius: 14px;
-  top: -300px;
-  left: -110px;
-  width: 48px;
-  height: 48px;
+  /* top: -0px; */
+  /* left: -110px; */
+  width: 408px;
+  height: 408px;
   box-sizing: border-box;
 }
 
 .Tweet_text:after {
   content: "";
   position: absolute;
-  bottom: -140px; /* value = - border-top-width - border-bottom-width */
+  bottom: -90px; /* value = - border-top-width - border-bottom-width */
   left: 80px; /* controls horizontal position */
   border-width: 40px 0 0 40px; /* vary these values to change the angle of the vertex */
   border-style: solid;
@@ -600,6 +717,7 @@ h6.light,
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  font-size: 23px;
   /* margin: 0 auto; */
   border-radius: 3px;
   background-color: #ffff;
@@ -607,6 +725,21 @@ h6.light,
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
+}
+
+.MarketplaceShooping {
+  background-color: #750062;
+  width: calc(100%);
+  color: #FFFFFF;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 3px;
+  left: -0px;
+  height: 57px;
+  line-height: 57px;
+  text-decoration:none
 }
 
 .marketPlaceChil2 {
@@ -653,12 +786,14 @@ h6.light,
 
 .favoriteRestoPar {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  flex-direction: row;
+  justify-items: baseline;
 }
 .favoriteRestochil1 {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   /* margin-right: 150px; */
   margin-top: 50px;
 }
@@ -669,11 +804,6 @@ h6.light,
   flex-wrap: wrap;
 }
 
-.whatOnTheMenuChil1 {
-  position: relative;
-  /* margin: 7px; */
-  top: 10px;
-}
 
 .whatOnTheMenuChil2 {
   display: flex;
@@ -692,18 +822,23 @@ h6.light,
 
 .whyOrdersWithSafiRunPar {
   display: flex;
-  justify-content: center;
-  max-width: 1800px;
+  justify-content: space-between;
   flex-wrap: wrap;
-  align-content: flex-start;
   align-items: baseline;
+  height: fit-content;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .whyOrdersWithSafiRunChil1 {
   flex-direction: column;
   position: relative;
-  margin: 7px;
+  /* margin: 7px; */
   width: 342px;
+  height: 300px;
+  text-align: center;
+  border-radius: 20px;
+  display: flex;
 }
 
 .ConnectWithUsPar {
@@ -714,14 +849,6 @@ h6.light,
   flex-direction: row;
   /* margin-left: 500px;
   margin-right: 500px; */
-}
-
-.readyToOrder {
-  position: relative;
-  margin: 7px;
-  width: 618px;
-  margin-top: 100px;
-  top: 10px;
 }
 
 .footerChil1 {
@@ -881,6 +1008,21 @@ h6.light,
   position: relative;
   margin: 7px;
 }
+
+.whats_on_menu_burger_pic {
+  width: 299px;
+  height: 430px;
+  border-radius: 3px;
+}
+
+/* @media (max-width: 800px) {
+  .whats_on_menu_burger_pic {
+    width: 299px;
+    height: 57px;
+    border-radius: 3px;
+  }
+} */
+
 .foodchil11 {
   width: 180px;
   height: 400px;
@@ -2445,11 +2587,16 @@ margin-right: 40px; */
 }
 .FooterFirstSection {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .FooterFirstSection__LogosApps {
   margin-top: 50px;
-  margin-left: calc((100% - 93.5%));
+  /* margin-left: calc((100% - 93.5%)); */
 }
 
 .FooterLinksSection {
@@ -2460,12 +2607,16 @@ margin-right: 40px; */
   flex-direction: row;
   position: relative;
   /* margin-right: 90px */
-  margin-left: 400px;
+  /* margin-left: 100%; */
 }
 
 .Footer {
   background-color: #0e0e0e;
   color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Footer p {
@@ -2565,7 +2716,7 @@ margin-right: 40px; */
 }
 .th, td {
   padding: 5px;
-  text-align: left;    
+  text-align: left;
 }
 
 .drink4chil1{
@@ -3176,7 +3327,7 @@ border-radius: 10px;
   height: 4px;
   left: 326px;
   top: 128px;
-  
+
   background: #FFFFFF;
   border: 0.5px solid #000000;
   box-sizing: border-box;

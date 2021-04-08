@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Button, Divider, Card, Input, Space, Row } from "antd";
-import { RightSquareFilled } from "@ant-design/icons";
+import { Space, Row } from "antd";
 import SearchBar from './reusable/SearchBar'
 
 const HomePage2 = () => {
@@ -24,6 +23,7 @@ const HomePage2 = () => {
     },
     {
       imgSrc: "assets/pictures/Florist4.png",
+      description: "Get your favorite flowers delivering at your door"
     },
     {
       imgSrc: "assets/pictures/Florist5.png",
@@ -38,42 +38,32 @@ const HomePage2 = () => {
 
   return (
     <div className="Homepage2">
-      <div className="SiteSearchPanel__SearchBlock__Inner">
-        <div className="SiteSearchPanel__SearchBlock__OpacityContainer">
           <Space
             size="middle"
             direction="vertical"
-            style={{
-              paddingBottom: "200px",
-            }}
+            // style={{
+            //   paddingBottom: "200px",
+            // }}
             wrap="true"
           >
             <Row>
-              <div className="SiteSearchPanel__SearchBlock__Inner__Logo icon-delivery-logo">
+              <div className="italic text-center transition-opacity lg:text-4xl">
                 {description}
               </div>
             </Row>
             <Row>
-              <div className="items-center content-center flex">
-                <motion.div
-                  animate={{
-                    scale: [1, 2, 2, 1, 1],
-                    rotate: [0, 0, 270, 270, 0],
-                    borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-                  }}
-                  transition={{ repeat: Infinity, duration: 2 }}
-                ></motion.div>
+              <div className="flex items-center content-center">
                 {First_Screen_Icons.map((icon) => (
                   <img
                     src={icon.imgSrc}
-                    className="flex items-center content-center bg-green-400 mx-1"
+                    className="container flex items-center content-center w-4 mx-3 text-sm bg-green-500 rounded-full h:4 sm:w-8 sm:h:8 lg:w-16 lg:h-16"
                     role="button"
-                    onMouseEnter={() => {
-                      setDescription(`${icon.description}`);
-                    }}
-                    onMouseLeave={() => {
-                      setDescription("We deliver anything at your doorstep");
-                    }}
+                    // onMouseEnter={() => {
+                    //   setDescription(`${icon.description}`);
+                    // }}
+                    // onMouseLeave={() => {
+                    //   setDescription("We deliver anything at your doorstep");
+                    // }}
                   />
                 ))}
               </div>
@@ -81,7 +71,7 @@ const HomePage2 = () => {
             <Row>
               <div>
                 <h3
-                  className='text-center text-sm'
+                  className='text-sm text-center'
                 >
                   Your eco-friendly delivery to your doorstep.
                 </h3>
@@ -92,8 +82,6 @@ const HomePage2 = () => {
             </Row>
           </Space>
         </div>
-      </div>
-    </div>
   );
 };
 

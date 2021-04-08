@@ -1,19 +1,14 @@
-import Image from "next/image";
+import Head from "next/head";
+import Homepage from "../components/Landingpage";
 
-export default function IndexPage() {
+export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center space-y-12">
-      <Image
-        src="/team-of-critters.svg"
-        alt="Four one-eyed aliens playing"
-        width={576}
-        height={429.734}
-        priority
+    <div>
+      <Homepage
+        className='w-auto h-auto text-center bg-yellow-50'
       />
-
-      <h2 className="p-3 font-bold bg-yellow-300 md:text-2xl">
-        Hi! Welcome to your first Next.js site.
-      </h2>
     </div>
   );
 }
+
+

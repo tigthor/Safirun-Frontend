@@ -30,7 +30,7 @@ const Peoplepanel = () => {
               <Row gutter={[206, 106]} className="Tweets">
                 <Col span={60} className="tweet_box">
                   <Card>
-                    <motion.div
+                    {/*<motion.div
                       initial="hidden"
                       animate="visible"
                       variants={variants}
@@ -39,8 +39,8 @@ const Peoplepanel = () => {
                         duration: 28,
                         delay: 19,
                       }}
-                    >
-                      <img src='assets/pics/Mrmark.png' alt="" />
+                    >*/}
+                      <img src='../../assets/pics/Mrmark.png' alt="" />
                       <Typography
                         style={{
                           position: 'relative',
@@ -53,7 +53,7 @@ const Peoplepanel = () => {
                         </p>
                         <img src='assets/pics/twitter_ico.png' className="icon-twitter-bird"></img>
                       </Typography>
-                    </motion.div>
+                    {/* </motion.div> */}
                   </Card>
                 </Col>
                 <Col span={60} className="tweet_box">
