@@ -30,7 +30,7 @@ const Favresto = () => {
         </div>
         <div className="favoriteRestochil1">
           <img
-            src="Safiapps.png" 
+            src="../../Safiapps.png" 
             style={{
               width: "300px"
             }}
