@@ -4,9 +4,10 @@
   "description": "Next.js Safirun Official Website using Tailwind CSS",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "dev": "npm run generate && next",
+    "build": "npm run generate && next build",
+    "start": "next start",
+    "generate": "npx tailwind build ./css/index.css -o ./styles/main.css"
   },
   "repository": {
     "type": "git",
