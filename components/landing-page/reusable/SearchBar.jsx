@@ -70,9 +70,9 @@ const SearchBar = () => {
   };
   return (
     <div className="container">
-      <Search className="row bg-white rounded-md">
-        <div className="text-left col-10 align-self-center">
-          <div className="row">
+      <Search className="bg-white border-transparent shadow-lg rounded-3xl row">
+        <div className="text-center border-transparent col-10 align-self-center">
+          <div className="border-transparent row">
             <Autocomplete
               className="ml-2 mr-0 text-left col-lg-9 col-md-8 col-sm-8 form-control-plaintext form-control-lg text-muted font-weight-bold"
               freeSolo
@@ -81,7 +81,7 @@ const SearchBar = () => {
               options={data.map((place) => place.place_name)}
               renderInput={(params) => (
                 <TextField
-                  className="text-left form-control-plaintext form-control-lg text-muted font-weight-bold"
+                  className="text-left border-transparent form-control-plaintext form-control-lg text-muted font-weight-bold"
                   id="outlined-helperText"
                   placeholder="Enter Your delivery location"
                   onChange={(value) => {
@@ -103,15 +103,12 @@ const SearchBar = () => {
             />
            <button
           type="button"
-          className="col-2 btn btn-lg bg-green-600 text-black"
+          className="text-center text-orange-500 bg-black rounded-2xl col-2 btn btn-lg"
           onClick={() => {
             return goTo();
           }}
-          style={{
-            height: "100%",
-            borderRadius: "0px",
-          }}>
-              Locate Me
+          >
+              START ORDERING
             </button>
           </div>
         </div>

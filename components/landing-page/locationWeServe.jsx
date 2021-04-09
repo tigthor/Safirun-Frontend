@@ -8,7 +8,8 @@ const Locserved = () => {
         className='text-2xl italic text-center transition-opacity lg:text-4xl'
       >Location we currently serve</h1>
       <img src="../../assets/map.png" style={{
-        maxWidth: 'calc(100%)'
+        width: 'calc(100%)',
+        height: 'calc(100%)'
       }}></img>
     </Space>
   );

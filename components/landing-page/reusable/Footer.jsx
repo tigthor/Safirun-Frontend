@@ -69,7 +69,7 @@ const Footer = () => {
   ]);
 
   return (
-    <Space size='small' direction='vertical' className='Footer'>
+    <div className='Footer'>
       <div className="FooterFirstSection">
         <div className="FooterFirstSection__LogosApps">
           <img src="../../../assets/Safirun-logo.png" />
@@ -148,14 +148,15 @@ const Footer = () => {
             ></img>
           </div>
         </div>
-        <div></div>
-        <div
-          style={{ marginLeft: "840px", color: "white" }}
-        >
-          <p>&#169; Copyright 2021 Safirun Logistics Ltd</p>
+        <div>
+          <div
+            style={{ color: "white" }}
+          >
+            <p>&#169; Copyright 2021 Safirun Logistics Ltd</p>
+          </div>
         </div>
       </div>
-    </Space>
+    </div>
   );
 };
 

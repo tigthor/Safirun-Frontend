@@ -1,4 +1,4 @@
-import "../styles/main.css";
+import "../css/index.css";
 import "swiper/swiper-bundle.css";
 import { motion} from "framer-motion";
 

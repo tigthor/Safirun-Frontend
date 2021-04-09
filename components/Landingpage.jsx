@@ -17,7 +17,7 @@ import { Space } from 'antd';
 const Homepage = () => {
   return (
     // <Router>
-    <div className="w-full max-w-full bg-white">
+    <div className="w-auto bg-white">
       <Space direction="vertical" size="large" wrap="true">
         <Firstscreen />
         <Marketplace className="marketplace" />

@@ -6,7 +6,7 @@ import NewNavbar from "./landing-page/NewNavbar";
 
 const Firstscreen = () => {
   return (
-    <div className="w-full max-w-full min-h-full bg-orange-500 rounded-3xl">
+    <div className="w-full max-w-full min-h-full bg-orange-500 rounded-full md:rounded-3xl">
       <NewNavbar />
       <div className="flex items-center justify-center h-screen">
         <HomePage2 />

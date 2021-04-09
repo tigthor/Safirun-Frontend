@@ -61,7 +61,7 @@ const Marketplace = () => {
             <p
               style={{
                 backgroundColor: `${data.backgroudColor}`,
-                width: "342px",
+                width: "calc(100%)",
                 color: "#FFFFFF",
                 position: "absolute",
                 justifyContent: "center",
