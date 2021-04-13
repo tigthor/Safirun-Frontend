@@ -86,22 +86,24 @@ const UtilitiesPage = () => {
 
   const [floraCatStyle, setFloraCatStyle] = useState([
     {
-      maxWidth: "1200px",
+      maxWidth: "100%",
       alignItems: "center",
       justifyItems: "center",
-    },
-    {
-      paddingLeft: "calc((100% - 92.5%))",
-    },
-    {
-      width: "100%",
-      paddingLeft: "calc((100% - 92.5%))",
-      paddingRight: "calc((100% - 98%))",
-      display: "flex",
-      flexDirection: "row",
-      alignItems: "center",
       marginRight: "auto",
       marginLeft: "auto",
+      paddingLeft: "auto",
+    },
+    {
+      marginRight: "auto",
+      marginLeft: "auto",
+    },
+    {
+      display: "flex",
+      flexDirection: "row",
+      flexWrap: "wrap",
+      justifyItems: "center",
+      alignContent: "center",
+      alignItems: "center"
     },
   ]);
 
@@ -112,7 +114,7 @@ const UtilitiesPage = () => {
       <Space size="large" direction="vertical">
       <ProductsNavbar />
         <DiscountPass />
-        <DefaultCatIcons />
+        {/* <DefaultCatIcons /> */}
         <ProductsAdSection
           details={pageDetails[0]}
           Styles={adStyles}

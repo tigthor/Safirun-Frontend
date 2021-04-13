@@ -18,8 +18,9 @@ const ProductsNavbar = () => {
             src="../../../../assets/SafiOfficialLogo.png"
             className="ProductsNavbar__Logo"
           />
+          <p className="ProductsNavbar_Deliver">Delivery</p>
       </div>
-      <p className="ProductsNavbar_Deliver">Delivery</p>
+      
       <Input className="ProductsNavbar_Input" />
       <div className="ProductsNavbar__ForUser">
         <img

@@ -31,9 +31,6 @@ const SearchBar = () => {
       },
     })
       .then((res) => {
-        // if (res.data.features = 'Rwanda') {
-        //   console.log(res.data.features);
-        // }
         setData(res.data.features);
 
         getLocation(res.data.features);
@@ -59,7 +56,6 @@ const SearchBar = () => {
           area,
           place_name,
         };
-        // console.log(Coordinates);
         return localStorage.setItem("Coordinates", JSON.stringify(Coordinates));
       }
     });
@@ -92,10 +88,8 @@ const SearchBar = () => {
                     ...params.InputProps,
                     type: "search",
                   }}
-                  // variant='outlined'
                   fullWidth
                   style={{
-                    // border:'1px solid red',
                     fontSize: "20px",
                   }}
                 />

@@ -4,20 +4,20 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: ['./src/**/*.jsx',
-   './src/**/*.js',
-   "./components/**/*.{jsx,js}",
-   "./pages/**/*.{jsx,js}",
-   "./components/**/**/*.{jsx,js}",
-   "./components/**/**/**/*.{jsx,js}",
-   "./components/*.{jsx,js}",
-   "./components/**/**/**/*.{jsx,js}",
-   "./components/**/**/**/**/*.{jsx,js}",
-   "./pages/**/**/*.{jsx,js}",
-   "./pages/**/**/**/*.{jsx,js}",
-   "./pages/*.{jsx,js}",
-   "./pages/**/**/**/*.{jsx,js}",
-   "./pages/**/**/**/**/*.{jsx,js}"
-   ],
+    './src/**/*.js',
+    "./components/**/*.{jsx,js}",
+    "./pages/**/*.{jsx,js}",
+    "./components/**/**/*.{jsx,js}",
+    "./components/**/**/**/*.{jsx,js}",
+    "./components/*.{jsx,js}",
+    "./components/**/**/**/*.{jsx,js}",
+    "./components/**/**/**/**/*.{jsx,js}",
+    "./pages/**/**/*.{jsx,js}",
+    "./pages/**/**/**/*.{jsx,js}",
+    "./pages/*.{jsx,js}",
+    "./pages/**/**/**/*.{jsx,js}",
+    "./pages/**/**/**/**/*.{jsx,js}"
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -57,7 +57,18 @@ module.exports = {
         700: "#146d0a",
         800: "#0e4807",
         900: "#072403"
-      }
+      },
+      black: {
+        100: "#ced4e4",
+        200: "#9da9c9",
+        300: "#6b7eae",
+        400: "#3a5393",
+        500: "#092878",
+        600: "#072060",
+        700: "#051848",
+        800: "#041030",
+        900: "#020818"
+      },
     }
   },
   variants: {},
