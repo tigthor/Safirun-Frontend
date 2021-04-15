@@ -12,6 +12,14 @@ const oneProductCard = (props) => {
     openNotificationWithIcon('success')
   };
 
+  const removeCart = (itemId) => {
+    remove_single(itemId);
+    setAddItemOpacity('opacity-100')
+    setRemoveItemOpacity('opacity-0')
+    setDisableButton(false)
+    openNotificationWithIcon('success')
+  };
+
   const [cart, setCart] = useState([]);
   const [addItemOpacity, setAddItemOpacity] = useState('opacity-100')
   const [removeItemOpacity, setRemoveItemOpacity] = useState('opacity-0')
@@ -49,11 +57,8 @@ const oneProductCard = (props) => {
         <Button
           title={`Order Now ${props.itemName}`}
           onClick={() =>
-            addCart({
+            removeCart({
               itemId: props.itemId,
-              itemName: props.itemName,
-              itemPrice: props.itemPrice,
-              itemDescription: props.itemDescription,
             })
           }
           icon={<CloseCircleTwoTone
@@ -88,7 +93,7 @@ const oneProductCard = (props) => {
 
       <img src={props.itemImage} className="oneProductCard_MainPic" />
       <h3 className="ProductCard_MainTitle">{props.itemName}</h3>
-      <p className="ProductCard_Description">{props.itemPrice}</p>
+      <p className="ProductCard_Description">{props.itemPrice} Frw</p>
       <div className="ProductCard_Additional_Info">
         <p className="ProductCard_Additional_Info_time">
           {/* {data.infoTime} */} {props.itemDescription}
