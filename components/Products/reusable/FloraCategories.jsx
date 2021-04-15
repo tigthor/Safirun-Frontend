@@ -10,7 +10,7 @@ const FloraCategories = ({ title, FloristData}) => {
     <div className='mx-auto'>
       <Row align="middle">
         <Space size="small" direction="vertical">
-          <h1 className='text-2xl italic transition-opacity ml-28 lg:text-4xl'>{title}</h1>
+          <h1 className='Category_Title'>{title}</h1>
           <Space
             size="middle"
             direction="horizontal"

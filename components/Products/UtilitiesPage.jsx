@@ -110,7 +110,7 @@ const UtilitiesPage = () => {
   const [buttonClassName, setButtonClassName] = useState("UtilitiesOrderButton");
 
   return (
-    <div className="PharmacyPage">
+    <div className='CategoryPage'>
       <Space size="large" direction="vertical">
       <ProductsNavbar />
         <DiscountPass />
@@ -122,12 +122,12 @@ const UtilitiesPage = () => {
         />
         <FloraCategories
           floraStyles={floraCatStyle}
-          title="Need a Refill?"
+          title="NEED A REFILL?"
           FloristData={itemsData}
         />
         <FloraCategories
           floraStyles={floraCatStyle}
-          title="New"
+          title="NEW"
           FloristData={itemsData}
         />
         <Footer />

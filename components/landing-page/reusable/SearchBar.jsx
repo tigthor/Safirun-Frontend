@@ -4,13 +4,8 @@ import axios from "axios";
 import { withRouter } from "react-router-dom";
 import React, { Component, useState } from "react";
 import {
-  Div,
-  InnerDiv,
-  MainImg,
-  Logo,
   Search,
-  City,
-  CardContainer,
+  Button,
   Card,
   CardImg
 } from "../../AllStyledComponents";
@@ -66,20 +61,17 @@ const SearchBar = () => {
   };
   return (
     <div className="container">
-      <Search className="bg-white border-transparent shadow-lg rounded-3xl row">
-        <div className="text-center border-transparent col-10 align-self-center">
-          <div className="border-transparent row">
+        <div className="bar">
             <Autocomplete
-              className="ml-2 mr-0 text-left col-lg-9 col-md-8 col-sm-8 form-control-plaintext form-control-lg text-muted font-weight-bold"
+               className="searchbar"
               freeSolo
               id="free-solo-2-demo"
               disableClearable
               options={data.map((place) => place.place_name)}
               renderInput={(params) => (
                 <TextField
-                  className="text-left border-transparent form-control-plaintext form-control-lg text-muted font-weight-bold"
                   id="outlined-helperText"
-                  placeholder="Enter Your delivery location"
+                  placeholder="Enter Your delivery location and press ORDER BUTTON"
                   onChange={(value) => {
                     return handleInputChange(value);
                   }}
@@ -95,19 +87,16 @@ const SearchBar = () => {
                 />
               )}
             />
-           <button
-          type="button"
-          className="text-center text-orange-500 bg-black rounded-2xl col-2 btn btn-lg"
-          onClick={() => {
-            return goTo();
-          }}
-          >
+            {/* <Button
+              type="button"
+              className="text-center text-orange-500 bg-black rounded-2xl col-2 btn btn-lg"
+              onClick={() => {
+                return goTo();
+              }}
+            >
               START ORDERING
-            </button>
-          </div>
+            </Button> */}
         </div>
-        
-      </Search>
     </div>
   );
 };

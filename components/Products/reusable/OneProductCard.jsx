@@ -1,22 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { Card, Button, Space, Row, Col, notification } from 'antd';
-import { ShoppingTwoTone } from '@ant-design/icons';
+import { ShoppingTwoTone, StarFilled, CloseCircleTwoTone } from '@ant-design/icons';
+
 
 const oneProductCard = (props) => {
   const addCart = (item) => {
     add_cart(item);
-    // setOpacity('opacity-0')
+    setAddItemOpacity('opacity-0')
+    setRemoveItemOpacity('opacity-100')
     setDisableButton(true)
     openNotificationWithIcon('success')
   };
 
   const [cart, setCart] = useState([]);
-  const [opacity, setOpacity] = useState('opacity-100')
-  const add_cart = (item) => {
-    console.log(cart.filter(product => product.itemId !== item.itemId));
-    setCart([...cart, item]);
+  const [addItemOpacity, setAddItemOpacity] = useState('opacity-100')
+  const [removeItemOpacity, setRemoveItemOpacity] = useState('opacity-0')
 
-    return console.log(cart);
+  const add_cart = (item) => {
+    console.log(cart.indexOf(item));
+    setCart([...cart, item]);
   };
 
   const [disableButton, setDisableButton] = useState(false)
@@ -43,25 +45,46 @@ const oneProductCard = (props) => {
 
   return (
     <Card className="oneProductCard" key={props.itemId}>
-      <Button
-        title={`Order Now ${props.itemName}`}
-        onClick={() =>
-          addCart({
-            itemId: props.itemId,
-            itemName: props.itemName,
-            itemPrice: props.itemPrice,
-            itemDescription: props.itemDescription,
-          })
-        }
-        icon={<ShoppingTwoTone
-          className='text-4xl rounded'
-          twoToneColor="#52c41a"
-        />}
-        type='primary'
-        size='small'
-        className={`w-8 mt-2 ml-40 ${opacity}`}
-        shape='circle'
-      />
+      <div className={`mt-2 flex content-between w-full`}>
+        <Button
+          title={`Order Now ${props.itemName}`}
+          onClick={() =>
+            addCart({
+              itemId: props.itemId,
+              itemName: props.itemName,
+              itemPrice: props.itemPrice,
+              itemDescription: props.itemDescription,
+            })
+          }
+          icon={<CloseCircleTwoTone
+            className='text-4xl rounded'
+            twoToneColor="#a15353"
+          />}
+          type='primary'
+          size='small'
+          className={`w-8 ml-4 ${removeItemOpacity}`}
+          shape='circle'
+        />
+        <Button
+          title={`Order Now ${props.itemName}`}
+          onClick={() =>
+            addCart({
+              itemId: props.itemId,
+              itemName: props.itemName,
+              itemPrice: props.itemPrice,
+              itemDescription: props.itemDescription,
+            })
+          }
+          icon={<ShoppingTwoTone
+            className='text-4xl rounded'
+            twoToneColor="#54fc00"
+          />}
+          type='primary'
+          size='small'
+          className={`w-8 ml-32 ${addItemOpacity}`}
+          shape='circle'
+        />
+      </div>
 
       <img src={props.itemImage} className="oneProductCard_MainPic" />
       <h3 className="ProductCard_MainTitle">{props.itemName}</h3>
@@ -71,15 +94,12 @@ const oneProductCard = (props) => {
           {/* {data.infoTime} */} {props.itemDescription}
         </p>
         <div className="ProductCard_Additional_Info_ratings">
-          <img
-            className="ProductCard_Additional_Info_ratings_star"
-            src="../../../Star.png"
+          <StarFilled 
+          fill='#52c41a' 
+          twoToneColor="#a15353"
           />
           <p className="ProductCard_Additional_Info_ratings_txt">
             {/* {data.infoRatingsText} */} 4.2+
-                    </p>
-          <p className="ProductCard_Additional_Info_ratings_text2">
-            {/* {data.infoRatingsText2} */} (200)
                     </p>
         </div>
       </div>
