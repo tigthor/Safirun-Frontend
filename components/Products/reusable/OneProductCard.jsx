@@ -119,4 +119,4 @@ const oneProductCard = (props) => {
   );
 }
 
-export default {oneProductCard, cart}
+export default oneProductCard
