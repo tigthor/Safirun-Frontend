@@ -1,5 +1,5 @@
 
-import ShoppingHomePage from '../../src/components/Products/shopComponents/home'
+import ShoppingHomePage from '../../components/Products/shopComponents/home'
 
 export default function Home() {
   return (

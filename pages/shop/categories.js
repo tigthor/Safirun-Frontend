@@ -1,6 +1,6 @@
 
 
-import ShoppingCategories from '../../src/components/Products/shopComponents/ShopingCategories'
+import ShoppingCategories from '../../components/Products/shopComponents/ShopingCategories'
 
 export default function () {
   return (

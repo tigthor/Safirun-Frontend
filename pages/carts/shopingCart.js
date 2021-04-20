@@ -1,5 +1,5 @@
 
-import ShopingCart from '../../src/components/Products/Carts/ShopingCart'
+import ShopingCart from '../../components/Products/Carts/ShopingCart'
 
 export default function cart() {
   return (

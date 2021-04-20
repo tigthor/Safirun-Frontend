@@ -1,5 +1,5 @@
 
-import FoodSelectRestaurant from '../../src/components/Products/foodComponents/FoodSelectRestaurant'
+import FoodSelectRestaurant from '../../components/Products/foodComponents/FoodSelectRestaurant'
 
 export default function SelectRestaurant() {
   return (

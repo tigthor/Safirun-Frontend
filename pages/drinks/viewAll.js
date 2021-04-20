@@ -1,5 +1,5 @@
 
-import DrinksViewAll from '../../src/components/Products/drinksComponents/DrinksViewAll'
+import DrinksViewAll from '../../components/Products/drinksComponents/DrinksViewAll'
 
 export default function ViewAll() {
   return (

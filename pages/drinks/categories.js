@@ -1,4 +1,4 @@
-import DrinksCategories from '../../src/components/Products/drinksComponents/DrinksCategories'
+import DrinksCategories from '../../components/Products/drinksComponents/DrinksCategories'
 
 export default function Categories() {
   return (

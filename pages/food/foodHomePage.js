@@ -1,4 +1,4 @@
-import FoodHomepage from "../../src/components/Products/foodComponents/FoodHomePage";
+import FoodHomepage from "../../components/Products/foodComponents/FoodHomePage";
 
 export default function Homepage() {
   return (

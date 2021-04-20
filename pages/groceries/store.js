@@ -1,5 +1,5 @@
 
-import GroceriesStore from '../../src/components/Products/groceriesComponents/GroceriesStore'
+import GroceriesStore from '../../components/Products/groceriesComponents/GroceriesStore'
 
 export default function Groceries() {
   return (

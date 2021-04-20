@@ -6,38 +6,38 @@ import Link from "next/link";
 const DefaultCatIcons = () => {
   const First_Screen_Icons = [
     {
-      imgSrc: "../../../../assets/pictures/Food.png",
+      imgSrc: "../../../../assets/Food.png",
       description: "FOOD",
       href: "../../../food/home",
     },
     {
-      imgSrc: "../../../../assets/pictures/Beer.png",
+      imgSrc: "../../../../assets/Beer.png",
       description: "DRINKS",
       href: "../../../drinks/home",
     },
 
     {
-      imgSrc: "../../../../assets/pictures/Bags.png",
+      imgSrc: "../../../../assets/Bags.png",
       description: "GROCERIES",
       href: "../../../groceries/home",
     },
     {
-      imgSrc: "../../../../assets/pictures/Florist6.png",
+      imgSrc: "../../../../assets/Florist6.png",
       description: "FLORIST",
       href: "florist",
     },
     {
-      imgSrc: "../../../../assets/pictures/Florist7.png",
+      imgSrc: "../../../../assets/Florist7.png",
       description: "UTILITIES",
       href: "/utilities",
     },
     {
-      imgSrc: "../../../../assets/pictures/Florist4.png",
+      imgSrc: "../../../../assets/Florist4.png",
       description: "PHARMACY & ESSENTIALS",
       href: "/pharmacy",
     },
     {
-      imgSrc: "../../../../assets/pictures/Florist5.png",
+      imgSrc: "../../../../assets/Florist5.png",
       description: "SHOPPING",
       href: "../../../shop/home",
     },

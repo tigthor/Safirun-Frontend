@@ -1,5 +1,5 @@
 
-import GroceriesHomePage from '../../src/components/Products/groceriesComponents/GroceriesHomePage'
+import GroceriesHomePage from '../../components/Products/groceriesComponents/GroceriesHomePage'
 
 export default function Groceries() {
   return (

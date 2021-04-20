@@ -1,5 +1,5 @@
 
-import DrinksDiscription from '../../src/components/Products/drinksComponents/DrinksDiscription'
+import DrinksDiscription from '../../components/Products/drinksComponents/DrinksDiscription'
 
 export default function Discription() {
   return (

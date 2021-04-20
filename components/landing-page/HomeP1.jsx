@@ -11,28 +11,28 @@ const HomePage2 = () => {
 
   const First_Screen_Icons = [
     {
-      imgSrc: "assets/pictures/Beer.png",
+      imgSrc: "assets/Beer.png",
       description: "We deliver Wines & Spirits",
     },
     {
-      imgSrc: "assets/pictures/Food.png",
+      imgSrc: "assets/Food.png",
       description: "We have best food around",
     },
     {
-      imgSrc: "assets/pictures/Bags.png",
+      imgSrc: "assets/Bags.png",
     },
     {
-      imgSrc: "assets/pictures/Florist4.png",
+      imgSrc: "assets/Florist4.png",
       description: "Get your favorite flowers delivering at your door"
     },
     {
-      imgSrc: "assets/pictures/Florist5.png",
+      imgSrc: "assets/Florist5.png",
     },
     {
-      imgSrc: "assets/pictures/Florist6.png",
+      imgSrc: "assets/Florist6.png",
     },
     {
-      imgSrc: "assets/pictures/Florist7.png",
+      imgSrc: "assets/Florist7.png",
     },
   ];
 

@@ -1,4 +1,4 @@
-import FoodCart from '../../src/components/Products/Carts/FoodCart'
+import FoodCart from '../../components/Products/Carts/FoodCart'
 
 export default function cart() {
   return (

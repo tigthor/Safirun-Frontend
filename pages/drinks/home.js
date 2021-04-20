@@ -1,5 +1,5 @@
 
-import DrinksHomepage from '../../src/components/Products/drinksComponents/DrinksHomePage'
+import DrinksHomepage from '../../components/Products/drinksComponents/DrinksHomePage'
 
 export default function Homepage() {
   return (

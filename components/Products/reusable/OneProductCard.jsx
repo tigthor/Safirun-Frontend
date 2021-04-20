@@ -9,7 +9,7 @@ const oneProductCard = (props) => {
     setAddItemOpacity('opacity-0')
     setRemoveItemOpacity('opacity-100')
     setDisableButton(true)
-    openNotificationWithIcon('success')
+    openNotification();
   };
 
   const removeCart = (itemId) => {
@@ -17,10 +17,11 @@ const oneProductCard = (props) => {
     setAddItemOpacity('opacity-100')
     setRemoveItemOpacity('opacity-0')
     setDisableButton(false)
-    openNotificationWithIcon('success')
+    openNotification();
   };
 
   const [cart, setCart] = useState([]);
+  const [allItems, setAllItems] = useState([])
   const [addItemOpacity, setAddItemOpacity] = useState('opacity-100')
   const [removeItemOpacity, setRemoveItemOpacity] = useState('opacity-0')
 
@@ -35,21 +36,20 @@ const oneProductCard = (props) => {
     cart.filter(value => value.itemId != itemId)
   }
 
-  const openNotificationWithIcon = type => {
-    notification[type]({
+  const openNotification = () => {
+    notification.open({
       style: {
         color: '#1DA57A',
         fontWeight: 'bold',
         opacity: 0.9,
         cursor: 'pointer',
       },
-      placement: 'topRight',
-      message: 'Notification Title',
-      description:
-        'This is the content of the notification. This is the content of the notification. This is the content of the notification.',
+      placement: 'bottomRight',
+      message: 'Item Added',
+      description: `${props.itemName} is added to your cart.`,
+      duration: 4,
     });
   };
-
 
   return (
     <Card className="oneProductCard" key={props.itemId}>
@@ -62,13 +62,14 @@ const oneProductCard = (props) => {
             })
           }
           icon={<CloseCircleTwoTone
-            className='text-4xl rounded'
+            className='text-5xl rounded'
             twoToneColor="#a15353"
           />}
           type='primary'
           size='small'
           className={`w-8 ml-4 ${removeItemOpacity}`}
           shape='circle'
+          disabled={disableButton}
         />
         <Button
           title={`Order Now ${props.itemName}`}
@@ -83,11 +84,17 @@ const oneProductCard = (props) => {
           icon={<ShoppingTwoTone
             className='text-4xl rounded'
             twoToneColor="#54fc00"
+            width={6}
+            height={6}
           />}
           type='primary'
-          size='small'
-          className={`w-8 ml-32 ${addItemOpacity}`}
+          size='middle'
+          className={`w-16 h-16 ml-32 ${addItemOpacity}`}
           shape='circle'
+          disabled={disableButton}
+          width={6}
+          height={6}
+          ghost
         />
       </div>
 
@@ -99,9 +106,9 @@ const oneProductCard = (props) => {
           {/* {data.infoTime} */} {props.itemDescription}
         </p>
         <div className="ProductCard_Additional_Info_ratings">
-          <StarFilled 
-          fill='#52c41a' 
-          twoToneColor="#a15353"
+          <StarFilled
+            fill='#52c41a'
+            twoToneColor="#a15353"
           />
           <p className="ProductCard_Additional_Info_ratings_txt">
             {/* {data.infoRatingsText} */} 4.2+
@@ -112,4 +119,4 @@ const oneProductCard = (props) => {
   );
 }
 
-export default oneProductCard
+export default {oneProductCard, cart}

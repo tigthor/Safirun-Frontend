@@ -1,5 +1,5 @@
 
-import ShopingViewAll from '../../src/components/Products/shopComponents/ShopingViewAll'
+import ShopingViewAll from '../../components/Products/shopComponents/ShopingViewAll'
 
 export default function ViewAll() {
   return (

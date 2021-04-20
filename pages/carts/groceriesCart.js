@@ -1,6 +1,6 @@
 
 
-import GroceriesCart from '../../src/components/Products/Carts/GroceriesCart'
+import GroceriesCart from '../../components/Products/Carts/GroceriesCart'
 
 export default function cart() {
   return (

@@ -1,4 +1,4 @@
-import DrinkSideCart from '../../src/components/Products/Carts/DrinkSideCart'
+import DrinkSideCart from '../../components/Products/Carts/DrinkSideCart'
 
 export default function cart() {
   return (

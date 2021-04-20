@@ -1,4 +1,4 @@
-import FoodSandwichSearch from '../../src/components/Products/foodComponents/FoodSandwichSearch';
+import FoodSandwichSearch from '../../components/Products/foodComponents/FoodSandwichSearch';
 
 export default function Sandwich() {
     return (

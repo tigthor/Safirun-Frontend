@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { Button, Divider, Card, Input, Space, Row, Col } from "antd";
+import { LinkedinFilled, TwitterCircleFilled, InstagramFilled, YoutubeFilled, FacebookFilled } from '@ant-design/icons'
+import { FaGooglePlay} from "react-icons/fa";
+import { GrAppleAppStore } from 'react-icons/gr'
 
 const Footer = () => {
   const [footerData, setFooterData] = useState([
@@ -68,6 +71,8 @@ const Footer = () => {
     ],
   ]);
 
+  const [fillColor, setFillColor] = useState('#54fc00')
+
   return (
     <div className='Footer'>
       <div className="FooterFirstSection">
@@ -75,14 +80,16 @@ const Footer = () => {
           <img src="../../../assets/Safirun-logo.png" />
           <br></br>
           <div className="FooterAppsSection">
-            <img
-              src="../../../assets/apple2.png"
+            <GrAppleAppStore
               className="FooterAppsSection__AppleStore"
+              color={fillColor}
             />
-            <img
-              src="../../../assets/pics/googlepaly.png"
-              className="FooterAppsSection__GooglePlay"
-            ></img>
+            <FaGooglePlay
+              style={{
+                width: '50%',
+                height: '50%'
+              }}
+            />
           </div>
         </div>
         <Space
@@ -124,28 +131,39 @@ const Footer = () => {
       <div className="footerChil3">
         <div className="footerChil4">
           <div>
-            <img src="../../assets/ico3.png"></img>
+            <InstagramFilled
+              className='text-4xl rounded'
+              twoToneColor={fillColor}
+              fill={fillColor}
+            />
           </div>
           <div>
-            <img
-              src="../../assets/ico1.png"
-              style={{ marginLeft: "5px" }}
-            ></img>
+            <LinkedinFilled
+              className='text-4xl rounded'
+              twoToneColor={fillColor}
+              fill={fillColor}
+            />
           </div>
           <div>
-            <img src="../../assets/ico2.png"></img>
+            <YoutubeFilled
+              className='text-4xl rounded'
+              twoToneColor={fillColor}
+              fill={fillColor}
+            />
           </div>
           <div>
-            <img
-              src="../../assets/ico5.png"
-              style={{ marginLeft: "5px" }}
-            ></img>
+            <FacebookFilled
+              className='text-4xl rounded'
+              twoToneColor={fillColor}
+              fill={fillColor}
+            />
           </div>
           <div>
-            <img
-              src="../../assets/ico4.png"
-              style={{ marginLeft: "5px" }}
-            ></img>
+            <TwitterCircleFilled
+              className='text-4xl rounded'
+              twoToneColor={fillColor}
+              fill={fillColor}
+            />
           </div>
         </div>
         <div>

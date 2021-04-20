@@ -1,4 +1,4 @@
-import Signup from "../src/components/landing-page/reusable/Signup";
+import Signup from "../components/landing-page/reusable/Signup";
 
 export default function Home() {
   return (
