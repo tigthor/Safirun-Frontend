@@ -1118,14 +1118,15 @@ h6.light,
   position: absolute;
   background-color: green;
 }
-/* .drinkChil2 {
+.drinkChil2 {
   display: flex;
   justify-content: space-between;
   width: 683px;
   height: 468px;
-  left: 29px;
-  top: 256px;
-} */
+  /* left: 29px;
+  top: 256px; */
+
+}
 
 
 
@@ -1319,7 +1320,7 @@ h6.light,
 .drinkChil2 {
   display: flex;
   justify-content: space-between;
-  width: 683px;
+  width: 703px;
   height: 468px;
   left: 29px;
   top: 256px;
@@ -1332,6 +1333,7 @@ h6.light,
   display: flex;
   flex-wrap: wrap;
   margin: 7px;
+  
 }
 .drinkChil4 {
   display: flex;
@@ -2395,6 +2397,22 @@ margin-right: 40px; */
   -o-border-radius: 20px;
 }
 
+.FoodOrderButton {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #db573b;
+  border-color: #FFFFFF;
+  border-style: double;
+  width: 146px;
+  height: 39px;
+  border-radius: 2px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
 .UtilitiesOrderButton:hover {
   transform: translateY(-7px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -2405,7 +2423,16 @@ margin-right: 40px; */
   -ms-transform: translateY(-7px);
   -o-transform: translateY(-7px);
 }
-
+.FoodOrderButton:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #ffff;
+  color: #000;
+  -webkit-transform: translateY(-7px);
+  -moz-transform: translateY(-7px);
+  -ms-transform: translateY(-7px);
+  -o-transform: translateY(-7px);
+}
 .FooterElement {
   font-weight: normal;
   font-size: 15px;

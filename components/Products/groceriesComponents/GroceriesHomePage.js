@@ -183,7 +183,6 @@ const GroceriesHomePage = () => {
     },
   ]
 
-
   const { Sider } = Layout;
   return (
     <div class='foodPar'>

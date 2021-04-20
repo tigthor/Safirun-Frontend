@@ -7,6 +7,7 @@ import Layout from 'antd/lib/layout/layout';
 import { Space, Card, Row, Col, Radio } from 'antd';
 import ProductsNavbar from '../reusable/ProductsNavbar';
 import DiscountPass from '../reusable/DiscountPass';
+import FloraCategories from '../reusable/FloraCategories';
 import Footer from '../../landing-page/reusable/Footer';
 
 

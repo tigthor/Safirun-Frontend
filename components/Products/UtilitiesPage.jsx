@@ -64,6 +64,18 @@ const UtilitiesPage = () => {
       MainDescription:
         "Need Gaz? Order and your cylinder will reach you in minutes",
     },
+    {
+      MainPic: "assets/utilitiesMainPic.png",
+      MainTitle: "For cheaper price why bother going there by yourself",
+      MainDescription:
+        "Need Gaz? Order and your cylinder will reach you in minutes",
+    },
+    {
+      MainPic: "assets/utilitiesMainPic.png",
+      MainTitle: "Cook with Gas",
+      MainDescription:
+        "Need Gaz? Order and your cylinder will reach you in minutes",
+    },
   ]);
 
   const [adStyles, setAdStyles] = useState([
@@ -84,28 +96,6 @@ const UtilitiesPage = () => {
     },
   ]);
 
-  const [floraCatStyle, setFloraCatStyle] = useState([
-    {
-      maxWidth: "100%",
-      alignItems: "center",
-      justifyItems: "center",
-      marginRight: "auto",
-      marginLeft: "auto",
-      paddingLeft: "auto",
-    },
-    {
-      marginRight: "auto",
-      marginLeft: "auto",
-    },
-    {
-      display: "flex",
-      flexDirection: "row",
-      flexWrap: "wrap",
-      justifyItems: "center",
-      alignContent: "center",
-      alignItems: "center"
-    },
-  ]);
 
   const [buttonClassName, setButtonClassName] = useState("UtilitiesOrderButton");
 
@@ -116,17 +106,15 @@ const UtilitiesPage = () => {
         <DiscountPass />
         {/* <DefaultCatIcons /> */}
         <ProductsAdSection
-          details={pageDetails[0]}
+          details={pageDetails}
           Styles={adStyles}
           buttonClass={buttonClassName}
         />
         <FloraCategories
-          floraStyles={floraCatStyle}
           title="NEED A REFILL?"
           FloristData={itemsData}
         />
         <FloraCategories
-          floraStyles={floraCatStyle}
           title="NEW"
           FloristData={itemsData}
         />
@@ -135,5 +123,4 @@ const UtilitiesPage = () => {
     </div>
   );
 };
-
 export default UtilitiesPage;

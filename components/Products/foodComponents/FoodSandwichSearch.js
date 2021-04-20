@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component , useState } from 'react';
 // import { MenuOutlined } from '@ant-design/icons'
 import { Space, Card, Row, Col, Radio } from 'antd'
 import { MdArrowForward } from 'react-icons/md';
@@ -9,6 +9,7 @@ import Footer from '../../landing-page/reusable/Footer'
 import ProductsNavbar from '../reusable/ProductsNavbar';
 import DefaultCatIcons from '../reusable/DefaultCatIcons';
 import DiscountPass from '../reusable/DiscountPass';
+import ProductsAdSection from '../../Products/reusable/ProductsAdSection';
 
 
 const FoodSandwichSearch = () => {
@@ -225,6 +226,48 @@ const FoodSandwichSearch = () => {
         }
     ]
 
+    const [pageDetails, setPageDetails] = useState([
+        {
+          MainPic: "../assets/FoodB.png",
+          MainTitle: "TastFood at your doorStep",
+          MainDescription:
+            "Order food from our best restaurants you can have a delightful experience",
+        },
+        {
+            MainPic: "../assets/FoodB.png",
+            MainTitle: "TastFood at your doorStep",
+            MainDescription:
+              "Order food from our best restaurants you can have a delightful experience",
+        },
+        {
+            MainPic: "../assets/FoodB.png",
+            MainTitle: "TastFood at your doorStep",
+            MainDescription:
+              "Order food from our best restaurants you can have a delightful experience",
+        },
+      ]);
+    
+      const [adStyles, setAdStyles] = useState([
+        {
+          backgroundColor: "#db573b",
+          maxHeight: "400px",
+          width: "683px",
+          textAlign: "center",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "column",
+        },
+        {
+          fontWeight: "600",
+          fontSize: "30px",
+          color: "#ffff",
+        },
+      ]);
+    
+    
+      const [buttonClassName, setButtonClassName] = useState("FoodOrderButton");
+
 
     const { Sider } = Layout;
     return (
@@ -234,16 +277,13 @@ const FoodSandwichSearch = () => {
                 <ProductsNavbar />
                 <DiscountPass />
                 <DefaultCatIcons />
-            
 
-            <div className='food1chil1'>
-                <div><img src='../assets/FoodB.png' style={{ width: '683px', height: '400px' }}></img></div>
-                <div className='food1chil2'>
-                    <h1>TastFood at your doorStep</h1>
-                    <p>Order food from our best restaurants you <br></br> can have a delightful experience</p>
-                    <p style={{ border: '2px solid white', borderRadius: '20px', width: '100px', marginLeft: '250px' }}>order Now</p>
-                </div>
-            </div>
+                <ProductsAdSection 
+                details={pageDetails}
+                Styles={adStyles}
+                buttonClass={buttonClassName}
+                />
+
             <div className='food1chil3'>
                 {
                     Values.map(values => (

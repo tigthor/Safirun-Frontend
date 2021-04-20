@@ -88,27 +88,6 @@ const FlowerPage = () => {
     },
   ]);
 
-  const [floraCatStyle, setFloraCatStyle] = useState([
-    {
-      maxWidth: "1440px",
-      alignItems: "center",
-      justifyItems: "center",
-    },
-    {
-      width: "100%",
-      paddingLeft: "calc((100% - 96.5%))",
-    },
-    {
-      width: "100%",
-      paddingLeft: "197px",
-      display: "flex",
-      flexDirection: "row",
-      alignItems: "center",
-      marginRight: "auto",
-      marginLeft: "auto",
-    },
-  ]);
-
   const [adStyles, setAdStyles] = useState([
     {
       backgroundColor: "#ff5a9f",
@@ -144,12 +123,10 @@ const FlowerPage = () => {
           buttonClass={buttonClassName}
         />
         <FloraCategories
-          floraStyles={floraCatStyle}
           title="Best Selling Flowers"
           FloristData={itemsData}
         />
         <FloraCategories
-          floraStyles={floraCatStyle}
           title="Most Popular FLowers"
           FloristData={itemsData}
         />

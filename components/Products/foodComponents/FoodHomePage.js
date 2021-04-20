@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component , useState } from 'react';
 // import { MenuOutlined } from '@ant-design/icons'
 import { Space, Card, Row, Col, Radio } from 'antd'
 import { MdArrowForward } from 'react-icons/md';
@@ -9,9 +9,13 @@ import Footer from '../../landing-page/reusable/Footer'
 import ProductsNavbar from '../reusable/ProductsNavbar';
 import DefaultCatIcons from '../reusable/DefaultCatIcons';
 import DiscountPass from '../reusable/DiscountPass';
+import axios from 'axios';
+import { Carousel } from 'antd';
+import ProductsAdSection from '../../Products/reusable/ProductsAdSection';
 
 
 const FoodHomePage = () => {
+
 
     const Values = [
 
@@ -354,24 +358,74 @@ const FoodHomePage = () => {
             sub3: ' 4.2(200+)'
         }
     ]
+
+    const [pageDetails, setPageDetails] = useState([
+        {
+          MainPic: "../assets/FoodB.png",
+          MainTitle: "TastFood at your doorStep",
+          MainDescription:
+            "Order food from our best restaurants you can have a delightful experience",
+        },
+        {
+            MainPic: "../assets/FoodB.png",
+            MainTitle: "TastFood at your doorStep",
+            MainDescription:
+              "Order food from our best restaurants you can have a delightful experience",
+        },
+        {
+            MainPic: "../assets/FoodB.png",
+            MainTitle: "TastFood at your doorStep",
+            MainDescription:
+              "Order food from our best restaurants you can have a delightful experience",
+        },
+      ]);
+    
+      const [adStyles, setAdStyles] = useState([
+        {
+          backgroundColor: "#db573b",
+          maxHeight: "400px",
+          width: "683px",
+          textAlign: "center",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          flexDirection: "column",
+        },
+        {
+          fontWeight: "600",
+          fontSize: "30px",
+          color: "#ffff",
+        },
+      ]);
+    
+    
+      const [buttonClassName, setButtonClassName] = useState("FoodOrderButton");
+
+    const contentStyle = {
+        height: '160px',
+        color: '#fff',
+        lineHeight: '160px',
+        textAlign: 'center',
+        background: '#364d79',
+    };
+
+
     const { Sider } = Layout;
     return (
         <div class='foodPar'>
+
+
 
             <Space size="large" direction="vertical">
                 <ProductsNavbar />
                 <DiscountPass />
                 <DefaultCatIcons />
+                <ProductsAdSection 
+                details={pageDetails}
+                Styles={adStyles}
+                buttonClass={buttonClassName}
+                />
 
-
-                <div className='foodchil4'>
-                    <div><img src='../assets/FoodB.png' style={{ width: '683px', height: '400px' }}></img></div>
-                    <div className='foodchil5'>
-                        <h1>TastFood at your doorStep</h1>
-                        <p>Order food from our best restaurants you <br></br> can have a delightful experience</p>
-                        <p style={{ border: '2px solid white', borderRadius: '20px', width: '100px', marginLeft: '250px', }}>order Now</p>
-                    </div>
-                </div>
                 <div className='fooderChil7'>
                     {
                         Values.map(values => (
@@ -674,6 +728,7 @@ const FoodHomePage = () => {
                 <br></br>
                 <footer>
                     <Footer /></footer>
+
             </Space>
 
 

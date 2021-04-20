@@ -22,24 +22,25 @@ const ProductsAdSection = ({ details, Styles, buttonClass }) => {
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
       className="Products_Ads"
-    >
+    >{details.map(detail => (
       <SwiperSlide className="Products_AdSection">
         <div className="Products_AdSection">
-          <img src={details.MainPic} className="Products_AdSection_MainPic" />
+          <img src={detail.MainPic} className="Products_AdSection_MainPic" />
           <div style={Styles[0]}>
             <Space size="large" direction="vertical">
-              <h3 style={Styles[1]}>{details.MainTitle}</h3>
+              <h3 style={Styles[1]}>{detail.MainTitle}</h3>
               <p className="Products_AdSection_MainText_Description">
-                {details.MainDescription}
+                {detail.MainDescription}
               </p>
               <button className={buttonClass}>ORDER NOW</button>
             </Space>
           </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
+    ))}
+      {/* <SwiperSlide>Slide 2</SwiperSlide>
       <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
+      <SwiperSlide>Slide 4</SwiperSlide> */}
     </Swiper>
   );
 };

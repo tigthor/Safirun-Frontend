@@ -702,10 +702,6 @@ export const FoodPage = () => {
                 </Layout>
             </div>
 
-            {/* <div>
-                <p className='TriangleShapeCSS'>View</p>
-
-            </div> */}
 
 
             <div style={{ display: 'flex', position: 'relative' }}>

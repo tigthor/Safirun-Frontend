@@ -6,6 +6,8 @@ import ProductsNavbar from '../reusable/ProductsNavbar';
 import DefaultCatIcons from '../reusable/DefaultCatIcons';
 import DiscountPass from '../reusable/DiscountPass';
 
+import FloraCategories from '../reusable/FloraCategories';
+
 export const DrinksHomepage = () => {
   const Data = [
     {
@@ -75,6 +77,44 @@ export const DrinksHomepage = () => {
     },
   ]
 
+  const WhiskyData = [
+    {
+      mainPic: '../WhiskeyB.png',
+      mainTitle: 'Blue Whisky',
+      sub1: 'Handmade Whisky',
+      infoTime: "50ml",
+      mainDesc: '5000'
+      
+    },
+    {
+      mainPic: '../WhiskeyB.png',
+      mainTitle: 'Blue Whisky',
+      sub1: 'Handmade Whisky',
+      infoTime: "50ml",
+      mainDesc: '5000'
+    },
+    {
+      mainPic: '../WhiskeyB.png',
+      mainTitle: 'Blue Whisky',
+      sub1: 'Handmade Whisky',
+      infoTime: "50ml",
+      mainDesc: '5000'
+    },
+    {
+      mainPic: '../WhiskeyB.png',
+      mainTitle: 'Blue Whisky',
+      sub1: 'Handmade Whisky',
+      infoTime: "50ml",
+      mainDesc: '5000'
+    },
+    {
+      mainPic: '../WhiskeyB.png',
+      mainTitle: 'Blue Whisky',
+      sub1: 'Handmade Whisky',
+      infoTime: "50ml",
+      mainDesc: '5000'
+    }
+  ]
   const Whisky = [
     {
       url: '../WhiskeyB.png',
@@ -186,71 +226,15 @@ export const DrinksHomepage = () => {
 
         <div> <hr className='drinkChiHr'></hr></div>
         <div style={{ marginLeft: '20px', marginRight: '20px' }}>
-          <div>
-            <div className='drinkChil10'>
-              <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Top Pics For You</h1>
-              <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px' }} />
-            </div>
-            <div className='drinkChil5'>
-              {
-                Whisky.map(whisky => (
-                  <div className='drinkChil8'>
-                    <div style={{ position: 'relative' }}>
-                      <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
-                      <a href='discription'><img src={whisky.url}></img></a>
-                    </div>
+        <Space size="large" direction="vertical">
+            <FloraCategories title='Top Picks For you' FloristData={WhiskyData}/>
+            
+            
+          <FloraCategories title='Sales' FloristData={WhiskyData}/>
+           
+          <FloraCategories title='Most Popular' FloristData={WhiskyData}/>
 
-                    <p>{whisky.text}</p>
-                    <p>{whisky.sub1}</p>
-                    <p>{whisky.sub2}</p>
-                  </div>
-                ))
-              }
-            </div></div>
-
-          <div>
-            <div className='drinkChil10'>
-              <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Sales</h1>
-              <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px' }} />
-            </div>
-            <div className='drinkChil5'>
-              {
-                Whisky.map(whisky => (
-                  <div className='drinkChil8'>
-                    <div style={{ position: 'relative' }}>
-                      <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
-                      <img src={whisky.url}></img>
-                    </div>
-
-                    <p>{whisky.text}</p>
-                    <p>{whisky.sub1}</p>
-                    <p>{whisky.sub2}</p>
-                  </div>
-                ))
-              }
-            </div></div>
-
-          <div>
-            <div className='drinkChil10'>
-              <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Most Popular</h1>
-              <MdArrowForward style={{ color: 'black', height: '27px', width: '27px', backgroundColor: '#CCCCCC', borderRadius: '20px' }} />
-            </div>
-            <div className='drinkChil5'>
-              {
-                Whisky.map(whisky => (
-                  <div className='drinkChil8'>
-                    <div style={{ position: 'relative' }}>
-                      <img src='../shopCart.png' style={{ position: 'absolute', marginLeft: '120px' }}></img>
-                      <img src={whisky.url}></img>
-                    </div>
-
-                    <p>{whisky.text}</p>
-                    <p>{whisky.sub1}</p>
-                    <p>{whisky.sub2}</p>
-                  </div>
-                ))
-              }
-            </div></div>
+            </Space>
         </div>
         <div className='drinkChil13'>
           <a href='categories' style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold', textDecoration: 'none' }}>Shoose a Categories</a>
