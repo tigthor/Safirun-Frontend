@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import FloraCategories from "./reusable/FloraCategories";
 import ProductsAdSection from "./reusable/ProductsAdSection";
 import { Space, Row, Col } from "antd";
@@ -7,6 +7,7 @@ import Footer from "../landing-page/reusable/Footer";
 import DefaultCatIcons from "./reusable/DefaultCatIcons";
 import DiscountPass from "./reusable/DiscountPass";
 import ProductsNavbar from "./reusable/ProductsNavbar";
+import axios from 'axios';
 
 const GroceriesPage = () => {
   const [itemsData, setItemsData] = useState([
@@ -161,13 +162,23 @@ const GroceriesPage = () => {
       MainTitle: "Need Groceries",
       MainDescription: "Get your favorite groceries delivered to your doorstep",
     },
+    {
+      MainPic: "../../../assets/groceriesMainPic.png",
+      MainTitle: "Need Groceries",
+      MainDescription: "Get your favorite groceries delivered to your doorstep",
+    },
+    {
+      MainPic: "../../../assets/groceriesMainPic.png",
+      MainTitle: "Need Groceries",
+      MainDescription: "Get your favorite groceries delivered to your doorstep",
+    },
   ]);
 
   const [adStyles, setAdStyles] = useState([
     {
       backgroundColor: "#72A758",
       maxHeight: "400px",
-      width: "calc(50%)",
+      width: "683px",
       textAlign: "center",
       display: "flex",
       alignItems: "center",
@@ -267,7 +278,24 @@ const GroceriesPage = () => {
 
   const [buttonClassName, setButtonClassName] = useState(
     "GroceriesOrderButton"
-  );
+  );''
+
+  const [post,setpost] = useState({})
+  const [id, setId] = useState(1)
+  const [idFromButtonClick, setIdFromButtonClick] = useState(1)
+
+  const handleClick = () => {
+      setIdFromButtonClick(id)
+  }
+  useEffect(() =>{
+      axios.get(`https://safirun-backend.herokuapp.com/`)
+      .then(res =>{
+          console.log(res.data)
+      })
+      // .catch(err => {
+      //     console.log(err) 
+      // })
+  })
 
   return (
     <div className="PharmacyPage">
@@ -276,7 +304,7 @@ const GroceriesPage = () => {
         <DiscountPass />
         <DefaultCatIcons />
         <ProductsAdSection
-          details={pageDetails[0]}
+          details={pageDetails}
           Styles={adStyles}
           buttonClass={buttonClassName}
         />
@@ -322,7 +350,17 @@ const GroceriesPage = () => {
           title=""
         />
         <Footer />
+
+        {/* <div>
+            <input type="text" value={id} onChange={ e => setId(e.target.value)} />
+            <button type="button" onClick={()=>{
+                return handleClick();
+            }} >Fetch post</button>
+            <div> {post.title} </div>
+
+        </div> */}
       </Space>
+
     </div>
   );
 };
