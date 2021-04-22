@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Wed Mar 17 2021 12:16:02 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/pages/index.js
+
+
+Created files:
+* src/components/Products/FlowerPage2.jsx
+
+
+Deleted files:
+
+
+Renamed files:

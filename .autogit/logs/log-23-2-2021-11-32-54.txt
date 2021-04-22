@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Tue Mar 23 2021 11:32:54 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* styles/globals.css
+
+
+Created files:
+* .autogit/logs/log-23-2-2021-11-29-58.txt
+
+
+Deleted files:
+
+
+Renamed files:

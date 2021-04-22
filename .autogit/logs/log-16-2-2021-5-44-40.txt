@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Tue Mar 16 2021 05:44:40 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* package-lock.json
+* package.json
+* src/components/landing-page/reusable/Footer.jsx
+
+
+Created files:
+* .autogit/logs/log-16-2-2021-5-9-49.txt
+
+
+Deleted files:
+
+
+Renamed files:

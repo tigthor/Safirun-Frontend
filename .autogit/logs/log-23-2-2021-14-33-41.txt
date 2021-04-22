@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Tue Mar 23 2021 14:33:41 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* pages/food/foodHomePage.js
+
+
+Created files:
+* .autogit/logs/log-23-2-2021-14-33-14.txt
+
+
+Deleted files:
+
+
+Renamed files:
