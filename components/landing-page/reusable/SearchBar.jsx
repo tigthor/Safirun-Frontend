@@ -1,14 +1,7 @@
 import { TextField } from "@material-ui/core";
 import { Autocomplete } from "@material-ui/lab";
 import axios from "axios";
-import { withRouter } from "react-router-dom";
-import React, { Component, useState } from "react";
-import {
-  Search,
-  Button,
-  Card,
-  CardImg
-} from "../../AllStyledComponents";
+import React, { useState } from "react";
 
 const SearchBar = () => {
   const [places, setPlaces] = useState([]);
@@ -71,7 +64,7 @@ const SearchBar = () => {
               renderInput={(params) => (
                 <TextField
                   id="outlined-helperText"
-                  placeholder="Enter Your delivery location and press ORDER BUTTON"
+                  placeholder="Enter Your delivery location"
                   onChange={(value) => {
                     return handleInputChange(value);
                   }}
@@ -83,19 +76,13 @@ const SearchBar = () => {
                   fullWidth
                   style={{
                     fontSize: "20px",
+                    textAlign: 'center'
                   }}
                 />
-              )}
+                
+              )} 
             />
-            {/* <Button
-              type="button"
-              className="text-center text-orange-500 bg-black rounded-2xl col-2 btn btn-lg"
-              onClick={() => {
-                return goTo();
-              }}
-            >
-              START ORDERING
-            </Button> */}
+            
         </div>
     </div>
   );

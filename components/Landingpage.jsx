@@ -9,8 +9,6 @@ import Peoplesay from './landing-page/Peoplepanel';
 import Onmenu from './landing-page/Whatsonmenu';
 import Favresto from './landing-page/FavResto';
 import Whysafi from './landing-page/Whysafirun';
-// import Footer from './landing-page/Footer';
-// import { BrowserRouter as Router } from 'react-router-dom';
 import { Space } from 'antd';
 
 const Homepage = () => {

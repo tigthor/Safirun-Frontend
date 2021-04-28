@@ -281,21 +281,27 @@ const GroceriesPage = () => {
   );''
 
   const [post,setpost] = useState({})
-  const [id, setId] = useState(1)
-  const [idFromButtonClick, setIdFromButtonClick] = useState(1)
+    const [id, setId] = useState(1)
 
-  const handleClick = () => {
-      setIdFromButtonClick(id)
-  }
+
+  // useEffect(() =>{
+  //     axios.get(`https://safirunbackend.herokuapp.com/`)
+  //     .then(res =>{
+  //         console.log(res.data)
+  //     })
+  // })
+
   useEffect(() =>{
-      axios.get(`https://safirun-backend.herokuapp.com/`)
-      .then(res =>{
-          console.log(res.data)
-      })
-      // .catch(err => {
-      //     console.log(err) 
-      // })
-  })
+    axios.get(`https://safirunbackend.herokuapp.com/api/Products`)
+    .then(res =>{
+        console.log(res.data)
+        // setpost(res.data)
+        // console.log(post)
+    })
+    .catch(err => {
+        console.log(err) 
+    })
+}, [])
 
   return (
     <div className="PharmacyPage">
@@ -350,15 +356,9 @@ const GroceriesPage = () => {
           title=""
         />
         <Footer />
-
-        {/* <div>
-            <input type="text" value={id} onChange={ e => setId(e.target.value)} />
-            <button type="button" onClick={()=>{
-                return handleClick();
-            }} >Fetch post</button>
-            <div> {post.title} </div>
-
-        </div> */}
+<br></br><br></br><br></br><br></br>
+        <div> {post.title} </div>
+        
       </Space>
 
     </div>
