@@ -1,6 +1,6 @@
 import React from 'react';
-// import RegisterDrawer from './reusable/SignUp';
-// import Login from './reusable/Login';
+import RegisterDrawer from './reusable/SignUp'
+import Login from '../landing-page/reusable/Login'
 
 const NewNavbar = () => {
   return (
@@ -8,8 +8,8 @@ const NewNavbar = () => {
       <img src="assets/Safi-Run-Logo.png" className="NewNavbarLogo" />
       <div className="NewNavbar___Buttons">
         <button className="HowItWorksButton">How it works</button>
-        {/* <Login /> */}
-        {/* <RegisterDrawer /> */}
+        <Login />
+        <RegisterDrawer />
       </div>
     </div>
   );

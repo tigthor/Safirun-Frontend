@@ -227,22 +227,22 @@ const ShopingCategories = () => {
                 <div className='drinkChil6'>
 
                     <div style={{ position: 'relative' }}>
-                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '100px', fontWeight: 'bold' }}>Beauty</h1>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '80px', fontWeight: 'bold',fontSize:'35px' }}>Beauty</h1>
                         <img src='../shopCategory1.png'></img>
                     </div>
 
                     <div style={{ position: 'relative' }}>
-                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '30px', marginTop: '80px', fontWeight: 'bold' }}>Home Appliances</h1>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '30px', marginTop: '60px', fontWeight: 'bold',fontSize:'35px' }}>Home Appliances</h1>
                         <img src='../shopCategory2.png'></img>
                     </div>
 
                     <div style={{ position: 'relative' }}>
-                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '60px', marginTop: '80px', fontWeight: 'bold' }}>Shoes</h1>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '60px', marginTop: '80px', fontWeight: 'bold',fontSize:'35px' }}>Shoes</h1>
                         <img src='../shopCategory3.png'></img>
                     </div>
 
                     <div style={{ position: 'relative' }}>
-                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '100px', fontWeight: 'bold' }}>Fashion</h1>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '80px', fontWeight: 'bold',fontSize:'35px' }}>Fashion</h1>
                         <img src='../shopCategory4.png'></img>
                     </div>
 
@@ -251,22 +251,22 @@ const ShopingCategories = () => {
                 <div className='drinkChil7'>
 
                     <div style={{ position: 'relative' }}>
-                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '100px', fontWeight: 'bold' }}>Phone</h1>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '80px', fontWeight: 'bold' ,fontSize:'35px'}}>Phone</h1>
                         <img src='../shopCategory5.png'></img>
                     </div>
 
                     <div style={{ position: 'relative' }}>
-                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '100px', fontWeight: 'bold' }}>Kitchen</h1>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '80px', fontWeight: 'bold',fontSize:'35px' }}>Kitchen</h1>
                         <img src='../shopCategory6.png'></img>
                     </div>
 
                     <div style={{ position: 'relative' }}>
-                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '80px', fontWeight: 'bold' }}>Bag</h1>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '120px', marginTop: '60px', fontWeight: 'bold',fontSize:'35px' }}>Bag</h1>
                         <img src='../shopCategory7.png'></img>
                     </div>
 
                     <div style={{ position: 'relative' }}>
-                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '100px', marginTop: '80px', fontWeight: 'bold' }}>Furniture</h1>
+                        <h1 style={{ color: 'white', position: 'absolute', marginLeft: '100px', marginTop: '60px', fontWeight: 'bold',fontSize:'35px' }}>Furniture</h1>
                         <img src='../shopCategory8.png'></img>
                     </div>
                 </div>

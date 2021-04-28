@@ -118,7 +118,7 @@ const FlowerPage = () => {
         <DiscountPass />
         <DefaultCatIcons />
         <ProductsAdSection
-          details={pageDetails[2]}
+          details={pageDetails}
           Styles={adStyles}
           buttonClass={buttonClassName}
         />

@@ -7,6 +7,15 @@ import Footer from "../landing-page/reusable/Footer";
 import DefaultCatIcons from "./reusable/DefaultCatIcons";
 import DiscountPass from "./reusable/DiscountPass";
 import ProductsNavbar from './reusable/ProductsNavbar';
+import SwiperCore, {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay
+} from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 const PharmacyPage = () => {
   const [itemsData, setItemsData] = useState([
@@ -150,14 +159,48 @@ const PharmacyPage = () => {
   return (
     <div className="PharmacyPage">
       <Space size="large" direction="vertical">
-      <ProductsNavbar />
+        <ProductsNavbar />
         <DiscountPass />
         <DefaultCatIcons />
-        <ProductsAdSection
-          details={pageDetails[0]}
-          Styles={adStyles}
-          buttonClass={buttonClassName}
-        />
+
+        <Swiper
+          spaceBetween={10}
+          slidesPerView={1}
+          autoplay={{
+            delay: 12500,
+            disableOnInteraction: true
+          }}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
+          // className='shopChil7'
+        >
+          <SwiperSlide >
+            <ProductsAdSection
+              details={pageDetails}
+              Styles={adStyles}
+              buttonClass={buttonClassName}
+            />
+          </SwiperSlide>
+
+          <SwiperSlide >
+
+            <ProductsAdSection
+              details={pageDetails}
+              Styles={adStyles}
+              buttonClass={buttonClassName}
+            />
+          </SwiperSlide>
+
+          <SwiperSlide >
+
+            <ProductsAdSection
+              details={pageDetails}
+              Styles={adStyles}
+              buttonClass={buttonClassName}
+            />
+          </SwiperSlide>
+
+        </Swiper>
         <FloraCategories
           floraStyles={floraCatStyle}
           title="Top Picks For You"
@@ -173,7 +216,7 @@ const PharmacyPage = () => {
           title="Most Popular"
           FloristData={itemsData}
         />
-        <ChooseStore Locations={storeLoc} Styles={storeLocStyles[0]} title='Choose A Store'/>
+        <ChooseStore Locations={storeLoc} Styles={storeLocStyles[0]} title='Choose A Store' />
         <Footer />
       </Space>
     </div>
