@@ -8,6 +8,15 @@ import Footer from "../landing-page/reusable/Footer";
 import DefaultCatIcons from "./reusable/DefaultCatIcons";
 import DiscountPass from "./reusable/DiscountPass";
 import ProductsNavbar from "./reusable/ProductsNavbar";
+import SwiperCore, {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay
+} from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 const FlowerPage = () => {
   const [itemsData, setItemsData] = useState([
@@ -117,11 +126,41 @@ const FlowerPage = () => {
         <ProductsNavbar />
         <DiscountPass />
         <DefaultCatIcons />
-        <ProductsAdSection
-          details={pageDetails}
-          Styles={adStyles}
-          buttonClass={buttonClassName}
-        />
+
+        <Swiper
+          spaceBetween={10}
+          slidesPerView={1}
+          autoplay={{
+            delay: 12500,
+            disableOnInteraction: true
+          }}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
+        // className='shopChil7'
+        >
+
+          <SwiperSlide >
+            <ProductsAdSection
+              details={pageDetails}
+              Styles={adStyles}
+              buttonClass={buttonClassName}
+            />
+          </SwiperSlide >
+          <SwiperSlide >
+            <ProductsAdSection
+              details={pageDetails}
+              Styles={adStyles}
+              buttonClass={buttonClassName}
+            />
+          </SwiperSlide >
+          <SwiperSlide >
+            <ProductsAdSection
+              details={pageDetails}
+              Styles={adStyles}
+              buttonClass={buttonClassName}
+            /> </SwiperSlide >
+        </Swiper>
+
         <FloraCategories
           title="Best Selling Flowers"
           FloristData={itemsData}
