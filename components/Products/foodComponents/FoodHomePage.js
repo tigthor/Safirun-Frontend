@@ -437,31 +437,31 @@ const FoodHomePage = () => {
                     }
                 </div>
                 <div className='foodchil12'>
-                    <Layout className='foodchil11'>
-                        <div>
-                            <Space size='medium' direction='vertical'>
-                                <Col>
-                                    <Space size='middle' direction='vertical'>
-                                        <Row style={{ fontWeight: 'normal' }}><Radio>Delivery</Radio></Row>
-                                        <Row><Radio style={{ color: '#2E2929', fontWeight: 'normal' }}>PickUp</Radio></Row>
-                                        <Row><Radio style={{ color: '#2E2929', fontWeight: 'normal' }}>Dine In</Radio></Row>
-                                    </Space>
-                                </Col>
-                                <hr style={{ width: '195px', marginLeft: '5px' }}></hr>
-                                <Col> Sort <img src='../assets/DownArrow.png' style={{ marginLeft: '150px' }}></img>
-                                    <Space size='middle' direction='vertical'>
-                                        <Row><Radio>Distance</Radio></Row>
-                                        <Row><Radio>Restaurant</Radio></Row>
-                                        <Row><Radio>Time Line</Radio></Row></Space>
-                                </Col>
-                                <hr style={{ width: '195px', marginLeft: '5px' }}></hr>
-                                <Col style={{ display: 'flex', position: 'relative' }}> <p style={{ marginTop: '-0px' }}>Sort 4.5 <img src='../assets/star.png' /> and above </p><img src='../assets/DownArrow.png' style={{ marginLeft: '180px', position: 'absolute' }}></img></Col>
-                                <Col style={{ display: 'flex', position: 'relative' }}> <p style={{ marginTop: '-0px' }}>Price Range</p><img src='../assets/DownArrow.png' style={{ marginLeft: '180px', position: 'absolute' }}></img></Col>
+                <Layout className='drink3Chil12'>
+                    <div>
+                        <Space size='medium' direction='vertical'>
+                            <Col>
+                                <Space size='middle' direction='vertical'>
+                                    <Row style={{ fontWeight: 'normal' }}><Radio>Delivery</Radio></Row>
+                                    <Row><Radio style={{ color: '#2E2929', fontWeight: 'normal' }}>PickUp</Radio></Row>
+                                    <Row><Radio style={{ color: '#2E2929', fontWeight: 'normal' }}>Dine In</Radio></Row>
+                                </Space>
+                            </Col>
+                            <hr style={{ width: '195px', marginLeft: '5px' }}></hr>
+                            <Col> Sort <img src='../assets/DownArrow.png' style={{ marginLeft: '150px',marginTop:'-20px' }}></img>
+                                <Space size='middle' direction='vertical'>
+                                    <Row><Radio>Distance</Radio></Row>
+                                    <Row><Radio>Restaurant</Radio></Row>
+                                    <Row><Radio>Time Line</Radio></Row></Space>
+                            </Col>
+                            <hr style={{ width: '195px', marginLeft: '5px' }}></hr>
+                            <Col style={{ display: 'flex', position: 'relative' }}> <p style={{ marginTop: '-0px' }}> 4.5 <img src='../assets/star.png' style={{marginTop:'-20px',marginLeft:'25px'}}/> <p style={{marginTop:'-20px',marginLeft:'40px'}}>and above </p></p><img src='../assets/DownArrow.png' style={{ marginLeft: '180px', position: 'absolute' }}></img></Col>
+                            <Col style={{ display: 'flex', position: 'relative',marginTop:'15px' }}> <p style={{ marginTop: '-0px' }}>Price Range</p><img src='../assets/DownArrow.png' style={{ marginLeft: '180px', position: 'absolute' }}></img></Col>
 
-                            </Space>
+                        </Space>
 
-                        </div>
-                    </Layout>
+                    </div>
+                </Layout>
                     <Layout className='foodchil13'>
                         <div>
                             <div>
