@@ -4,7 +4,6 @@ import DiscountPass from '../reusable/DiscountPass';
 import Footer from '../../landing-page/reusable/Footer';
 import { Radio, Space, Table } from 'antd';
 
-
 const DrinksDiscription = () => {
 
     const [count, setCount] = useState(0);
@@ -14,11 +13,11 @@ const DrinksDiscription = () => {
 
     const [value, setValue] = React.useState(1);
 
-  const onChange = e => {
-    console.log('radio checked', e.target.value);
-    setValue(e.target.value);
-  };
-  
+    const onChange = e => {
+        console.log('radio checked', e.target.value);
+        setValue(e.target.value);
+    };
+
 
     return (
         <div>
@@ -27,6 +26,7 @@ const DrinksDiscription = () => {
                 <DiscountPass />
                 <p className='drink4chil35'>Drinks / Wiskey</p>
                 <div className='drink4chil12'>
+
                     <div className='drink4chil1'>
                         <img className='drink4chil2' src='../WhiskeyB.png'></img>
                     </div>
@@ -94,13 +94,14 @@ const DrinksDiscription = () => {
                 <div className='drink4chil21'>
 
                     <p>OFTEN BOUGHT WITH</p>
-                    <div>
+                    <div className='drink4chil40'>
                         <img className='drink4chil19' src='../WhiskeyB.png'></img>
                         <img className='drink4chil19' src='../WhiskeyB.png'></img>
                         <img className='drink4chil19' src='../WhiskeyB.png'></img>
                         <img className='drink4chil19' src='../WhiskeyB.png'></img>
                         <img className='drink4chil20' src='../drink4Arrow2.png'></img>
                     </div>
+
                 </div>
                 <div className='drink4chil34'>
                     <hr className='drink4chil33'></hr>

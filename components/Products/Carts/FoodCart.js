@@ -1,3 +1,4 @@
+
 import React, { Component, useState, useEffect } from 'react';
 
 
@@ -29,7 +30,7 @@ const FoodCart = () => {
             <p className='cartFoodchil9'> Rwanda</p>
             <p className='cartFoodchil10'>Add Instruction</p>
           </div>
-
+          
         </div>
         <hr className='cartFoodchil13'></hr>
         <div className='cartFoodchil14'>

@@ -182,6 +182,30 @@ export default function RegisterDrawer() {
     </div>
   );
 
+  
+  // creates entity
+// fetch("http://localhost:3000/api/auth/signup", {
+//   "method": "POST",
+//   "headers": {
+//     "x-rapidapi-host": "fairestdb.p.rapidapi.com",
+//     "x-rapidapi-key": "apikey",
+//     "content-type": "application/json",
+//     "accept": "application/json"
+//   },
+//   "body": JSON.stringify({
+//     name: this.state.name,
+//     notes: this.state.notes
+//   })
+// })
+// .then(response => response.json())
+// .then(response => {
+//   console.log(response)
+// })
+// .catch(err => {
+//   console.log(err);
+// });
+
+
   return (
     <div>
       <button
@@ -377,6 +401,13 @@ function OtpDrawer({ phoneNumber, name, email, password, setState, state }) {
         }}
         // onClick={getOtp}
       >
+        {/* <div>
+          {this.props.Users && this.props.Users.map(=>user {
+            return <tr>
+            <td>{user.fullname}</td>
+            </tr>
+          })}
+        </div> */}
         <p
           style={{
             fontWeight: 'bold',

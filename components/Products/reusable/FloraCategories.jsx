@@ -5,6 +5,7 @@ import OneProductCard from './OneProductCard';
 
 
 const FloraCategories = ({ title, FloristData}) => {
+  
   const [items, setItems] = useCycle(FloristData);
   return (
     <div className='mx-auto'>

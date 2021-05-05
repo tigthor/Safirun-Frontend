@@ -221,15 +221,15 @@ const FoodSelectRestaurant = () => {
                 </Space>
               </Col>
               <hr style={{ width: '195px', marginLeft: '5px' }}></hr>
-              <Col> Sort <img src='../assets/DownArrow.png' style={{ marginLeft: '150px' }}></img>
+              <Col> Sort <img src='../assets/DownArrow.png' style={{ marginLeft: '180px',marginTop: '-20px' }}></img>
                 <Space size='middle' direction='vertical'>
                   <Row><Radio>Distance</Radio></Row>
                   <Row><Radio>Restaurant</Radio></Row>
                   <Row><Radio>Time Line</Radio></Row></Space>
               </Col>
               <hr style={{ width: '195px', marginLeft: '5px' }}></hr>
-              <Col style={{ display: 'flex', position: 'relative' }}> <p style={{ marginTop: '-0px' }}>Sort 4.5 <img src='../assets/star.png' /> and above </p><img src='../assets/DownArrow.png' style={{ marginLeft: '180px', position: 'absolute' }}></img></Col>
-              <Col style={{ display: 'flex', position: 'relative' }}> <p style={{ marginTop: '-0px' }}>Price Range</p><img src='../assets/DownArrow.png' style={{ marginLeft: '180px', position: 'absolute' }}></img></Col>
+              <Col style={{ display: 'flex', position: 'relative' }}> <p style={{ marginTop: '-0px' }}> 4.5 <img src='../assets/star.png' style={{marginLeft:'25px',marginTop:'-18px'}}/> <p style={{marginLeft:'40px',marginTop:'-18px'}}>and above</p> </p><img src='../assets/DownArrow.png' style={{ marginLeft: '180px', position: 'absolute' }}></img></Col>
+              <Col style={{ display: 'flex', position: 'relative',paddingTop:'10px' }}> <p style={{ marginTop: '-0px' }}>Price Range</p><img src='../assets/DownArrow.png' style={{ marginLeft: '180px', position: 'absolute' }}></img></Col>
 
             </Space>
 

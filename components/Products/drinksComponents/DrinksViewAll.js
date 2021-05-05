@@ -6,6 +6,7 @@ import { Space } from 'antd'
 import Footer from '../../landing-page/reusable/Footer'
 import ProductsNavbar from '../reusable/ProductsNavbar';
 import DiscountPass from '../reusable/DiscountPass';
+import FloraCategories from '../reusable/FloraCategories';
 
 const DrinksViewAll = () => {
 
@@ -50,84 +51,138 @@ const DrinksViewAll = () => {
         },
     ]
 
-    const Whisky = [
-        {
-            url: '../WhiskeyB.png',
-            text: 'Blue Whisky',
-            sub1: 'Handmade Whisky',
-            sub2: '50ml | 5000 RWF'
-        },
-        {
-            url: '../WhiskeyB.png',
-            text: 'Blue Whisky',
-            sub1: 'Handmade Whisky',
-            sub2: '50ml | 5000 RWF'
-        },
-        {
-            url: '../WhiskeyB.png',
-            text: 'Blue Whisky',
-            sub1: 'Handmade Whisky',
-            sub2: '50ml | 5000 RWF'
-        },
-        {
-            url: '../WhiskeyB.png',
-            text: 'Blue Whisky',
-            sub1: 'Handmade Whisky',
-            sub2: '50ml | 5000 RWF'
-        },
-        {
-            url: '../WhiskeyB.png',
-            text: 'Blue Whisky',
-            sub1: 'Handmade Whisky',
-            sub2: '50ml | 5000 RWF'
-        },
-        {
-            url: '../WhiskeyB.png',
-            text: 'Blue Whisky',
-            sub1: 'Handmade Whisky',
-            sub2: '50ml | 5000 RWF'
-        },
-    ]
+    // const Whisky = [
+    //     {
+    //         url: '../WhiskeyB.png',
+    //         text: 'Blue Whisky',
+    //         sub1: 'Handmade Whisky',
+    //         sub2: '50ml | 5000 RWF'
+    //     },
+    //     {
+    //         url: '../WhiskeyB.png',
+    //         text: 'Blue Whisky',
+    //         sub1: 'Handmade Whisky',
+    //         sub2: '50ml | 5000 RWF'
+    //     },
+    //     {
+    //         url: '../WhiskeyB.png',
+    //         text: 'Blue Whisky',
+    //         sub1: 'Handmade Whisky',
+    //         sub2: '50ml | 5000 RWF'
+    //     },
+    //     {
+    //         url: '../WhiskeyB.png',
+    //         text: 'Blue Whisky',
+    //         sub1: 'Handmade Whisky',
+    //         sub2: '50ml | 5000 RWF'
+    //     },
+    //     {
+    //         url: '../WhiskeyB.png',
+    //         text: 'Blue Whisky',
+    //         sub1: 'Handmade Whisky',
+    //         sub2: '50ml | 5000 RWF'
+    //     },
+    //     {
+    //         url: '../WhiskeyB.png',
+    //         text: 'Blue Whisky',
+    //         sub1: 'Handmade Whisky',
+    //         sub2: '50ml | 5000 RWF'
+    //     },
+    // ]
+const WhiskyData = [
+    {
+        mainPic: '../WhiskeyB.png',
+        mainTitle: 'Blue Whisky',
+        sub1: 'Handmade Whisky',
+        infoTime: "50ml",
+        mainDesc: '5000'
 
-    return (
-        <div>
-            <Space size="large" direction="vertical">
-                <ProductsNavbar />
-                <DiscountPass />
-            </Space>
+    },
+    {
+        mainPic: '../WhiskeyB.png',
+        mainTitle: 'Blue Whisky',
+        sub1: 'Handmade Whisky',
+        infoTime: "50ml",
+        mainDesc: '5000'
+    },
+    {
+        mainPic: '../WhiskeyB.png',
+        mainTitle: 'Blue Whisky',
+        sub1: 'Handmade Whisky',
+        infoTime: "50ml",
+        mainDesc: '5000'
+    },
+    {
+        mainPic: '../WhiskeyB.png',
+        mainTitle: 'Blue Whisky',
+        sub1: 'Handmade Whisky',
+        infoTime: "50ml",
+        mainDesc: '5000'
+    },
+    {
+        mainPic: '../WhiskeyB.png',
+        mainTitle: 'Blue Whisky',
+        sub1: 'Handmade Whisky',
+        infoTime: "50ml",
+        mainDesc: '5000'
+    },
+    {
+        mainPic: '../WhiskeyB.png',
+        mainTitle: 'Blue Whisky',
+        sub1: 'Handmade Whisky',
+        infoTime: "50ml",
+        mainDesc: '5000'
+    }
+]
+return (
+    <div>
+        <Space size="large" direction="vertical">
+            <ProductsNavbar />
+            <DiscountPass />
+        </Space>
 
-
-            <div style={{ display: 'flex', position: 'relative', marginTop: '-15px' }}>
-                <div className='drink2Chil1'>
-                    <div class='drink2Chil2'>
-                        <h1 style={{ color: 'white', fontWeight: 'bold', fontSize: '65px', marginLeft: '300px' }}>Bottle of<br></br> perfection </h1>
-                        <p style={{ color: 'white', fontWeight: 'bold', marginLeft: '300px', fontSize: '25px', lineHeight: '80px' }}>Drink responsibly</p>
-                        <p style={{ border: '2px solid white', borderRadius: '20px', width: '150px', marginLeft: '300px', color: 'white', fontWeight: 'bold', lineHeight: '50px', paddingLeft: '40px', paddingRight: '20px', fontSize: '20px' }}>ORDER NOW</p>
+        <div style={{ display: 'flex', position: 'relative', marginTop: '-15px' }}>
+            <div className='drink2Chil1'>
+                <div class='drink2Chil2'>
+                    <h1 style={{ color: 'white', fontWeight: 'bold', fontSize: '65px', marginLeft: '300px' }}>Bottle of<br></br> perfection </h1>
+                    <p style={{ color: 'white', fontWeight: 'bold', marginLeft: '300px', fontSize: '25px', lineHeight: '80px' }}>Drink responsibly</p>
+                    <button style={{ border: '2px solid white', borderRadius: '20px', width: '200px', marginLeft: '300px', color: 'white', fontWeight: 'bold', lineHeight: '50px', fontSize: '20px' }}>ORDER NOW</button>
+                </div>
+                <img src='../wines.png' style={{ marginRight: '80px' }} />
+            </div>
+            <div className='drink2Chil4'>
+                <img src='../Ellipse.png' style={{ marginLeft: '10px' }}></img>
+                <img src='../Ellipse.png' style={{ marginLeft: '10px' }}></img>
+                <img src='../Ellipse.png' style={{ marginLeft: '10px' }}></img>
+                <img src='../Ellipse.png' style={{ marginLeft: '10px' }}></img>
+                <img src='../Ellipse.png' style={{ marginLeft: '10px' }}></img>
+            </div>
+        </div>
+        <div className='drink2Chil5'>
+            {
+                Values.map(values => (
+                    <div>
+                        <img src={values.url}></img>
+                        <p>{values.text}</p>
                     </div>
-                    <img src='../wines.png' style={{ marginRight: '80px' }} />
-                </div>
-                <div className='drink2Chil4'>
-                    <img src='../Ellipse.png' style={{ marginLeft: '10px' }}></img>
-                    <img src='../Ellipse.png' style={{ marginLeft: '10px' }}></img>
-                    <img src='../Ellipse.png' style={{ marginLeft: '10px' }}></img>
-                    <img src='../Ellipse.png' style={{ marginLeft: '10px' }}></img>
-                    <img src='../Ellipse.png' style={{ marginLeft: '10px' }}></img>
-                </div>
-            </div>
+                ))
+            }
+        </div>
 
-            <div className='drink2Chil5'>
-                {
-                    Values.map(values => (
-                        <div>
-                            <img src={values.url}></img>
-                            <p>{values.text}</p>
-                        </div>
-                    ))
-                }
-            </div>
+        <div> <hr className='drink2Chil8'></hr></div>
 
-            <div> <hr className='drink2Chil8'></hr></div>
-            <div style={{ marginLeft: '20px', marginRight: '20px' }}>
+        <Space size="large" direction="vertical">
+            <FloraCategories title='Top Picks For you' FloristData={WhiskyData} />
+
+
+            <FloraCategories title='Sales' FloristData={WhiskyData} />
+
+            <FloraCategories title='Most Popular' FloristData={WhiskyData} />
+
+        </Space>
+
+
+        {/* <div style={{ marginLeft: '20px', marginRight: '20px' }}>
                 <div>
                     <div className='drink2Chil3'>
                         <h1 style={{ fontSize: '26.9px', lineHeight: '40px', marginLeft: '-180px', color: '#000000', fontWeight: 'bold' }}>Red Wine</h1>
@@ -551,10 +606,10 @@ const DrinksViewAll = () => {
                             }
                         </div></div>
                 </div>
-            </div>
-            <Footer />
-        </div>
-    )
+            </div> */}
+        <Footer />
+    </div>
+)
 
 }
 export default DrinksViewAll;

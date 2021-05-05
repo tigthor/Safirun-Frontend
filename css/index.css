@@ -1000,7 +1000,7 @@ h6.light,
   margin-right: 100px;
   margin-top: 30px;
   background-color: white;
-  width: 1250px;
+  width: 1200px;
   height: 70px;
   margin-left: 32px;
 }
@@ -1072,7 +1072,7 @@ h6.light,
   justify-content: space-between;
 }
 .food2chil15 {
-  width: 180px;
+  width: 240px;
   height: 400px;
   top: 812px;
   background: #ffffff;
@@ -1450,6 +1450,7 @@ background: #FFFFFF;
 
 .drink2Chil2 {
   margin-top: 80px;
+  margin-left: -100px;
 }
 
 .drink2Chil3 {
@@ -1473,7 +1474,7 @@ background: #FFFFFF;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  justify-content: space-between;
+  justify-content:space-evenly;
   align-items: baseline;
 }
 .drink2Chil6 {
@@ -1497,7 +1498,7 @@ background: #FFFFFF;
   border-radius: 5px;
 }
 .drink2Chil8 {
-  width: 1440px;
+  width: 1330px;
   height: 20px;
   background: #f7f7f7;
 }
@@ -2720,7 +2721,8 @@ margin-right: 50px;
 height: 39px;
 filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
 transform: rotate(-90deg);
-margin-top: -500px;
+margin-top: 25px;
+margin-left: -20px;
 }
 
 .drink4chil21{
@@ -2744,12 +2746,13 @@ margin-top: 20px;
   }
   .drink4chil25{
     background-color: white;
-    /* width: 1490px; */
-height: 50px;
+    width: 1490px;
+height: 100px;
 padding-left: 100px;
 padding-bottom: 30px;
 
   }
+
   .drink4chil26{
     /* width: 1490px; */
 height: 4px;
@@ -2821,7 +2824,7 @@ color: #000000;
     }
     .drink4chil32{
       padding-left: 100px;
-/* padding-bottom: 30px; */
+padding-bottom: 30px;
     }
 
     .drink4chil33{
@@ -2833,7 +2836,6 @@ color: #000000;
     .drink4chil34{
       margin-left: 200px;
       margin-right: 100px;
-      /* width: 1000px; */
     }
     .drink4chil35{
       /* width: 100px; */
@@ -2869,13 +2871,17 @@ margin-left: 300px;
   width: 39px;
   height: 39px;
   transform: rotate(80deg);
-  margin-top: -10px;
+  margin-top: -5px;
 }
 .drink4chil39{
   width: 39px;
   height: 39px;
   transform: rotate(-90deg);
-  margin-top: -10px;
+  margin-top: -8px;
+}
+
+.drink4chil40{
+  display: flex;
 }
 
 .cartFoodpar{
@@ -2936,6 +2942,7 @@ margin-left: 50px;
 .cartFoodchil7{
   width: 42px;
 height: 42px;
+padding-top: 20px;
 }
 .cartFoodchil8{
   display: flex;

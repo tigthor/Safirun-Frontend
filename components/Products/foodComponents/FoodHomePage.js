@@ -448,7 +448,7 @@ const FoodHomePage = () => {
                                 </Space>
                             </Col>
                             <hr style={{ width: '195px', marginLeft: '5px' }}></hr>
-                            <Col> Sort <img src='../assets/DownArrow.png' style={{ marginLeft: '150px',marginTop:'-20px' }}></img>
+                            <Col> Sort <img src='../assets/DownArrow.png' style={{ marginLeft: '180px',marginTop:'-20px' }}></img>
                                 <Space size='middle' direction='vertical'>
                                     <Row><Radio>Distance</Radio></Row>
                                     <Row><Radio>Restaurant</Radio></Row>

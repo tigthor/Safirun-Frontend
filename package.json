@@ -35,7 +35,7 @@
     "react-redux": "latest",
     "react-router-dom": "latest",
     "react-toastify": "latest",
-    "redux": "latest",
+    "redux": "^4.1.0",
     "styled-components": "latest",
     "swiper": "latest"
   },
